@@ -55,8 +55,10 @@ export const S1aRoom: React.FC<{frame: number}> = ({frame}) => {
   cam.zoom *= 1 + 0.008 * Math.sin((frame / 64) * Math.PI * 2);
 
   // ── hero
-  const heroX = kf(frame, [[c.dive, 820], [c.rise, 820], [c.rise + 8, 1060], [c.back, 1060], [c.back + 14, 1000], [c.squeeze - 4, 1290], [c.squeeze + 8, 1440]], ease.inOut);
+  const heroXAt = (f: number) => kf(f, [[c.dive, 820], [c.rise, 820], [c.rise + 8, 1060], [c.back, 1060], [c.back + 14, 1000], [c.squeeze - 4, 1290], [c.squeeze + 8, 1440]], ease.inOut);
+  const heroX = heroXAt(frame);
   const hero = useRig('hero', frame, {
+    x: heroXAt,
     poses: [
       {at: 0, pose: 'stand'},
       {at: c.gust - 2, pose: 'catchHat', stiff: 200, damp: 12},
@@ -71,8 +73,10 @@ export const S1aRoom: React.FC<{frame: number}> = ({frame}) => {
     ],
   });
   // ── friend
-  const friendX = kf(frame, [[c.door, 300], [c.door + 34, 1320], [c.back, 1320], [c.back + 20, 1260], [c.squeeze - 8, 1260], [c.squeeze + 10, 900]], ease.inOut);
+  const friendXAt = (f: number) => kf(f, [[c.door, 300], [c.door + 34, 1320], [c.back, 1320], [c.back + 20, 1260], [c.squeeze - 8, 1260], [c.squeeze + 10, 900]], ease.inOut);
+  const friendX = friendXAt(frame);
   const friend = useRig('friend', frame, {
+    x: friendXAt,
     poses: [
       {at: 0, pose: 'holdUmbrella'},
       {at: c.door + 4, pose: 'wave', stiff: 160, damp: 11},

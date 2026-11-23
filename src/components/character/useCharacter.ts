@@ -52,7 +52,7 @@ const blinkLid = (frame: number, seed: number) => {
 export const useRig = (
   who: Who,
   frame: number,
-  opts: {poses: PoseKey[]; exprs?: ExprKey[]; outfit?: Outfit; seed?: number; idle?: number},
+  opts: {poses: PoseKey[]; exprs?: ExprKey[]; outfit?: Outfit; seed?: number; idle?: number; x?: (f: number) => number},
 ) => {
   const track = castTrack(who);
   const exprKeys: {at: number; v: Face}[] = [
@@ -83,17 +83,41 @@ export const useRig = (
   const p4 = poseAt(frame - 4, opts.poses);
   const p8 = poseAt(frame - 8, opts.poses);
   // secondary motion: hair / coat lag behind the body (difference between now and a few frames ago)
-  const hairSwing = clamp(
+  const travel = opts.x ? (opts.x(frame) - opts.x(frame - 5)) * 0.35 : 0;
+  const hairSwing = clamp(-travel + 
     (pose.head - p4.head) * 1.1 + (pose.lean - p4.lean) * 1.4 - (pose.x - p4.x) * 0.45 + (pose.y - p8.y) * 0.25 + Math.sin(frame / 23 + seed) * 1.8 * idle,
     -28,
     28,
   );
-  const coatSwing = clamp(-(pose.x - p8.x) * 0.5 + (pose.lean - p8.lean) * 0.8 + (pose.y - p8.y) * 0.3 + Math.sin(frame / 31 + seed) * 1.2 * idle, -24, 24);
+  const coatSwing = clamp(-travel * 1.2 - (pose.x - p8.x) * 0.5 + (pose.lean - p8.lean) * 0.8 + (pose.y - p8.y) * 0.3 + Math.sin(frame / 31 + seed) * 1.2 * idle, -24, 24);
   const breathe = 1 + 0.013 * Math.sin((frame / 78) * Math.PI * 2 + seed) * idle;
   const sway = Math.sin((frame / 150) * Math.PI * 2 + seed) * 2.2 * idle;
   const headBob = Math.sin((frame / 110) * Math.PI * 2 + seed * 2) * 1.6 * idle;
+  // gait: when the character travels, the stride phase follows the distance covered (feet never slide);
+  // amplitude follows speed so starts/stops ease in and out
+  let g = {...pose, x: pose.x + sway, head: pose.head + headBob};
+  if (opts.x && pose.thighK > 0.9) {
+    const v = (opts.x(frame) - opts.x(frame - 2)) / 2;
+    const k = clamp(Math.abs(v) / 3.2);
+    if (k > 0.01) {
+      const ph = opts.x(frame) / 30;
+      const sn = Math.sin(ph);
+      g = {
+        ...g,
+        thL: g.thL + sn * 26 * k,
+        thR: g.thR - sn * 26 * k,
+        shL: g.shL - Math.max(0, Math.cos(ph)) * 34 * k,
+        shR: g.shR - Math.max(0, -Math.cos(ph)) * 34 * k,
+        uaL: g.uaL - sn * 20 * k,
+        uaR: g.uaR - sn * 20 * k,
+        y: g.y - Math.abs(Math.cos(ph)) * 7 * k,
+        lean: g.lean + Math.sign(v) * -5 * k,
+        head: g.head + Math.sign(v) * 3 * k,
+      };
+    }
+  }
   return {
-    pose: {...pose, x: pose.x + sway, head: pose.head + headBob},
+    pose: g,
     face: {...face, symbol, symbolAmt} as FaceState,
     outfit,
     hairSwing,

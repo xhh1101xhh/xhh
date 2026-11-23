@@ -32,7 +32,7 @@ export const SCREENS: Screen[] = [
   },
   {
     id: '2', section: 'S0', scene: 'balcony.close', start: 'INTRO:1.4', end: 'INTRO:3.1', display: 'bottom',
-    text: '他做的第一件事——|【关灯】。', accents: ['blue'], revealAt: 'INTRO:2.3', bg: '#121F3D',
+    text: '他做的第一件事——|【关灯】。', accents: ['blue'], revealAt: 'INTRO:2.3', bg: '#17384A',
     cast: [
       {who: 'hero', at: 'INTRO:1.4', expression: 'alert', outfit: 'raincoat', note: '眉一挑、瞳孔缩小、汗滴'},
       {who: 'hero', at: 'INTRO:2.1', expression: 'determined'},
@@ -46,7 +46,7 @@ export const SCREENS: Screen[] = [
   },
   {
     id: '3', section: 'S0', scene: 'balcony.close', start: 'INTRO:3.1', end: 'INTRO:4.1', display: 'bottom',
-    text: '不是讨厌谁。', bg: '#16244A',
+    text: '不是讨厌谁。', bg: '#0E2434',
     cast: [
       {who: 'hero', at: 'INTRO:3.1', expression: 'relief', note: '长出一口气'},
       {who: 'hero', at: 'INTRO:3.3', expression: 'smug'},
@@ -57,7 +57,7 @@ export const SCREENS: Screen[] = [
   },
   {
     id: '4', section: 'S0', scene: 'balcony.lantern', start: 'INTRO:4.1', end: 'INTRO:5.1', display: 'bottom',
-    text: '他一个人，过得【太顺】了。', accents: ['blue'], bg: '#121F3D',
+    text: '他一个人，过得【太顺】了。', accents: ['blue'], bg: '#17384A',
     cast: [{who: 'hero', at: 'INTRO:4.1', expression: 'hum'}],
     actions: [
       {id: 'takeLantern', at: 'INTRO:4.1', note: '摘下瓷座提灯'},
@@ -68,7 +68,7 @@ export const SCREENS: Screen[] = [
   },
   {
     id: '5', section: 'S0', scene: 'interior.montage', start: 'INTRO:5.1', end: 'INTRO:6.1', display: 'bottom',
-    text: '几点睡，吃什么，去哪儿，', bg: '#1A1F45',
+    text: '几点睡，吃什么，去哪儿，', bg: '#241A44',
     cast: [{who: 'hero', at: 'INTRO:5.1', expression: 'busy', outfit: 'raincoat'}],
     actions: [
       {id: 'whipDown', at: 'INTRO:5.1', note: '转场·快速竖摇：从阳台竖摇进塔内，落定在小节头'},
@@ -84,7 +84,7 @@ export const SCREENS: Screen[] = [
   },
   {
     id: '6', section: 'S0', scene: 'interior.montage', start: 'INTRO:6.1', end: 'INTRO:7.1', display: 'bottom',
-    text: '全都【只听自己的】。', accents: ['blue'], bg: '#1A1F45',
+    text: '全都【只听自己的】。', accents: ['blue'], bg: '#241A44',
     cast: [{who: 'hero', at: 'INTRO:6.1', expression: 'proud'}],
     actions: [
       {id: 'shutterSlam', at: 'INTRO:6.2', note: '单手合上窗板'},
@@ -99,7 +99,7 @@ export const SCREENS: Screen[] = [
   },
   {
     id: '7', section: 'S0', scene: 'interior.bubble', start: 'INTRO:7.1', end: 'INTRO:8.1', display: 'bottom',
-    text: '多一个人？那叫【麻烦】。', accents: ['red'], bg: '#1A1F45',
+    text: '多一个人？那叫【麻烦】。', accents: ['red'], bg: '#241A44',
     cast: [{who: 'hero', at: 'INTRO:7.1', expression: 'wrinkle'}],
     actions: [
       {id: 'bubbleShow', at: 'INTRO:7.1', note: '左侧想象气泡：第二个小人缠满毛线'},
@@ -109,7 +109,7 @@ export const SCREENS: Screen[] = [
   },
   {
     id: '8', section: 'S0', scene: 'interior.wide', start: 'INTRO:8.1', end: 'INTRO:8.4', display: 'bottom',
-    text: '这么能一个人过——', bg: '#10142E',
+    text: '这么能一个人过——', bg: '#181030',
     cast: [
       {who: 'hero', at: 'INTRO:8.1', expression: 'hollow', note: '坐在唯一的椅子上望黑窗'},
       {who: 'hero', at: 'INTRO:8.3', expression: 'puzzled', note: '头顶冒问号'},
@@ -123,7 +123,7 @@ export const SCREENS: Screen[] = [
   },
   {
     id: '8b', section: 'S0', scene: 'interior.wide', start: 'INTRO:8.4', end: 'B1:1.1', display: 'blank',
-    text: '', bg: '#10142E',
+    text: '', bg: '#181030',
     actions: [{id: 'silenceHold', at: 'INTRO:8.4', note: '音乐近乎静音：画面放慢、留白'}],
   },
   {

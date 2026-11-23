@@ -25,14 +25,14 @@ const LOOKS = {
 
 type Wardrobe = {
   torso: string; torsoDetail?: string; sleeve: string; fore: string; cuff?: string; pants: string; shoe: string;
-  collar?: string; hood?: string; coatTail?: string; scarf?: string; knit?: boolean; stripes?: string;
+  collar?: string; hood?: string; coatTail?: string; hem?: string; scarf?: string; knit?: boolean; stripes?: string;
 };
 const WARDROBE: Record<Outfit, Wardrobe> = {
   raincoat: {torso: '#E2B23C', torsoDetail: '#C4952A', sleeve: '#E2B23C', fore: '#E2B23C', cuff: '#C4952A', pants: '#273249', shoe: '#2F4A3A', collar: '#2C3A5A', hood: '#D5A535', coatTail: '#E2B23C'},
-  vest: {torso: '#6F7A45', torsoDetail: '#5C6638', sleeve: '#E6DAC2', fore: '#34466B', cuff: '#2A3958', pants: '#5A3B2A', shoe: '#8A5A3A', collar: '#E6DAC2', knit: true},
-  cardigan: {torso: '#8C6A4A', torsoDetail: '#6F5238', sleeve: '#8C6A4A', fore: '#8C6A4A', pants: '#4A3A2E', shoe: '#6A4A32', collar: '#E6DAC2', knit: true},
+  vest: {hem: '#E6DAC2', torso: '#6F7A45', torsoDetail: '#5C6638', sleeve: '#E6DAC2', fore: '#34466B', cuff: '#2A3958', pants: '#5A3B2A', shoe: '#8A5A3A', collar: '#E6DAC2', knit: true},
+  cardigan: {hem: '#8C6A4A', torso: '#8C6A4A', torsoDetail: '#6F5238', sleeve: '#8C6A4A', fore: '#8C6A4A', pants: '#4A3A2E', shoe: '#6A4A32', collar: '#E6DAC2', knit: true},
   coat: {torso: '#6C6F7C', torsoDetail: '#565964', sleeve: '#6C6F7C', fore: '#6C6F7C', pants: '#2E2E38', shoe: '#22222A', collar: '#565964', coatTail: '#6C6F7C', scarf: '#3E4A66'},
-  linen: {torso: '#E3D6BC', torsoDetail: '#CDBE9F', sleeve: '#E3D6BC', fore: '#F0CFA8', pants: '#5C4A36', shoe: '#7A5A3A', collar: '#E3D6BC', scarf: '#C9763E'},
+  linen: {hem: '#E3D6BC', torso: '#E3D6BC', torsoDetail: '#CDBE9F', sleeve: '#E3D6BC', fore: '#F0CFA8', pants: '#5C4A36', shoe: '#7A5A3A', collar: '#E3D6BC', scarf: '#C9763E'},
   pajama: {torso: '#8FA9C9', sleeve: '#8FA9C9', fore: '#8FA9C9', pants: '#8FA9C9', shoe: '#F0CFA8', stripes: '#EDE4D3', collar: '#EDE4D3'},
   friend: {torso: '#2E7E78', torsoDetail: '#256A65', sleeve: '#2E7E78', fore: '#2E7E78', cuff: '#1F5A56', pants: '#2A2630', shoe: '#5A2A2A', collar: '#E8B04B', scarf: '#E8B04B', coatTail: '#2E7E78'},
   mom: {torso: '#2A1A22', sleeve: '#2A1A22', fore: '#2A1A22', pants: '#2A1A22', shoe: '#2A1A22'},
@@ -254,6 +254,11 @@ export const Puppet: React.FC<PuppetProps> = (pr) => {
             <g transform={`rotate(${coatSwing} 0 -10)`}>
               <P d={roughPoly([[-38, -14], [38, -14], [46, 30], [-46, 30]], 81, 1.6)} fill={W.coatTail} shadow={5} />
               <path d="M 0 -12 L 0 28" stroke={W.torsoDetail} strokeWidth={3} />
+            </g>
+          ) : null}
+          {W.hem ? (
+            <g transform={`rotate(${coatSwing * 0.9} 0 -6)`}>
+              <P d={roughPoly([[-36, -8], [36, -8], [40, 14], [10, 10], [-4, 18], [-40, 12]], 82, 1.4)} fill={W.hem} shadow={4} />
             </g>
           ) : null}
           <P d={roughPoly(torsoPts, 91, 1.6, 10)} fill={W.torso} shadow={5} />

@@ -34,7 +34,7 @@ export const Subtitles: React.FC = () => {
 const SubtitleScreen: React.FC<{screen: (typeof RESOLVED)[number]; frame: number}> = ({screen, frame}) => {
   const {runs, revealIndex} = parseRuns(screen.text, screen.accents);
   const {lines, letterSpacing} = layoutLines(screen.text, SUB_FONT_SIZE, SUB_MAX_WIDTH);
-  const inT = prog(frame, screen.from, screen.from + 6, ease.out);
+  const inT = screen.from === 0 ? 1 : prog(frame, screen.from, screen.from + 6, ease.out);
   const outT = prog(frame, screen.to - 5, screen.to, ease.in);
   const opacity = inT * (1 - outT);
   const y = (1 - inT) * 18;

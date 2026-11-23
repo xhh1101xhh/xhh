@@ -178,19 +178,19 @@ const BalconySet: React.FC<{frame: number; cam: Cam; c: ReturnType<typeof C>}> =
   return (
     <Stage
       cam={cam}
-      bg={<Backdrop top="#0B1430" bottom="#1E3058" />}
+      bg={<Backdrop top="#0A1E2C" bottom="#17384A" />}
       layers={[
         {
           depth: 0.2,
           blur: 2.5,
           node: (
             <g>
-              <rect x={-800} y={-800} width={3600} height={2600} fill="#0E1A36" />
+              <rect x={-800} y={-800} width={3600} height={2600} fill="#0E2434" />
               <Stars frame={frame} area={[-600, -600, 3000, 1100]} n={80} seed={4} />
               <Moon x={300} y={180} r={70} frame={frame} />
               <Cloud x={700 + frame * 0.2} y={240} w={300} seed={15} fill="#1E2C50" />
-              <rect x={-800} y={640} width={3600} height={1200} fill="#1A2C52" />
-              <WaveBand y={640} amp={5} wl={220} frame={frame} speed={0.05} fill="#22385F" seed={33} />
+              <rect x={-800} y={640} width={3600} height={1200} fill="#163A4C" />
+              <WaveBand y={640} amp={5} wl={220} frame={frame} speed={0.05} fill="#1E4658" seed={33} />
               <g transform={`translate(${boatX} 660)`}>
                 <Glow cx={0} cy={-20} r={70} color="#FFB45A" opacity={0.7} id="farboat" />
                 <g transform={`scale(${0.32 * (1 - 2 * boatT)} 0.32)`}>
@@ -206,7 +206,7 @@ const BalconySet: React.FC<{frame: number; cam: Cam; c: ReturnType<typeof C>}> =
           node: (
             <g>
               {/* lamp room: big lens on the right */}
-              <P d={roughRect(1150, -60, 520, 700, 3101, 6, 2)} fill="#2A2D44" shadow={10} />
+              <P d={roughRect(1150, -60, 520, 700, 3101, 6, 2)} fill="#24343E" shadow={10} />
               {[1210, 1330, 1450, 1570].map((x, i) => (
                 <rect key={i} x={x} y={-40} width={10} height={660} fill="#1C1E2E" />
               ))}
@@ -291,7 +291,7 @@ const BalconySet: React.FC<{frame: number; cam: Cam; c: ReturnType<typeof C>}> =
 const InteriorSet: React.FC<{frame: number; cam: Cam; c: ReturnType<typeof C>}> = ({frame, cam, c}) => {
   const walkTo = (a: number, b: number) => prog(frame, a, b, ease.inOut);
   // hero x: chair -> shutter -> ladder -> chair
-  const hx = kf(frame, [
+  const hxAt = (f: number) => kf(f, [
     [c.whip, 1060],
     [c.shutter - 16, 1060],
     [c.shutter - 4, 1340],
@@ -300,6 +300,7 @@ const InteriorSet: React.FC<{frame: number; cam: Cam; c: ReturnType<typeof C>}> 
     [c.stop - 18, 1215],
     [c.stop - 2, 1060],
   ], ease.inOut);
+  const hx = hxAt(frame);
   const rig = useRig('hero', frame, {
     poses: [
       {at: 0, pose: 'eat'},
@@ -319,6 +320,7 @@ const InteriorSet: React.FC<{frame: number; cam: Cam; c: ReturnType<typeof C>}> 
       {at: c.stop - 18, pose: 'stand', stiff: 150, damp: 15},
       {at: c.stop - 2, pose: 'sitSlump', stiff: 110, damp: 15},
     ],
+    x: hxAt,
   });
   const lapse = frame < c.stop ? (frame - c.whip) * 22 : (c.stop - c.whip) * 22 + spr(frame, c.stop, {damping: 8}) * 6;
   const shutterA = frame < c.shutter ? 95 : 95 - 95 * spr(frame, c.shutter - 2, {damping: 11, stiffness: 300});
@@ -334,13 +336,13 @@ const InteriorSet: React.FC<{frame: number; cam: Cam; c: ReturnType<typeof C>}> 
   return (
     <Stage
       cam={cam}
-      bg={<Backdrop top="#141838" bottom="#1F2550" />}
+      bg={<Backdrop top="#1E1638" bottom="#2E2252" />}
       layers={[
         {
           depth: 0.6,
           node: (
             <g>
-              <BrickWall x={-600} y={-500} w={3200} h={1500} base="#1A1F45" brick="#262C5C" seed={4000} />
+              <BrickWall x={-600} y={-500} w={3200} h={1500} base="#241A44" brick="#34285E" seed={4000} />
               <Porthole x={1500} y={360} r={150} frame={frame} storm={frame < c.stop ? 1 : 0.3} flash={flash} seed={2} />
               {/* two wooden shutter leaves swing shut over the porthole */}
               {shutterA < 94
@@ -363,7 +365,7 @@ const InteriorSet: React.FC<{frame: number; cam: Cam; c: ReturnType<typeof C>}> 
                 </g>
               ))}
               <WallClock x={300} y={250} r={78} hourA={lapse / 12} minA={lapse} />
-              <Stair x={-120} y={980} steps={6} color="#2A2F5C" />
+              <Stair x={-120} y={980} steps={6} color="#3A2C5E" />
               <Bulb x={1215} y={250} on={bulbOn} frame={frame} id="tbulb" />
             </g>
           ),
