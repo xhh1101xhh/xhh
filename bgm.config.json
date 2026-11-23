@@ -1,0 +1,22 @@
+{
+  "source": "public/bgm/source.mp3",
+  "fps": 30,
+  "targetSeconds": 135,
+  "toleranceSeconds": 8,
+  "edit": {
+    "mode": "manual",
+    "_comment": "This BGM: manual cuts matching the subtitle script. For a new BGM set mode to auto (finds harmony-matched 8/16-bar cuts or loops toward targetSeconds) or none.",
+    "edits": [
+      {
+        "type": "cut",
+        "leave_bar": 48,
+        "land_bar": 56
+      },
+      {
+        "type": "cut",
+        "leave_bar": 64,
+        "land_bar": 72
+      }
+    ]
+  }
+}

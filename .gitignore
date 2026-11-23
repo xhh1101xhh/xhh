@@ -1,0 +1,5 @@
+node_modules/
+out/
+/public/bgm/bgm_edit.wav
+/public/sfx/*.wav
+.remotion/

@@ -1,0 +1,27 @@
+{
+  "name": "solitude-lighthouse",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio",
+    "analyze": "python3 scripts/analyze_beats.py",
+    "sfx": "python3 scripts/synth_sfx.py",
+    "textures": "python3 scripts/make_textures.py",
+    "qc": "tsx scripts/qc.ts",
+    "render:preview": "bash scripts/render.sh Preview out/preview.mp4"
+  },
+  "dependencies": {
+    "@fontsource/noto-sans-sc": "^5.2.6",
+    "@remotion/cli": "^4.0.546",
+    "@remotion/fonts": "^4.0.546",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.546"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
