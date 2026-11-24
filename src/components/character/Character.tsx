@@ -21,7 +21,7 @@ export const Character: React.FC<{
   shadow?: boolean;
 }> = ({who, frame, poses, exprs, outfit, x, y, scale = 1, flip, propR, propL, look, idle, shadow}) => {
   const rig = useRig(who, frame, {poses, exprs, outfit, idle});
-  const lk: Look = look ?? (who === 'friend' ? 'friend' : who === 'kid' ? 'kid' : who === 'mom' ? 'mom' : 'hero');
+  const lk: Look = look ?? (who === 'friend' ? 'friend' : who === 'kid' ? 'kid' : who === 'mom' ? 'mom' : who === 'stranger' ? 'stranger' : 'hero');
   return (
     <Puppet
       {...rig}

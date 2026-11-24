@@ -5,7 +5,7 @@ import {limbPts, roughCircle, roughEllipse, roughPoly, roughRect} from '../../li
 import type {Face} from './expressions';
 import type {Pose} from './poses';
 
-export type Look = 'hero' | 'friend' | 'kid' | 'mom';
+export type Look = 'hero' | 'friend' | 'kid' | 'mom' | 'stranger';
 export type FaceState = Face & {symbolAmt: number};
 
 const HIP_Y = -120;
@@ -21,6 +21,7 @@ const LOOKS = {
   friend: {skin: '#EBC09A', skinShade: '#D2A27C', hair: '#1E1820', cheek: '#E87A84'},
   kid: {skin: '#F3D4B0', skinShade: '#DDB590', hair: '#3A2416', cheek: '#EE7C84'},
   mom: {skin: '#2A1A22', skinShade: '#1E1218', hair: '#1A1016', cheek: '#000'},
+  stranger: {skin: '#E2BC98', skinShade: '#C99E7A', hair: '#6A5A4A', cheek: '#E07A7A'},
 };
 
 type Wardrobe = {
@@ -36,6 +37,7 @@ const WARDROBE: Record<Outfit, Wardrobe> = {
   pajama: {torso: '#8FA9C9', sleeve: '#8FA9C9', fore: '#8FA9C9', pants: '#8FA9C9', shoe: '#F0CFA8', stripes: '#EDE4D3', collar: '#EDE4D3'},
   friend: {torso: '#2E7E78', torsoDetail: '#256A65', sleeve: '#2E7E78', fore: '#2E7E78', cuff: '#1F5A56', pants: '#2A2630', shoe: '#5A2A2A', collar: '#E8B04B', scarf: '#E8B04B', coatTail: '#2E7E78'},
   mom: {torso: '#2A1A22', sleeve: '#2A1A22', fore: '#2A1A22', pants: '#2A1A22', shoe: '#2A1A22'},
+  stranger: {hem: '#8C7AA8', torso: '#5E4E7A', torsoDetail: '#4C3E66', sleeve: '#5E4E7A', fore: '#5E4E7A', pants: '#3A3044', shoe: '#2A2230', collar: '#D9CFE6', knit: true},
 };
 
 const limbD = (len: number, w0: number, w1: number, seed: number) => roughPoly(limbPts(len, w0, w1), seed, 1.2, 8);

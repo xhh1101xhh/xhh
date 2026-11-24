@@ -15,7 +15,7 @@ export const IVORY = '#F3EBDD';
 export type Display = 'bottom' | 'slam' | 'inscene' | 'blank';
 
 export type Who = 'hero' | 'friend' | 'kid' | 'mom' | 'crab' | 'yarn' | 'stranger';
-export type Outfit = 'raincoat' | 'vest' | 'pajama' | 'cardigan' | 'coat' | 'linen' | 'friend' | 'mom';
+export type Outfit = 'raincoat' | 'vest' | 'pajama' | 'cardigan' | 'coat' | 'linen' | 'friend' | 'mom' | 'stranger';
 export type Expression =
   | 'neutral' | 'alert' | 'determined' | 'relief' | 'smug' | 'hum' | 'busy' | 'proud' | 'wrinkle'
   | 'hollow' | 'puzzled' | 'surprised' | 'tidy' | 'stiffSmile' | 'wince' | 'shockO' | 'awkward'
