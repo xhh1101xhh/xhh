@@ -16,7 +16,8 @@
 | `src/data/beats.ts` | **自动生成**的节拍数据 + `snapToBeat` / `beatLabelFrame` |
 | `src/data/subtitles.ts` | **字幕定稿数据**：每屏的拍点、文字、重点词颜色、显示方式、场景、人物表情/服装、动作和音效拍点 |
 | `src/lib/timing.ts` | 拍点标签 → 帧（换 BGM 时按段落比例重映射） |
-| `src/scenes/` | 每节一个组件（S0Hook、S1aRoom …） |
+| `src/scenes/` | 每节一个组件：S0Hook、S1aRoom、S1bUniverses、S2Memory、S3Ember、S4Shell、S5Open、S6Ending |
+| `src/components/transitions/` | 转场库：剪纸层层钻入、快速竖摇、横推、拱形遮罩、虹膜开、镜面翻转、甩镜、纸张撕裂、光点闪光、斜向光切、金光虹膜收 |
 | `src/components/` | 复用组件：人物骨骼与表情、提灯、剪纸纸片、镜头、转场、字幕、砸屏、主题、水印 |
 
 ## 命令
