@@ -232,8 +232,8 @@ export const S5Open: React.FC<{frame: number}> = ({frame}) => {
   });
   const chairDown = frame >= c.down;
   const chairGold = prog(frame, c.down, c.down + 26, ease.inOut);
-  const friendEX = (f: number) => kf(f, [[c.sit - 30, 2000], [c.sit, 1180]], ease.out);
-  const friendE = useRig('friend', frame, {poses: [{at: 0, pose: 'stand'}, {at: c.sit, pose: 'sit', stiff: 160, damp: 14}], x: friendEX, seed: 13});
+  const friendEX = (f: number) => kf(f, [[c.sit - 12, 1900], [c.sit + 8, 1180]], ease.out);
+  const friendE = useRig('friend', frame, {poses: [{at: 0, pose: 'stand'}, {at: c.sit + 8, pose: 'sit', stiff: 160, damp: 14}], x: friendEX, seed: 13});
   const peek = frame < c.peek ? 1 : 1 - spr(frame, c.peek, {damping: 11, stiffness: 160});
   const chairOutline = (x: number, y: number) => `M ${x - 40} ${y} L ${x - 40} ${y - 150} L ${x + 40} ${y - 150} L ${x + 40} ${y} M ${x - 46} ${y - 82} L ${x + 46} ${y - 82}`;
   const camE: Cam = {
@@ -275,7 +275,7 @@ export const S5Open: React.FC<{frame: number}> = ({frame}) => {
                   </g>
                 )
               ) : null}
-              {frame >= c.sit - 30 ? <Puppet {...friendE} look="friend" frame={frame} uid="friendSit" x={friendEX(frame)} y={990} scale={1.2} /> : null}
+              {frame >= c.sit - 12 ? <Puppet {...friendE} look="friend" frame={frame} uid="friendSit" x={friendEX(frame)} y={990} scale={1.2} /> : null}
               <Puppet {...heroE} look="hero" frame={frame} uid="heroWorld" x={heroEX(frame)} y={990} scale={1.2} />
               <WaveBand y={1070} amp={12} wl={320} frame={frame} speed={0.1} fill="#7A3E26" seed={45} foam="#F2B36A" />
             </g>
