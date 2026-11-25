@@ -50,6 +50,13 @@ export const LacquerDefs: React.FC = () => (
         <stop offset="1" stopColor="#fff6e2" stopOpacity="0" />
       </radialGradient>
 
+      {/* 刷痕纹理：代码绘制的平铺图案（替代整屏 feTurbulence，渲染快一个数量级） */}
+      <pattern id="brushPat" width="480" height="240" patternUnits="userSpaceOnUse">
+        {Array.from({length: 22}).map((_, i) => {
+          const y = (i * 11 + (i % 3) * 4) % 240, a = 0.05 + ((i * 37) % 9) / 90, w = 0.6 + ((i * 13) % 5) * 0.35;
+          return <path key={i} d={`M-10,${y} C120,${y - 3 + (i % 4)} 240,${y + 3 - (i % 3)} 360,${y + (i % 2)} S470,${y - 2} 490,${y}`} stroke={i % 4 === 0 ? '#000' : '#fff6e0'} strokeOpacity={a} strokeWidth={w} fill="none" />;
+        })}
+      </pattern>
       <filter id="lqObj" x="-20%" y="-20%" width="140%" height="150%">
         <feGaussianBlur in="SourceAlpha" stdDeviation="3.2" result="b" />
         <feSpecularLighting in="b" surfaceScale="5" specularConstant="0.95" specularExponent="26" lightingColor="#fff1d6" result="spec">

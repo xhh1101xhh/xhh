@@ -40,3 +40,9 @@ export function sceneRange(sceneId: string, endCap = FULL_END): [number, number]
 export const sceneBase = (sceneId: string) => SCENES[sceneId]?.base ?? '#141210';
 export const EMPH_COLORS: Record<string, string> = META.colors;
 export {BEATS};
+
+/** 某屏某角色的表情时间线（来自字幕文件 cast.expr），供场景直接使用 */
+export const castExpr = (id: number, who: string): [number, string][] =>
+  (screen(id).cast ?? []).find(c => c.who === who)?.exprFrames ?? [];
+/** 多屏合并表情时间线 */
+export const castExprs = (ids: number[], who: string): [number, string][] => ids.flatMap(i => castExpr(i, who));

@@ -105,175 +105,175 @@
    "desc": "【2-1】祭天土台·黎明｜远景，人物很小｜底色 鸦青 #3B4A52，黎明冷光",
    "base": "#3B4A52",
    "transition": "螺钿聚合",
-   "transitionId": null
+   "transitionId": "mopGather"
   },
   "2-2": {
    "desc": "【2-2】南方·苍梧之野（夜）｜大远景横移｜底色 靛青 #19233A，月光",
    "base": "#19233A",
    "transition": "莳绘金粉飘散",
-   "transitionId": null
+   "transitionId": "makieDust"
   },
   "2-3": {
    "desc": "【2-3】都城·丧庐｜中景平视｜底色 麻褐灰 #5A5045，阴天柔光",
    "base": "#5A5045",
    "transition": "飘叶划变",
-   "transitionId": null
+   "transitionId": "leafWipe"
   },
   "2-4": {
    "desc": "【2-4】都城外·黄土路｜全景横移｜底色 赭黄 #8A6A3A，午后侧光",
    "base": "#8A6A3A",
    "transition": "推轨横移",
-   "transitionId": null
+   "transitionId": "dollyPan"
   },
   "2-5": {
    "desc": "【2-5】都城·空殿｜中景固定机位延时｜底色 灰漆 #4A4744，日光斜移",
    "base": "#4A4744",
    "transition": "日影旋转",
-   "transitionId": null
+   "transitionId": "sunDial"
   },
   "2-6": {
    "desc": "【2-6】阳城·夜｜大全景俯视→推进｜底色 暖朱 #8C2A1E，火把光",
    "base": "#8C2A1E",
    "transition": "光点汇流",
-   "transitionId": null
+   "transitionId": "lightStream"
   },
   "2-7": {
    "desc": "【2-7】时间倒带｜中景定格→倒放｜底色 陈褐 #6F5D3F，旧纸色调",
    "base": "#6F5D3F",
    "transition": "泛黄倒带",
-   "transitionId": null
+   "transitionId": "rewind"
   },
   "2-8": {
    "desc": "【2-8】南河之南｜左右分屏：左“禹—商均”｜右“舜—丹朱”｜底色 左赭黄 #8A6A3A，右苔绿 #5B6B4A",
    "base": "#8A6A3A",
    "transition": "中缝裂屏",
-   "transitionId": null
+   "transitionId": "splitOpen"
   },
   "2-9": {
    "desc": "【2-9】双时空叠映｜全景｜底色 黑金 #1A1610，两层火光",
    "base": "#1A1610",
    "transition": "漆盒翻折",
-   "transitionId": null
+   "transitionId": "boxFold"
   },
   "3-1": {
    "desc": "【3-1】抽象·漆印流程图｜全景平视｜底色 朱砂 #8E2A1E，顶光",
    "base": "#8E2A1E",
    "transition": "巨印压屏",
-   "transitionId": null
+   "transitionId": "sealStamp"
   },
   "3-2a": {
    "desc": "【3-2a】推演·谁说了算｜中景｜底色 石绿 #2F5D50，柔光",
    "base": "#2F5D50",
    "transition": "漆牌翻面",
-   "transitionId": null
+   "transitionId": "cardFlip"
   },
   "3-2b": {
    "desc": "【3-2b】俯视·千万脚印｜大全景俯冲｜底色 赭 #6B4226，正午强光",
    "base": "#6B4226",
    "transition": "俯冲入牌",
-   "transitionId": null
+   "transitionId": "diveCard"
   },
   "3-3": {
    "desc": "【3-3】战国·书房（夜）｜近景｜底色 绛紫 #3B1E2A，烛光",
    "base": "#3B1E2A",
    "transition": "竹简卷开",
-   "transitionId": null
+   "transitionId": "scrollOpen"
   },
   "3-4": {
    "desc": "【3-4】迷雾·两个版本｜中景｜底色 灰漆 #5A5650，雾光",
    "base": "#5A5650",
    "transition": "烛烟成雾",
-   "transitionId": null
+   "transitionId": "smokeFog"
   },
   "3-5": {
    "desc": "【3-5】传说时代·涂山（禹为王后）｜大远景→推进｜底色 暗赭 #5C3A21，暮色",
    "base": "#5C3A21",
    "transition": "雾散山出",
-   "transitionId": null
+   "transitionId": "fogPart"
   },
   "3-6": {
    "desc": "【3-6】涂山·会盟场｜大全景俯视｜底色 赤金 #8A4E1E，落日",
    "base": "#8A4E1E",
    "transition": "急推入场",
-   "transitionId": null
+   "transitionId": "rushIn"
   },
   "3-6b": {
    "desc": "【3-6b】会稽山·山门（传说）｜中景手持跟拍｜底色 沉绿 #2E4A3A，阴天",
    "base": "#2E4A3A",
    "transition": "漆面翻页",
-   "transitionId": null
+   "transitionId": "panelFlip"
   },
   "3-7": {
    "desc": "【3-7】会稽山顶｜特写→剪影｜底色 漆黑 #1A0F0D，朱红逆光",
    "base": "#1A0F0D",
    "transition": "剔红泼溅",
-   "transitionId": null
+   "transitionId": "zhuSplash"
   },
   "3-8": {
    "desc": "【3-8】抽象·圭影｜大全景仰拍｜底色 冷铁青 #2F3A3F，顶部冷光",
    "base": "#2F3A3F",
    "transition": "急拉远",
-   "transitionId": null
+   "transitionId": "snapOut"
   },
   "4-1": {
    "desc": "【4-1】传说时代·禹晚年居所｜中景｜底色 暮紫 #2A1F33，夕照",
    "base": "#2A1F33",
    "transition": "犀皮漆老化",
-   "transitionId": null
+   "transitionId": "xipiAge"
   },
   "4-2": {
    "desc": "【4-2】守丧→荒野｜全景跟拍｜底色 冷灰蓝 #46505C，阴天",
    "base": "#46505C",
    "transition": "背影跟移",
-   "transitionId": null
+   "transitionId": "followBack"
   },
   "4-3": {
    "desc": "【4-3】三层剧本｜全景｜底色 赭红 #6B2D22，三层逆光",
    "base": "#6B2D22",
    "transition": "漆板层叠推入",
-   "transitionId": null
+   "transitionId": "layerPush"
   },
   "4-4": {
    "desc": "【4-4】传说时代·启的营地｜全景→推近｜底色 火光金 #7A4A12，篝火",
    "base": "#7A4A12",
    "transition": "沿裂缝开画",
-   "transitionId": null
+   "transitionId": "crackOpen"
   },
   "4-5": {
    "desc": "【4-5】算账·两只黑陶罐｜中景｜底色 青黛 #22343A，侧光",
    "base": "#22343A",
    "transition": "金粉扫掠",
-   "transitionId": null
+   "transitionId": "goldSweep"
   },
   "4-6a": {
    "desc": "【4-6a】另一种说法·益的住所（夜）｜中景｜底色 焦黑 #1B1412，冷月光+火光",
    "base": "#1B1412",
    "transition": "石钺劈切",
-   "transitionId": null
+   "transitionId": "axeSlash"
   },
   "4-6b": {
    "desc": "【4-6b】出土竹简｜微距平移｜底色 竹青 #4E5B3C，冷白光",
    "base": "#4E5B3C",
    "transition": "竹简散落",
-   "transitionId": null
+   "transitionId": "slipsScatter"
   },
   "4-7": {
    "desc": "【4-7】抽象·金缮重组｜特写→中景｜底色 墨蓝 #18222E，金色内光",
    "base": "#18222E",
    "transition": "碎片重组",
-   "transitionId": null
+   "transitionId": "shardsReform"
   },
   "5-1": {
    "desc": "【5-1】抽象·人环｜中景对称构图｜底色 暗牙黄 #6B5D44，柔和天光",
    "base": "#6B5D44",
    "transition": "金箔平脱",
-   "transitionId": null
+   "transitionId": "goldLeaf"
   },
   "5-2": {
    "desc": "【5-2】虚空·玄圭｜特写自转｜底色 黑漆 #141210，金缝自发光",
    "base": "#141210",
    "transition": "链条收拢",
-   "transitionId": null
+   "transitionId": "chainGather"
   },
   "5-3": {
    "desc": "【5-3】高台·首尾呼应构图｜特写，玄圭居中横构图，机位与 0-2 完全一致｜底色 朱漆 #6E1E18，顶光一束暖白",
@@ -285,7 +285,7 @@
    "desc": "【5-4】收束·无数只手｜大全景急拉→黑场｜底色 朱漆退为玄黑 #0B0A09",
    "base": "#0B0A09",
    "transition": "漆面合拢",
-   "transitionId": null
+   "transitionId": "doorsClose"
   }
  },
  "screens": [
@@ -2325,8 +2325,74 @@
     "cast": "舜：白发苍老，表情：平和。禹：躬身，表情：恭敬",
     "sfx": "风声、远处鸟鸣"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "rise": 1530
+   },
+   "sfxFrames": [
+    {
+     "at": "BRK:01.1",
+     "sound": "goldDraw",
+     "gain": 0.6,
+     "f": 1530
+    },
+    {
+     "at": "BRK:01.1",
+     "sound": "wind",
+     "gain": 0.6,
+     "dur": 2.2,
+     "f": 1530
+    }
+   ],
+   "cast": [
+    {
+     "who": "shun",
+     "outfit": "chief",
+     "expr": [
+      [
+       "BRK:01.1",
+       "calm"
+      ]
+     ],
+     "exprFrames": [
+      [
+       1530,
+       "calm"
+      ]
+     ]
+    },
+    {
+     "who": "yu",
+     "outfit": "clean",
+     "expr": [
+      [
+       "BRK:01.1",
+       "solemn"
+      ]
+     ],
+     "exprFrames": [
+      [
+       1530,
+       "solemn"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "rise": "BRK:01.1"
+   },
+   "sfx": [
+    {
+     "at": "BRK:01.1",
+     "sound": "goldDraw",
+     "gain": 0.6
+    },
+    {
+     "at": "BRK:01.1",
+     "sound": "wind",
+     "gain": 0.6,
+     "dur": 2.2
+    }
+   ]
   },
   {
    "id": 25,
@@ -2345,8 +2411,47 @@
     "cast": "舜（老年）：拄杖、背微驼；远景剪影",
     "sfx": "一声长磬"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "stars": 1610,
+    "fade": 1658
+   },
+   "sfxFrames": [
+    {
+     "at": "BRK:02.1",
+     "sound": "qing",
+     "gain": 0.9,
+     "f": 1594
+    }
+   ],
+   "cast": [
+    {
+     "who": "shun",
+     "outfit": "chief",
+     "expr": [
+      [
+       "BRK:02.1",
+       "calm"
+      ]
+     ],
+     "exprFrames": [
+      [
+       1594,
+       "calm"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "stars": "BRK:02.2",
+    "fade": "BRK:03.1"
+   },
+   "sfx": [
+    {
+     "at": "BRK:02.1",
+     "sound": "qing",
+     "gain": 0.9
+    }
+   ]
   },
   {
    "id": 26,
@@ -2365,8 +2470,76 @@
     "cast": "禹：粗麻素服（当时丧服形制不可考，简化处理），跪坐；表情：悲戚。众人：表情：期待",
     "sfx": "秋风、窸窣人声"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "cycle": 1690
+   },
+   "sfxFrames": [
+    {
+     "at": "BRK:03.3",
+     "sound": "wind",
+     "gain": 0.8,
+     "dur": 3.0,
+     "f": 1690
+    },
+    {
+     "at": "BRK:04.1",
+     "sound": "murmur",
+     "gain": 0.7,
+     "dur": 1.6,
+     "f": 1721
+    }
+   ],
+   "cast": [
+    {
+     "who": "yu",
+     "outfit": "mourning",
+     "expr": [
+      [
+       "BRK:03.3",
+       "sorrow"
+      ]
+     ],
+     "exprFrames": [
+      [
+       1690,
+       "sorrow"
+      ]
+     ]
+    },
+    {
+     "who": "crowd",
+     "outfit": "commoner",
+     "expr": [
+      [
+       "BRK:03.3",
+       "curious"
+      ]
+     ],
+     "exprFrames": [
+      [
+       1690,
+       "curious"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "cycle": "BRK:03.3"
+   },
+   "sfx": [
+    {
+     "at": "BRK:03.3",
+     "sound": "wind",
+     "gain": 0.8,
+     "dur": 3.0
+    },
+    {
+     "at": "BRK:04.1",
+     "sound": "murmur",
+     "gain": 0.7,
+     "dur": 1.6
+    }
+   ]
   },
   {
    "id": 27,
@@ -2390,8 +2563,60 @@
     "cast": "禹：便装葛衣、背包袱；表情：平静决然。城门口众人：表情：错愕",
     "sfx": "脚步声、门轴吱呀"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "walk": 1785,
+    "gate": 1817
+   },
+   "sfxFrames": [
+    {
+     "at": "BRK:05.1",
+     "sound": "steps",
+     "gain": 0.8,
+     "dur": 1.6,
+     "f": 1785
+    },
+    {
+     "at": "BRK:05.3",
+     "sound": "doorCreak",
+     "gain": 0.8,
+     "f": 1817
+    }
+   ],
+   "cast": [
+    {
+     "who": "yu",
+     "outfit": "clean",
+     "expr": [
+      [
+       "BRK:05.1",
+       "determined"
+      ]
+     ],
+     "exprFrames": [
+      [
+       1785,
+       "determined"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "walk": "BRK:05.1",
+    "gate": "BRK:05.3"
+   },
+   "sfx": [
+    {
+     "at": "BRK:05.1",
+     "sound": "steps",
+     "gain": 0.8,
+     "dur": 1.6
+    },
+    {
+     "at": "BRK:05.3",
+     "sound": "doorCreak",
+     "gain": 0.8
+    }
+   ]
   },
   {
    "id": 28,
@@ -2415,8 +2640,53 @@
     "cast": "商均（舜之子）：青年，朱麻衣、佩玉璜；表情：意外→窃喜",
     "sfx": "空拍处无声"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "touch": 1881
+   },
+   "sfxFrames": [
+    {
+     "at": "BRK:06.2",
+     "sound": "jade",
+     "gain": 0.6,
+     "f": 1865
+    }
+   ],
+   "cast": [
+    {
+     "who": "shangjun",
+     "outfit": "prince",
+     "expr": [
+      [
+       "BRK:06.2",
+       "surprised"
+      ],
+      [
+       "BRK:06.4",
+       "smug"
+      ]
+     ],
+     "exprFrames": [
+      [
+       1865,
+       "surprised"
+      ],
+      [
+       1896,
+       "smug"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "touch": "BRK:06.3"
+   },
+   "sfx": [
+    {
+     "at": "BRK:06.2",
+     "sound": "jade",
+     "gain": 0.6
+    }
+   ]
   },
   {
    "id": 29,
@@ -2435,8 +2705,55 @@
     "cast": "商均：正襟危坐；表情：期待→疑惑，频频望门",
     "sfx": "风吹门帘、快进鸟鸣"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "dial": 1928
+   },
+   "sfxFrames": [
+    {
+     "at": "BRK:07.2",
+     "sound": "birds",
+     "gain": 0.6,
+     "dur": 1.5,
+     "f": 1928
+    }
+   ],
+   "cast": [
+    {
+     "who": "shangjun",
+     "outfit": "prince",
+     "expr": [
+      [
+       "BRK:07.2",
+       "expect"
+      ],
+      [
+       "BRK:07.4",
+       "curious"
+      ]
+     ],
+     "exprFrames": [
+      [
+       1928,
+       "expect"
+      ],
+      [
+       1960,
+       "curious"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "dial": "BRK:07.2"
+   },
+   "sfx": [
+    {
+     "at": "BRK:07.2",
+     "sound": "birds",
+     "gain": 0.6,
+     "dur": 1.5
+    }
+   ]
   },
   {
    "id": 30,
@@ -2453,15 +2770,80 @@
      "color": "zhu"
     }
    ],
-   "display": "bottom",
+   "display": "slam",
    "desc": {
     "scene": "同【2-5】｜急推到门口",
     "action": "{BLD:01.1} **重拍**：风把殿门吹开，门外空无一人，只有落叶打旋；镜头急推出门。",
     "cast": "商均：猛地站起；表情：尴尬→失落",
     "sfx": "{BLD:01.1} 门板撞墙“砰”"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "door": 1976
+   },
+   "sfxFrames": [
+    {
+     "at": "BLD:01.1",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true,
+     "f": 1976
+    },
+    {
+     "at": "BLD:01.1",
+     "sound": "doorBang",
+     "gain": 0.8,
+     "f": 1976
+    }
+   ],
+   "slam": {
+    "pre": "结果，诸侯",
+    "key": "一个都没来",
+    "post": "",
+    "at": "BLD:01.1",
+    "f": 1976
+   },
+   "cast": [
+    {
+     "who": "shangjun",
+     "outfit": "prince",
+     "expr": [
+      [
+       "BLD:01.1",
+       "awkward"
+      ],
+      [
+       "BLD:01.3",
+       "sad"
+      ]
+     ],
+     "exprFrames": [
+      [
+       1976,
+       "awkward"
+      ],
+      [
+       2008,
+       "sad"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "door": "BLD:01.1"
+   },
+   "sfx": [
+    {
+     "at": "BLD:01.1",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true
+    },
+    {
+     "at": "BLD:01.1",
+     "sound": "doorBang",
+     "gain": 0.8
+    }
+   ]
   },
   {
    "id": 31,
@@ -2480,8 +2862,60 @@
     "cast": "各部落首领：麻衣颜色各异，羽饰、玉饰不同，举火把；表情：急切",
     "sfx": "人潮脚步、火把呼呼"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "stream": 2040
+   },
+   "sfxFrames": [
+    {
+     "at": "BLD:02.1",
+     "sound": "steps",
+     "gain": 0.8,
+     "dur": 2.2,
+     "f": 2040
+    },
+    {
+     "at": "BLD:02.1",
+     "sound": "fire",
+     "gain": 0.6,
+     "dur": 2.2,
+     "f": 2040
+    }
+   ],
+   "cast": [
+    {
+     "who": "chiefs",
+     "outfit": "various",
+     "expr": [
+      [
+       "BLD:02.1",
+       "eager"
+      ]
+     ],
+     "exprFrames": [
+      [
+       2040,
+       "eager"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "stream": "BLD:02.1"
+   },
+   "sfx": [
+    {
+     "at": "BLD:02.1",
+     "sound": "steps",
+     "gain": 0.8,
+     "dur": 2.2
+    },
+    {
+     "at": "BLD:02.1",
+     "sound": "fire",
+     "gain": 0.6,
+     "dur": 2.2
+    }
+   ]
   },
   {
    "id": 32,
@@ -2498,15 +2932,103 @@
      "color": "gold"
     }
    ],
-   "display": "bottom",
+   "display": "slam",
    "desc": {
     "scene": "同【2-6】｜近景",
     "action": "小屋门开，众人簇拥禹出门；都城那块玄圭从远处飞来，{BLD:04.1} 落入禹手（卡重拍），圭面亮出开头 0-5 的那枚夏后纹样。",
     "cast": "禹：表情三拍内变化：意外→无奈→接受。首领们：俯身行礼",
     "sfx": "无词人声齐呼、玉鸣"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "door": 2119,
+    "catch": 2166
+   },
+   "sfxFrames": [
+    {
+     "at": "BLD:03.3",
+     "sound": "cheer",
+     "gain": 0.7,
+     "dur": 1.4,
+     "f": 2134
+    },
+    {
+     "at": "BLD:04.1",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true,
+     "f": 2166
+    },
+    {
+     "at": "BLD:04.1",
+     "sound": "jade",
+     "gain": 0.6,
+     "f": 2166
+    }
+   ],
+   "slam": {
+    "pre": "禹这才即位，国号",
+    "key": "夏后",
+    "post": "",
+    "at": "BLD:04.1",
+    "f": 2166
+   },
+   "cast": [
+    {
+     "who": "yu",
+     "outfit": "clean",
+     "expr": [
+      [
+       "BLD:03.2",
+       "surprised"
+      ],
+      [
+       "BLD:03.3",
+       "resigned"
+      ],
+      [
+       "BLD:03.4",
+       "accept"
+      ]
+     ],
+     "exprFrames": [
+      [
+       2119,
+       "surprised"
+      ],
+      [
+       2134,
+       "resigned"
+      ],
+      [
+       2150,
+       "accept"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "door": "BLD:03.2",
+    "catch": "BLD:04.1"
+   },
+   "sfx": [
+    {
+     "at": "BLD:03.3",
+     "sound": "cheer",
+     "gain": 0.7,
+     "dur": 1.4
+    },
+    {
+     "at": "BLD:04.1",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true
+    },
+    {
+     "at": "BLD:04.1",
+     "sound": "jade",
+     "gain": 0.6
+    }
+   ]
   },
   {
    "id": 33,
@@ -2525,8 +3047,45 @@
     "cast": "禹与首领：倒放；表情定格在微笑",
     "sfx": "倒带“嗖嗖”"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "rewind": 2182
+   },
+   "sfxFrames": [
+    {
+     "at": "BLD:04.2",
+     "sound": "rewind",
+     "gain": 0.8,
+     "f": 2182
+    }
+   ],
+   "cast": [
+    {
+     "who": "yu",
+     "outfit": "clean",
+     "expr": [
+      [
+       "BLD:04.2",
+       "smile"
+      ]
+     ],
+     "exprFrames": [
+      [
+       2182,
+       "smile"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "rewind": "BLD:04.2"
+   },
+   "sfx": [
+    {
+     "at": "BLD:04.2",
+     "sound": "rewind",
+     "gain": 0.8
+    }
+   ]
   },
   {
    "id": 34,
@@ -2545,8 +3104,58 @@
     "cast": "舜（青年）：素葛衣；倒放中由老变少",
     "sfx": "倒带声加速到顶后骤停"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "fast": 2231,
+    "stop": 2278
+   },
+   "sfxFrames": [
+    {
+     "at": "BLD:05.1",
+     "sound": "rewind",
+     "gain": 0.9,
+     "f": 2231
+    },
+    {
+     "at": "BLD:05.4",
+     "sound": "tick",
+     "gain": 0.7,
+     "f": 2278
+    }
+   ],
+   "cast": [
+    {
+     "who": "shun",
+     "outfit": "shunYoung",
+     "expr": [
+      [
+       "BLD:05.1",
+       "calm"
+      ]
+     ],
+     "exprFrames": [
+      [
+       2231,
+       "calm"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "fast": "BLD:05.1",
+    "stop": "BLD:05.4"
+   },
+   "sfx": [
+    {
+     "at": "BLD:05.1",
+     "sound": "rewind",
+     "gain": 0.9
+    },
+    {
+     "at": "BLD:05.4",
+     "sound": "tick",
+     "gain": 0.7
+    }
+   ]
   },
   {
    "id": 35,
@@ -2565,8 +3174,74 @@
     "cast": "舜（青年）：背包袱；表情：平静（与禹出城时一模一样）",
     "sfx": "两组脚步完全同步"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "split": 2294
+   },
+   "sfxFrames": [
+    {
+     "at": "BLD:06.1",
+     "sound": "crackTick",
+     "gain": 0.8,
+     "f": 2294
+    },
+    {
+     "at": "BLD:06.2",
+     "sound": "steps",
+     "gain": 0.7,
+     "dur": 1.6,
+     "f": 2310
+    }
+   ],
+   "cast": [
+    {
+     "who": "shun",
+     "outfit": "shunYoung",
+     "expr": [
+      [
+       "BLD:06.1",
+       "determined"
+      ]
+     ],
+     "exprFrames": [
+      [
+       2294,
+       "determined"
+      ]
+     ]
+    },
+    {
+     "who": "yu",
+     "outfit": "clean",
+     "expr": [
+      [
+       "BLD:06.1",
+       "determined"
+      ]
+     ],
+     "exprFrames": [
+      [
+       2294,
+       "determined"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "split": "BLD:06.1"
+   },
+   "sfx": [
+    {
+     "at": "BLD:06.1",
+     "sound": "crackTick",
+     "gain": 0.8
+    },
+    {
+     "at": "BLD:06.2",
+     "sound": "steps",
+     "gain": 0.7,
+     "dur": 1.6
+    }
+   ]
   },
   {
    "id": 36,
@@ -2590,8 +3265,72 @@
     "cast": "丹朱（尧之子）：朱麻衣；表情：茫然",
     "sfx": "两声玉鸣，一左一右"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "gui": 2389
+   },
+   "sfxFrames": [
+    {
+     "at": "BLD:07.2",
+     "sound": "jade",
+     "gain": 0.7,
+     "f": 2373
+    },
+    {
+     "at": "BLD:07.4",
+     "sound": "jade",
+     "gain": 0.6,
+     "f": 2405
+    }
+   ],
+   "cast": [
+    {
+     "who": "danzhu",
+     "outfit": "danzhu",
+     "expr": [
+      [
+       "BLD:07.2",
+       "blank"
+      ]
+     ],
+     "exprFrames": [
+      [
+       2373,
+       "blank"
+      ]
+     ]
+    },
+    {
+     "who": "shangjun",
+     "outfit": "prince",
+     "expr": [
+      [
+       "BLD:07.2",
+       "blank"
+      ]
+     ],
+     "exprFrames": [
+      [
+       2373,
+       "blank"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "gui": "BLD:07.3"
+   },
+   "sfx": [
+    {
+     "at": "BLD:07.2",
+     "sound": "jade",
+     "gain": 0.7
+    },
+    {
+     "at": "BLD:07.4",
+     "sound": "jade",
+     "gain": 0.6
+    }
+   ]
   },
   {
    "id": 37,
@@ -2610,8 +3349,40 @@
     "cast": "两代首领剪影做同一个动作",
     "sfx": "两层人潮声叠加"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "fold": 2437
+   },
+   "sfxFrames": [
+    {
+     "at": "BLD:08.2",
+     "sound": "boxClose",
+     "gain": 0.9,
+     "f": 2437
+    },
+    {
+     "at": "BLD:08.3",
+     "sound": "murmur",
+     "gain": 0.6,
+     "dur": 1.0,
+     "f": 2453
+    }
+   ],
+   "cues": {
+    "fold": "BLD:08.2"
+   },
+   "sfx": [
+    {
+     "at": "BLD:08.2",
+     "sound": "boxClose",
+     "gain": 0.9
+    },
+    {
+     "at": "BLD:08.3",
+     "sound": "murmur",
+     "gain": 0.6,
+     "dur": 1.0
+    }
+   ]
   },
   {
    "id": 38,
@@ -2628,15 +3399,54 @@
      "color": "zhu"
     }
    ],
-   "display": "bottom",
+   "display": "slam",
    "desc": {
     "scene": "同【2-9】｜特写：两枚圭",
     "action": "两枚圭的描金轮廓滑动重叠，{BLD:09.4} BGM 静音那一拍严丝合缝，画面全静——**贯穿物件“重影合一”**。",
     "cast": "无",
     "sfx": "{BLD:09.4} 静音；合缝极轻一声“咔”"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "lock": 2533
+   },
+   "sfxFrames": [
+    {
+     "at": "BLD:09.1",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true,
+     "f": 2485
+    },
+    {
+     "at": "BLD:09.4",
+     "sound": "click",
+     "gain": 0.8,
+     "f": 2533
+    }
+   ],
+   "slam": {
+    "pre": "",
+    "key": "一模一样",
+    "post": "",
+    "at": "BLD:09.1",
+    "f": 2485
+   },
+   "cues": {
+    "lock": "BLD:09.4"
+   },
+   "sfx": [
+    {
+     "at": "BLD:09.1",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true
+    },
+    {
+     "at": "BLD:09.4",
+     "sound": "click",
+     "gain": 0.8
+    }
+   ]
   },
   {
    "id": 39,
@@ -2655,8 +3465,55 @@
     "cast": "无（图标化）",
     "sfx": "盖印“咚、咚、咚”"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "s1": 2548,
+    "s2": 2580,
+    "s3": 2596
+   },
+   "sfxFrames": [
+    {
+     "at": "DRP1:01.1",
+     "sound": "slam",
+     "gain": 0.9,
+     "duck": true,
+     "f": 2548
+    },
+    {
+     "at": "DRP1:01.3",
+     "sound": "stamp",
+     "gain": 0.8,
+     "f": 2580
+    },
+    {
+     "at": "DRP1:01.4",
+     "sound": "stamp",
+     "gain": 0.8,
+     "f": 2596
+    }
+   ],
+   "cues": {
+    "s1": "DRP1:01.1",
+    "s2": "DRP1:01.3",
+    "s3": "DRP1:01.4"
+   },
+   "sfx": [
+    {
+     "at": "DRP1:01.1",
+     "sound": "slam",
+     "gain": 0.9,
+     "duck": true
+    },
+    {
+     "at": "DRP1:01.3",
+     "sound": "stamp",
+     "gain": 0.8
+    },
+    {
+     "at": "DRP1:01.4",
+     "sound": "stamp",
+     "gain": 0.8
+    }
+   ]
   },
   {
    "id": 40,
@@ -2673,15 +3530,54 @@
      "color": "gold"
     }
    ],
-   "display": "bottom",
+   "display": "slam",
    "desc": {
     "scene": "同【3-1】｜横移",
     "action": "三枚印下方复制出第二排（舜那一代），两排之间连上描金箭头成流程图；玄圭飞来停在上方，圭面也浮出这三枚小印（**贯穿物件刻上“流程”**）。",
     "cast": "无",
     "sfx": "金线连接“铮”"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "link": 2628
+   },
+   "sfxFrames": [
+    {
+     "at": "DRP1:02.1",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true,
+     "f": 2612
+    },
+    {
+     "at": "DRP1:02.2",
+     "sound": "goldDraw",
+     "gain": 0.6,
+     "f": 2628
+    }
+   ],
+   "slam": {
+    "pre": "这更像一套",
+    "key": "固定流程",
+    "post": "",
+    "at": "DRP1:02.1",
+    "f": 2612
+   },
+   "cues": {
+    "link": "DRP1:02.2"
+   },
+   "sfx": [
+    {
+     "at": "DRP1:02.1",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true
+    },
+    {
+     "at": "DRP1:02.2",
+     "sound": "goldDraw",
+     "gain": 0.6
+    }
+   ]
   },
   {
    "id": 41,
@@ -2700,8 +3596,40 @@
     "cast": "舜（牌面剪影）：表情：无奈",
     "sfx": "翻牌“啪”、划线“嚓”"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "card1": 2676,
+    "strike": 2708
+   },
+   "sfxFrames": [
+    {
+     "at": "DRP1:03.1",
+     "sound": "cardFlip",
+     "gain": 0.8,
+     "f": 2676
+    },
+    {
+     "at": "DRP1:03.3",
+     "sound": "strike",
+     "gain": 0.8,
+     "f": 2708
+    }
+   ],
+   "cues": {
+    "card1": "DRP1:03.1",
+    "strike": "DRP1:03.3"
+   },
+   "sfx": [
+    {
+     "at": "DRP1:03.1",
+     "sound": "cardFlip",
+     "gain": 0.8
+    },
+    {
+     "at": "DRP1:03.3",
+     "sound": "strike",
+     "gain": 0.8
+    }
+   ]
   },
   {
    "id": 42,
@@ -2720,8 +3648,42 @@
     "cast": "禹（牌面剪影）：转身离开；表情：淡然",
     "sfx": "牌面“嗡”一声变空"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "card2": 2739,
+    "leave": 2755,
+    "glow": 2787
+   },
+   "sfxFrames": [
+    {
+     "at": "DRP1:04.1",
+     "sound": "cardFlip",
+     "gain": 0.8,
+     "f": 2739
+    },
+    {
+     "at": "DRP1:04.4",
+     "sound": "bell",
+     "gain": 0.6,
+     "f": 2787
+    }
+   ],
+   "cues": {
+    "card2": "DRP1:04.1",
+    "leave": "DRP1:04.2",
+    "glow": "DRP1:04.4"
+   },
+   "sfx": [
+    {
+     "at": "DRP1:04.1",
+     "sound": "cardFlip",
+     "gain": 0.8
+    },
+    {
+     "at": "DRP1:04.4",
+     "sound": "bell",
+     "gain": 0.6
+    }
+   ]
   },
   {
    "id": 43,
@@ -2738,15 +3700,67 @@
      "color": "luodian"
     }
    ],
-   "display": "bottom",
+   "display": "slam",
    "desc": {
     "scene": "【3-2b】俯视·千万脚印｜大全景俯冲｜底色 赭 #6B4226，正午强光",
     "action": "**转场：俯冲入牌**——镜头俯冲穿进第三张牌，牌面展开成大地。各部落不同纹样的脚印从四方涌来，汇成一个巨大箭头，指向中心那个人。",
     "cast": "中心人物剪影（禹）被脚印包围",
     "sfx": "密集脚步卡十六分音符"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "dive": 2803
+   },
+   "sfxFrames": [
+    {
+     "at": "DRP1:05.1",
+     "sound": "whoosh",
+     "gain": 0.7,
+     "f": 2803
+    },
+    {
+     "at": "DRP1:05.2",
+     "sound": "steps",
+     "gain": 0.9,
+     "dur": 2.0,
+     "f": 2819
+    },
+    {
+     "at": "DRP1:05.3",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true,
+     "f": 2834
+    }
+   ],
+   "slam": {
+    "pre": "是各部落首领在",
+    "key": "用脚投票",
+    "post": "",
+    "at": "DRP1:05.3",
+    "f": 2834
+   },
+   "cues": {
+    "dive": "DRP1:05.1"
+   },
+   "sfx": [
+    {
+     "at": "DRP1:05.1",
+     "sound": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "at": "DRP1:05.2",
+     "sound": "steps",
+     "gain": 0.9,
+     "dur": 2.0
+    },
+    {
+     "at": "DRP1:05.3",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true
+    }
+   ]
   },
   {
    "id": 44,
@@ -2765,8 +3779,58 @@
     "cast": "韩非：战国深衣、高冠（战国服饰）；表情：冷眼、嘴角下撇",
     "sfx": "刀笔刻竹“嚓嚓”"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "scroll": 2883
+   },
+   "sfxFrames": [
+    {
+     "at": "DRP1:06.2",
+     "sound": "scroll",
+     "gain": 0.8,
+     "f": 2883
+    },
+    {
+     "at": "DRP1:06.4",
+     "sound": "carve",
+     "gain": 0.6,
+     "dur": 1.2,
+     "f": 2915
+    }
+   ],
+   "cast": [
+    {
+     "who": "hanfei",
+     "outfit": "scholar",
+     "expr": [
+      [
+       "DRP1:06.2",
+       "cold"
+      ]
+     ],
+     "exprFrames": [
+      [
+       2883,
+       "cold"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "scroll": "DRP1:06.2"
+   },
+   "sfx": [
+    {
+     "at": "DRP1:06.2",
+     "sound": "scroll",
+     "gain": 0.8
+    },
+    {
+     "at": "DRP1:06.4",
+     "sound": "carve",
+     "gain": 0.6,
+     "dur": 1.2
+    }
+   ]
   },
   {
    "id": 45,
@@ -2783,15 +3847,81 @@
      "color": "zhu"
     }
    ],
-   "display": "bottom",
+   "display": "slam",
    "desc": {
     "scene": "同【3-3】｜特写：侧脸→烛火",
     "action": "{DRP1:08.1} 烛火猛地一跳，墙上投出一大一小两个人影：大影向前压，小影后退（剪影示意“逼”）。镜头从侧脸推到烛火。",
     "cast": "韩非：表情：冷笑、抬眼",
     "sfx": "{DRP1:08.1} 烛火“噗”"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "jump": 2994
+   },
+   "sfxFrames": [
+    {
+     "at": "DRP1:08.1",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true,
+     "f": 2994
+    },
+    {
+     "at": "DRP1:08.1",
+     "sound": "candle",
+     "gain": 0.6,
+     "f": 2994
+    }
+   ],
+   "slam": {
+    "pre": "韩非子认为：",
+    "key": "舜逼尧，禹逼舜",
+    "post": "",
+    "at": "DRP1:08.1",
+    "pos": "top",
+    "f": 2994
+   },
+   "cast": [
+    {
+     "who": "hanfei",
+     "outfit": "scholar",
+     "expr": [
+      [
+       "DRP1:07.2",
+       "cold"
+      ],
+      [
+       "DRP1:08.1",
+       "sneer"
+      ]
+     ],
+     "exprFrames": [
+      [
+       2946,
+       "cold"
+      ],
+      [
+       2994,
+       "sneer"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "jump": "DRP1:08.1"
+   },
+   "sfx": [
+    {
+     "at": "DRP1:08.1",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true
+    },
+    {
+     "at": "DRP1:08.1",
+     "sound": "candle",
+     "gain": 0.6
+    }
+   ]
   },
   {
    "id": 46,
@@ -2810,8 +3940,42 @@
     "cast": "漆板人像：左板表情温和，右板表情凶狠",
     "sfx": "低沉嗡鸣"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "fog": 3041,
+    "crack": 3073
+   },
+   "sfxFrames": [
+    {
+     "at": "DRP1:08.4",
+     "sound": "drone",
+     "gain": 0.7,
+     "dur": 2.0,
+     "f": 3041
+    },
+    {
+     "at": "DRP1:09.2",
+     "sound": "crackTick",
+     "gain": 0.8,
+     "f": 3073
+    }
+   ],
+   "cues": {
+    "fog": "DRP1:08.4",
+    "crack": "DRP1:09.2"
+   },
+   "sfx": [
+    {
+     "at": "DRP1:08.4",
+     "sound": "drone",
+     "gain": 0.7,
+     "dur": 2.0
+    },
+    {
+     "at": "DRP1:09.2",
+     "sound": "crackTick",
+     "gain": 0.8
+    }
+   ]
   },
   {
    "id": 47,
@@ -2830,8 +3994,45 @@
     "cast": "禹（王）：朱麻衣、羽冠、佩玉琮（龙山时代首领装束推想）；表情：威严、俯视",
     "sfx": "骨哨长鸣"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "part": 3105
+   },
+   "sfxFrames": [
+    {
+     "at": "DRP1:09.4",
+     "sound": "boneFlute",
+     "gain": 0.8,
+     "f": 3105
+    }
+   ],
+   "cast": [
+    {
+     "who": "yu",
+     "outfit": "king",
+     "expr": [
+      [
+       "DRP1:09.4",
+       "stern"
+      ]
+     ],
+     "exprFrames": [
+      [
+       3105,
+       "stern"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "part": "DRP1:09.4"
+   },
+   "sfx": [
+    {
+     "at": "DRP1:09.4",
+     "sound": "boneFlute",
+     "gain": 0.8
+    }
+   ]
   },
   {
    "id": 48,
@@ -2850,8 +4051,58 @@
     "cast": "首领们：服饰各异；表情：恭敬",
     "sfx": "上山脚步、骨哨"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "climb": 3169
+   },
+   "sfxFrames": [
+    {
+     "at": "DRP1:10.4",
+     "sound": "steps",
+     "gain": 0.7,
+     "dur": 2.5,
+     "f": 3169
+    },
+    {
+     "at": "DRP1:11.3",
+     "sound": "boneFlute",
+     "gain": 0.6,
+     "f": 3217
+    }
+   ],
+   "cast": [
+    {
+     "who": "chiefs",
+     "outfit": "various",
+     "expr": [
+      [
+       "DRP1:10.4",
+       "respect"
+      ]
+     ],
+     "exprFrames": [
+      [
+       3169,
+       "respect"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "climb": "DRP1:10.4"
+   },
+   "sfx": [
+    {
+     "at": "DRP1:10.4",
+     "sound": "steps",
+     "gain": 0.7,
+     "dur": 2.5
+    },
+    {
+     "at": "DRP1:11.3",
+     "sound": "boneFlute",
+     "gain": 0.6
+    }
+   ]
   },
   {
    "id": 49,
@@ -2875,8 +4126,47 @@
     "cast": "首领们：双手捧玉帛；表情：恭顺",
     "sfx": "玉器相碰的细碎声"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "offer": 3248
+   },
+   "sfxFrames": [
+    {
+     "at": "DRP1:12.1",
+     "sound": "jadeClink",
+     "gain": 0.9,
+     "dur": 1.6,
+     "f": 3248
+    }
+   ],
+   "cast": [
+    {
+     "who": "chiefs",
+     "outfit": "various",
+     "expr": [
+      [
+       "DRP1:12.1",
+       "respect"
+      ]
+     ],
+     "exprFrames": [
+      [
+       3248,
+       "respect"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "offer": "DRP1:12.1"
+   },
+   "sfx": [
+    {
+     "at": "DRP1:12.1",
+     "sound": "jadeClink",
+     "gain": 0.9,
+     "dur": 1.6
+    }
+   ]
   },
   {
    "id": 50,
@@ -2895,8 +4185,60 @@
     "cast": "防风氏：高个、兽皮披肩（部落装推想）；动作：奔跑、抹汗；表情：慌张",
     "sfx": "急促脚步"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "flip": 3312,
+    "run": 3312
+   },
+   "sfxFrames": [
+    {
+     "at": "DRP1:13.1",
+     "sound": "cardFlip",
+     "gain": 0.8,
+     "f": 3312
+    },
+    {
+     "at": "DRP1:13.2",
+     "sound": "stepsFast",
+     "gain": 0.8,
+     "dur": 1.4,
+     "f": 3328
+    }
+   ],
+   "cast": [
+    {
+     "who": "fangfeng",
+     "outfit": "fangfeng",
+     "expr": [
+      [
+       "DRP1:13.1",
+       "panic"
+      ]
+     ],
+     "exprFrames": [
+      [
+       3312,
+       "panic"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "flip": "DRP1:13.1",
+    "run": "DRP1:13.1"
+   },
+   "sfx": [
+    {
+     "at": "DRP1:13.1",
+     "sound": "cardFlip",
+     "gain": 0.8
+    },
+    {
+     "at": "DRP1:13.2",
+     "sound": "stepsFast",
+     "gain": 0.8,
+     "dur": 1.4
+    }
+   ]
   },
   {
    "id": 51,
@@ -2913,15 +4255,88 @@
      "color": "zhu"
     }
    ],
-   "display": "bottom",
+   "display": "slam",
    "desc": {
     "scene": "【3-7】会稽山顶｜特写→剪影｜底色 漆黑 #1A0F0D，朱红逆光",
     "action": "**转场：剔红泼溅**——{DRP1:14.1} **爆点**一道朱漆从画右斜泼过全屏完成换景；防风氏化为剪影倒下（不见血），画面抽帧两次。",
     "cast": "禹：抬手下令；表情：冷峻无波。防风氏：剪影倒地",
     "sfx": "{DRP1:14.1} 重鼓+泼漆“哗”"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "kill": 3376
+   },
+   "sfxFrames": [
+    {
+     "at": "DRP1:14.1",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true,
+     "f": 3376
+    },
+    {
+     "at": "DRP1:14.1",
+     "sound": "splash",
+     "gain": 0.8,
+     "f": 3376
+    }
+   ],
+   "slam": {
+    "pre": "防风氏迟到，被禹",
+    "key": "处死",
+    "post": "",
+    "at": "DRP1:14.1",
+    "f": 3376
+   },
+   "cast": [
+    {
+     "who": "yu",
+     "outfit": "king",
+     "expr": [
+      [
+       "DRP1:14.1",
+       "cold"
+      ]
+     ],
+     "exprFrames": [
+      [
+       3376,
+       "cold"
+      ]
+     ]
+    },
+    {
+     "who": "fangfeng",
+     "outfit": "fangfeng",
+     "expr": [
+      [
+       "DRP1:14.1",
+       "fear"
+      ]
+     ],
+     "exprFrames": [
+      [
+       3376,
+       "fear"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "kill": "DRP1:14.1"
+   },
+   "sfx": [
+    {
+     "at": "DRP1:14.1",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true
+    },
+    {
+     "at": "DRP1:14.1",
+     "sound": "splash",
+     "gain": 0.8
+    }
+   ]
   },
   {
    "id": 52,
@@ -2940,8 +4355,47 @@
     "cast": "首领们：跪伏；表情：敬畏",
     "sfx": "低频持续上扬"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "pull": 3439
+   },
+   "sfxFrames": [
+    {
+     "at": "DRP1:15.1",
+     "sound": "riser",
+     "gain": 0.8,
+     "dur": 2.0,
+     "f": 3439
+    }
+   ],
+   "cast": [
+    {
+     "who": "chiefs",
+     "outfit": "various",
+     "expr": [
+      [
+       "DRP1:15.1",
+       "awe"
+      ]
+     ],
+     "exprFrames": [
+      [
+       3439,
+       "awe"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "pull": "DRP1:15.1"
+   },
+   "sfx": [
+    {
+     "at": "DRP1:15.1",
+     "sound": "riser",
+     "gain": 0.8,
+     "dur": 2.0
+    }
+   ]
   },
   {
    "id": 53,
@@ -2958,15 +4412,82 @@
      "color": "gold"
     }
    ],
-   "display": "bottom",
+   "display": "slam",
    "desc": {
     "scene": "同【3-8】｜仰拍定格",
     "action": "BGM 第 56 小节加花，玄圭在 {DRP1:16.1}/{DRP1:16.2}/{DRP1:16.3}/{DRP1:16.4} 四拍上各亮一圈描金边，最后一拍圭影盖满全屏。",
     "cast": "禹：在圭影中只剩轮廓",
     "sfx": "四声鼓填+玉鸣"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "r1": 3502,
+    "r2": 3519,
+    "r3": 3535,
+    "r4": 3551
+   },
+   "sfxFrames": [
+    {
+     "at": "DRP1:16.1",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true,
+     "f": 3502
+    },
+    {
+     "at": "DRP1:16.2",
+     "sound": "drum",
+     "gain": 0.6,
+     "f": 3519
+    },
+    {
+     "at": "DRP1:16.3",
+     "sound": "drum",
+     "gain": 0.65,
+     "f": 3535
+    },
+    {
+     "at": "DRP1:16.4",
+     "sound": "drum",
+     "gain": 0.75,
+     "f": 3551
+    }
+   ],
+   "slam": {
+    "pre": "这样的权力，已经很像",
+    "key": "王",
+    "post": "",
+    "at": "DRP1:16.1",
+    "f": 3502
+   },
+   "cues": {
+    "r1": "DRP1:16.1",
+    "r2": "DRP1:16.2",
+    "r3": "DRP1:16.3",
+    "r4": "DRP1:16.4"
+   },
+   "sfx": [
+    {
+     "at": "DRP1:16.1",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true
+    },
+    {
+     "at": "DRP1:16.2",
+     "sound": "drum",
+     "gain": 0.6
+    },
+    {
+     "at": "DRP1:16.3",
+     "sound": "drum",
+     "gain": 0.65
+    },
+    {
+     "at": "DRP1:16.4",
+     "sound": "drum",
+     "gain": 0.75
+    }
+   ]
   },
   {
    "id": 54,
@@ -2985,8 +4506,58 @@
     "cast": "禹（老年）：白发、朱衣褪色；表情：苍老、复杂",
     "sfx": "老人一声轻咳"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "age": 3567
+   },
+   "sfxFrames": [
+    {
+     "at": "DRP2:01.1",
+     "sound": "qing",
+     "gain": 0.8,
+     "f": 3567
+    },
+    {
+     "at": "DRP2:01.2",
+     "sound": "wind",
+     "gain": 0.5,
+     "dur": 2.0,
+     "f": 3583
+    }
+   ],
+   "cast": [
+    {
+     "who": "yu",
+     "outfit": "kingOld",
+     "expr": [
+      [
+       "DRP2:01.1",
+       "complex"
+      ]
+     ],
+     "exprFrames": [
+      [
+       3567,
+       "complex"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "age": "DRP2:01.1"
+   },
+   "sfx": [
+    {
+     "at": "DRP2:01.1",
+     "sound": "qing",
+     "gain": 0.8
+    },
+    {
+     "at": "DRP2:01.2",
+     "sound": "wind",
+     "gain": 0.5,
+     "dur": 2.0
+    }
+   ]
   },
   {
    "id": 55,
@@ -3010,8 +4581,77 @@
     "cast": "益：中年，素葛衣；表情：恭谨。启：朱衣、玉镯；表情：隐忍、眼神发直",
     "sfx": "玉鸣"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "give": 3630
+   },
+   "sfxFrames": [
+    {
+     "at": "DRP2:02.1",
+     "sound": "jade",
+     "gain": 0.8,
+     "f": 3630
+    }
+   ],
+   "cast": [
+    {
+     "who": "yu",
+     "outfit": "kingOld",
+     "expr": [
+      [
+       "DRP2:02.1",
+       "complex"
+      ]
+     ],
+     "exprFrames": [
+      [
+       3630,
+       "complex"
+      ]
+     ]
+    },
+    {
+     "who": "yi",
+     "outfit": "yi",
+     "expr": [
+      [
+       "DRP2:02.1",
+       "respect"
+      ]
+     ],
+     "exprFrames": [
+      [
+       3630,
+       "respect"
+      ]
+     ]
+    },
+    {
+     "who": "qi",
+     "outfit": "qi",
+     "expr": [
+      [
+       "DRP2:02.1",
+       "suppressed"
+      ]
+     ],
+     "exprFrames": [
+      [
+       3630,
+       "suppressed"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "give": "DRP2:02.1"
+   },
+   "sfx": [
+    {
+     "at": "DRP2:02.1",
+     "sound": "jade",
+     "gain": 0.8
+    }
+   ]
   },
   {
    "id": 56,
@@ -3030,8 +4670,58 @@
     "cast": "益：粗麻素服；表情：悲恸",
     "sfx": "风、乌鸦"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "fire": 3694
+   },
+   "sfxFrames": [
+    {
+     "at": "DRP2:03.1",
+     "sound": "fire",
+     "gain": 0.6,
+     "dur": 2.0,
+     "f": 3694
+    },
+    {
+     "at": "DRP2:03.3",
+     "sound": "crow",
+     "gain": 0.6,
+     "f": 3725
+    }
+   ],
+   "cast": [
+    {
+     "who": "yi",
+     "outfit": "mourning",
+     "expr": [
+      [
+       "DRP2:03.1",
+       "sorrow"
+      ]
+     ],
+     "exprFrames": [
+      [
+       3694,
+       "sorrow"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "fire": "DRP2:03.1"
+   },
+   "sfx": [
+    {
+     "at": "DRP2:03.1",
+     "sound": "fire",
+     "gain": 0.6,
+     "dur": 2.0
+    },
+    {
+     "at": "DRP2:03.3",
+     "sound": "crow",
+     "gain": 0.6
+    }
+   ]
   },
   {
    "id": 57,
@@ -3055,8 +4745,49 @@
     "cast": "益：背包袱；途中回头一次，表情：犹豫",
     "sfx": "脚步声（与 2-4 同一音色）"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "walk": 3757,
+    "look": 3789
+   },
+   "sfxFrames": [
+    {
+     "at": "DRP2:04.1",
+     "sound": "steps",
+     "gain": 0.8,
+     "dur": 2.0,
+     "f": 3757
+    }
+   ],
+   "cast": [
+    {
+     "who": "yi",
+     "outfit": "yi",
+     "expr": [
+      [
+       "DRP2:04.1",
+       "hesitate"
+      ]
+     ],
+     "exprFrames": [
+      [
+       3757,
+       "hesitate"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "walk": "DRP2:04.1",
+    "look": "DRP2:04.3"
+   },
+   "sfx": [
+    {
+     "at": "DRP2:04.1",
+     "sound": "steps",
+     "gain": 0.8,
+     "dur": 2.0
+    }
+   ]
   },
   {
    "id": 58,
@@ -3073,15 +4804,69 @@
      "color": "luodian"
     }
    ],
-   "display": "bottom",
+   "display": "slam",
    "desc": {
     "scene": "【4-3】三层剧本｜全景｜底色 赭红 #6B2D22，三层逆光",
     "action": "**转场：漆板层叠推入**——三块半透明漆板从景深处依次推到前景：尧→舜、舜→禹、禹→益，构图完全一样，都定在“躲开”那一刻；三枚圭影叠在一起。",
     "cast": "三代让位者剪影：同一姿势",
     "sfx": "三声递进鼓"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "p1": 3821,
+    "p2": 3837,
+    "p3": 3853
+   },
+   "sfxFrames": [
+    {
+     "at": "DRP2:05.1",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true,
+     "f": 3821
+    },
+    {
+     "at": "DRP2:05.2",
+     "sound": "drum",
+     "gain": 0.65,
+     "f": 3837
+    },
+    {
+     "at": "DRP2:05.3",
+     "sound": "drum",
+     "gain": 0.8,
+     "f": 3853
+    }
+   ],
+   "slam": {
+    "pre": "同一个剧本，",
+    "key": "第三遍",
+    "post": "",
+    "at": "DRP2:05.1",
+    "f": 3821
+   },
+   "cues": {
+    "p1": "DRP2:05.1",
+    "p2": "DRP2:05.2",
+    "p3": "DRP2:05.3"
+   },
+   "sfx": [
+    {
+     "at": "DRP2:05.1",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true
+    },
+    {
+     "at": "DRP2:05.2",
+     "sound": "drum",
+     "gain": 0.65
+    },
+    {
+     "at": "DRP2:05.3",
+     "sound": "drum",
+     "gain": 0.8
+    }
+   ]
   },
   {
    "id": 59,
@@ -3098,15 +4883,54 @@
      "color": "zhu"
     }
    ],
-   "display": "bottom",
+   "display": "slam",
    "desc": {
     "scene": "同【4-3】｜特写第三块板",
     "action": "{DRP2:06.3} **爆点**：第三块板上的火把长龙突然掉头反向流走；同时玄圭从中间裂成两半（**贯穿物件“裂开”**），一半飘向益，一半飘向启。",
     "cast": "无（剪影）",
     "sfx": "{DRP2:06.3} 裂响+重低音"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "turn": 3916
+   },
+   "sfxFrames": [
+    {
+     "at": "DRP2:06.3",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true,
+     "f": 3916
+    },
+    {
+     "at": "DRP2:06.3",
+     "sound": "crackBig",
+     "gain": 0.9,
+     "f": 3916
+    }
+   ],
+   "slam": {
+    "pre": "这一次，",
+    "key": "结局变了",
+    "post": "",
+    "at": "DRP2:06.3",
+    "f": 3916
+   },
+   "cues": {
+    "turn": "DRP2:06.3"
+   },
+   "sfx": [
+    {
+     "at": "DRP2:06.3",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true
+    },
+    {
+     "at": "DRP2:06.3",
+     "sound": "crackBig",
+     "gain": 0.9
+    }
+   ]
   },
   {
    "id": 60,
@@ -3125,8 +4949,74 @@
     "cast": "启：青年，朱衣玉饰；表情：意外。首领们：俯身行礼",
     "sfx": "人群声"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "kneel": 3964
+   },
+   "sfxFrames": [
+    {
+     "at": "DRP2:07.1",
+     "sound": "drum",
+     "gain": 0.6,
+     "f": 3948
+    },
+    {
+     "at": "DRP2:07.2",
+     "sound": "murmur",
+     "gain": 0.7,
+     "dur": 2.0,
+     "f": 3964
+    }
+   ],
+   "cast": [
+    {
+     "who": "qi",
+     "outfit": "qi",
+     "expr": [
+      [
+       "DRP2:07.1",
+       "surprised"
+      ]
+     ],
+     "exprFrames": [
+      [
+       3948,
+       "surprised"
+      ]
+     ]
+    },
+    {
+     "who": "chiefs",
+     "outfit": "various",
+     "expr": [
+      [
+       "DRP2:07.2",
+       "respect"
+      ]
+     ],
+     "exprFrames": [
+      [
+       3964,
+       "respect"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "kneel": "DRP2:07.2"
+   },
+   "sfx": [
+    {
+     "at": "DRP2:07.1",
+     "sound": "drum",
+     "gain": 0.6
+    },
+    {
+     "at": "DRP2:07.2",
+     "sound": "murmur",
+     "gain": 0.7,
+     "dur": 2.0
+    }
+   ]
   },
   {
    "id": 61,
@@ -3143,15 +5033,77 @@
      "color": "zhu"
     }
    ],
-   "display": "bottom",
+   "display": "slam",
    "desc": {
     "scene": "同【4-4】｜推到启的脸",
     "action": "首领们的目光落到启腰间玉饰（与禹同款纹样）；镜头推到启的脸：嘴角压不住地上扬，随即收住。",
     "cast": "启：表情：意外→得意→迅速收敛成冷静",
     "sfx": "一声极轻的笑"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "smirk": 4044
+   },
+   "sfxFrames": [
+    {
+     "at": "DRP2:08.3",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true,
+     "f": 4044
+    }
+   ],
+   "slam": {
+    "pre": "理由是：他是禹的",
+    "key": "儿子",
+    "post": "",
+    "at": "DRP2:08.3",
+    "f": 4044
+   },
+   "cast": [
+    {
+     "who": "qi",
+     "outfit": "qi",
+     "expr": [
+      [
+       "DRP2:08.2",
+       "surprised"
+      ],
+      [
+       "DRP2:08.3",
+       "smug"
+      ],
+      [
+       "DRP2:09.1",
+       "calm"
+      ]
+     ],
+     "exprFrames": [
+      [
+       4028,
+       "surprised"
+      ],
+      [
+       4044,
+       "smug"
+      ],
+      [
+       4076,
+       "calm"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "smirk": "DRP2:08.3"
+   },
+   "sfx": [
+    {
+     "at": "DRP2:08.3",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true
+    }
+   ]
   },
   {
    "id": 62,
@@ -3175,8 +5127,42 @@
     "cast": "首领们的手（只见手）投石子",
     "sfx": "石子落罐“叮叮”"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "pots": 4092,
+    "r1": 4107,
+    "r2": 4123
+   },
+   "sfxFrames": [
+    {
+     "at": "DRP2:09.3",
+     "sound": "pebbles",
+     "gain": 0.8,
+     "f": 4107
+    },
+    {
+     "at": "DRP2:09.4",
+     "sound": "pebbles",
+     "gain": 0.8,
+     "f": 4123
+    }
+   ],
+   "cues": {
+    "pots": "DRP2:09.2",
+    "r1": "DRP2:09.3",
+    "r2": "DRP2:09.4"
+   },
+   "sfx": [
+    {
+     "at": "DRP2:09.3",
+     "sound": "pebbles",
+     "gain": 0.8
+    },
+    {
+     "at": "DRP2:09.4",
+     "sound": "pebbles",
+     "gain": 0.8
+    }
+   ]
   },
   {
    "id": 63,
@@ -3200,8 +5186,40 @@
     "cast": "投石的手：同一批手转向右罐",
     "sfx": "石子倾泻“哗”+描金“丝——”"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "pour": 4171,
+    "mend": 4187
+   },
+   "sfxFrames": [
+    {
+     "at": "DRP2:10.3",
+     "sound": "pebblesPour",
+     "gain": 0.9,
+     "f": 4171
+    },
+    {
+     "at": "DRP2:10.4",
+     "sound": "goldDraw",
+     "gain": 0.7,
+     "f": 4187
+    }
+   ],
+   "cues": {
+    "pour": "DRP2:10.3",
+    "mend": "DRP2:10.4"
+   },
+   "sfx": [
+    {
+     "at": "DRP2:10.3",
+     "sound": "pebblesPour",
+     "gain": 0.9
+    },
+    {
+     "at": "DRP2:10.4",
+     "sound": "goldDraw",
+     "gain": 0.7
+    }
+   ]
   },
   {
    "id": 64,
@@ -3220,8 +5238,45 @@
     "cast": "益：从屋里探头；表情：警觉",
     "sfx": "劈空“唰”"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "slash": 4219
+   },
+   "sfxFrames": [
+    {
+     "at": "DRP2:11.2",
+     "sound": "axe",
+     "gain": 0.9,
+     "f": 4219
+    }
+   ],
+   "cast": [
+    {
+     "who": "yi",
+     "outfit": "yi",
+     "expr": [
+      [
+       "DRP2:11.2",
+       "alert"
+      ]
+     ],
+     "exprFrames": [
+      [
+       4219,
+       "alert"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "slash": "DRP2:11.2"
+   },
+   "sfx": [
+    {
+     "at": "DRP2:11.2",
+     "sound": "axe",
+     "gain": 0.9
+    }
+   ]
   },
   {
    "id": 65,
@@ -3240,8 +5295,76 @@
     "cast": "启：持钺；表情：冷静坚定。部众：表情：凶狠。益：表情：惊恐",
     "sfx": "呐喊、火把呼啸"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "rush": 4267
+   },
+   "sfxFrames": [
+    {
+     "at": "DRP2:12.1",
+     "sound": "shout",
+     "gain": 0.8,
+     "dur": 1.6,
+     "f": 4267
+    },
+    {
+     "at": "DRP2:12.1",
+     "sound": "fire",
+     "gain": 0.6,
+     "dur": 2.4,
+     "f": 4267
+    }
+   ],
+   "cast": [
+    {
+     "who": "qi",
+     "outfit": "qi",
+     "expr": [
+      [
+       "DRP2:12.1",
+       "stern"
+      ]
+     ],
+     "exprFrames": [
+      [
+       4267,
+       "stern"
+      ]
+     ]
+    },
+    {
+     "who": "yi",
+     "outfit": "yi",
+     "expr": [
+      [
+       "DRP2:12.1",
+       "fear"
+      ]
+     ],
+     "exprFrames": [
+      [
+       4267,
+       "fear"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "rush": "DRP2:12.1"
+   },
+   "sfx": [
+    {
+     "at": "DRP2:12.1",
+     "sound": "shout",
+     "gain": 0.8,
+     "dur": 1.6
+    },
+    {
+     "at": "DRP2:12.1",
+     "sound": "fire",
+     "gain": 0.6,
+     "dur": 2.4
+    }
+   ]
   },
   {
    "id": 66,
@@ -3260,8 +5383,40 @@
     "cast": "无",
     "sfx": "竹简落地“哗啦”、滴落声"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "slips": 4346,
+    "drip": 4393
+   },
+   "sfxFrames": [
+    {
+     "at": "DRP2:13.2",
+     "sound": "scroll",
+     "gain": 0.9,
+     "f": 4346
+    },
+    {
+     "at": "DRP2:14.1",
+     "sound": "drip",
+     "gain": 0.8,
+     "f": 4393
+    }
+   ],
+   "cues": {
+    "slips": "DRP2:13.2",
+    "drip": "DRP2:14.1"
+   },
+   "sfx": [
+    {
+     "at": "DRP2:13.2",
+     "sound": "scroll",
+     "gain": 0.9
+    },
+    {
+     "at": "DRP2:14.1",
+     "sound": "drip",
+     "gain": 0.8
+    }
+   ]
   },
   {
    "id": 67,
@@ -3280,8 +5435,27 @@
     "cast": "无",
     "sfx": "碎片吸合“咔咔咔”"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "reform": 4442
+   },
+   "sfxFrames": [
+    {
+     "at": "DRP2:14.4",
+     "sound": "shardsReform",
+     "gain": 0.9,
+     "f": 4442
+    }
+   ],
+   "cues": {
+    "reform": "DRP2:14.4"
+   },
+   "sfx": [
+    {
+     "at": "DRP2:14.4",
+     "sound": "shardsReform",
+     "gain": 0.9
+    }
+   ]
   },
   {
    "id": 68,
@@ -3300,8 +5474,60 @@
     "cast": "无",
     "sfx": "链环扣合声卡每拍"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "chain": 4505
+   },
+   "sfxFrames": [
+    {
+     "at": "DRP2:15.4",
+     "sound": "chain",
+     "gain": 0.7,
+     "f": 4505
+    },
+    {
+     "at": "DRP2:16.1",
+     "sound": "chain",
+     "gain": 0.7,
+     "f": 4521
+    },
+    {
+     "at": "DRP2:16.2",
+     "sound": "chain",
+     "gain": 0.7,
+     "f": 4537
+    },
+    {
+     "at": "DRP2:16.3",
+     "sound": "chain",
+     "gain": 0.7,
+     "f": 4553
+    }
+   ],
+   "cues": {
+    "chain": "DRP2:15.4"
+   },
+   "sfx": [
+    {
+     "at": "DRP2:15.4",
+     "sound": "chain",
+     "gain": 0.7
+    },
+    {
+     "at": "DRP2:16.1",
+     "sound": "chain",
+     "gain": 0.7
+    },
+    {
+     "at": "DRP2:16.2",
+     "sound": "chain",
+     "gain": 0.7
+    },
+    {
+     "at": "DRP2:16.3",
+     "sound": "chain",
+     "gain": 0.7
+    }
+   ]
   },
   {
    "id": 69,
@@ -3318,15 +5544,74 @@
      "color": "gold"
     }
    ],
-   "display": "bottom",
+   "display": "slam",
    "desc": {
     "scene": "【5-1】抽象·人环｜中景对称构图｜底色 暗牙黄 #6B5D44，柔和天光",
     "action": "**转场：金箔平脱**——一片金箔从中心展开盖住画面后揭去。中央是一个大圆环（呼应 0-3 的篝火环），许多小人手拉手围成一圈。",
     "cast": "众人剪影：葛麻衣；表情：平和",
     "sfx": "风铃似的高音"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "ring": 4569
+   },
+   "sfxFrames": [
+    {
+     "at": "DRP2:16.4",
+     "sound": "windChime",
+     "gain": 0.8,
+     "dur": 2.0,
+     "f": 4569
+    },
+    {
+     "at": "OUT:01.1",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true,
+     "f": 4584
+    }
+   ],
+   "slam": {
+    "pre": "据《礼记》记载，从前",
+    "key": "天下为公",
+    "post": "",
+    "at": "OUT:01.1",
+    "f": 4584
+   },
+   "cast": [
+    {
+     "who": "people",
+     "outfit": "commoner",
+     "expr": [
+      [
+       "DRP2:16.4",
+       "calm"
+      ]
+     ],
+     "exprFrames": [
+      [
+       4569,
+       "calm"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "ring": "DRP2:16.4"
+   },
+   "sfx": [
+    {
+     "at": "DRP2:16.4",
+     "sound": "windChime",
+     "gain": 0.8,
+     "dur": 2.0
+    },
+    {
+     "at": "OUT:01.1",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true
+    }
+   ]
   },
   {
    "id": 70,
@@ -3343,15 +5628,56 @@
      "color": "zhu"
     }
    ],
-   "display": "bottom",
+   "display": "slam",
    "desc": {
     "scene": "同【5-1】｜缓推",
     "action": "圆环上的手一只只松开，环收缩成一条竖直的父子链（小圭链），只剩一家一条线。",
     "cast": "剪影：松手；表情：茫然",
     "sfx": "松手轻响逐个响起"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "release": 4648
+   },
+   "sfxFrames": [
+    {
+     "at": "OUT:02.1",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true,
+     "f": 4648
+    },
+    {
+     "at": "OUT:02.2",
+     "sound": "release",
+     "gain": 0.6,
+     "dur": 1.6,
+     "f": 4664
+    }
+   ],
+   "slam": {
+    "pre": "后来，成了",
+    "key": "天下为家",
+    "post": "",
+    "at": "OUT:02.1",
+    "f": 4648
+   },
+   "cues": {
+    "release": "OUT:02.1"
+   },
+   "sfx": [
+    {
+     "at": "OUT:02.1",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true
+    },
+    {
+     "at": "OUT:02.2",
+     "sound": "release",
+     "gain": 0.6,
+     "dur": 1.6
+    }
+   ]
   },
   {
    "id": 71,
@@ -3370,8 +5696,29 @@
     "cast": "无",
     "sfx": "低音铺底"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "gather": 4712
+   },
+   "sfxFrames": [
+    {
+     "at": "OUT:03.1",
+     "sound": "drone",
+     "gain": 0.8,
+     "dur": 2.0,
+     "f": 4712
+    }
+   ],
+   "cues": {
+    "gather": "OUT:03.1"
+   },
+   "sfx": [
+    {
+     "at": "OUT:03.1",
+     "sound": "drone",
+     "gain": 0.8,
+     "dur": 2.0
+    }
+   ]
   },
   {
    "id": 72,
@@ -3390,8 +5737,27 @@
     "cast": "禹（灰色残影）：重播立掌推回",
     "sfx": "开头那声“嗵”的弱化回声"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "ghost": 4807
+   },
+   "sfxFrames": [
+    {
+     "at": "OUT:04.3",
+     "sound": "thudEcho",
+     "gain": 0.9,
+     "f": 4807
+    }
+   ],
+   "cues": {
+    "ghost": "OUT:04.3"
+   },
+   "sfx": [
+    {
+     "at": "OUT:04.3",
+     "sound": "thudEcho",
+     "gain": 0.9
+    }
+   ]
   },
   {
    "id": 73,
@@ -3408,15 +5774,76 @@
      "color": "zhu"
     }
    ],
-   "display": "bottom",
+   "display": "slam",
    "desc": {
     "scene": "同【5-3】｜同机位，极慢推近",
     "action": "残影散去；左边递圭的手（益）慢慢抽走，圭悬在中央。右边伸进一只年轻、戴玉镯的手，{OUT:06.1} **重拍**五指合拢握住玄圭——和开头的“推”同一位置、方向相反。握住瞬间金缝亮起。",
     "cast": "启：只见右手与前臂，朱衣袖口、玉镯（龙山时代首领装推想）；动作：握紧",
     "sfx": "{OUT:06.1} 握紧闷响；BGM 渐慢"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "withdraw": 4855,
+    "grip": 4903,
+    "pull": 4919
+   },
+   "sfxFrames": [
+    {
+     "at": "OUT:06.1",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true,
+     "f": 4903
+    },
+    {
+     "at": "OUT:06.1",
+     "sound": "jade",
+     "gain": 0.7,
+     "f": 4903
+    }
+   ],
+   "slam": {
+    "pre": "而是启",
+    "key": "握住",
+    "post": "它的时候",
+    "at": "OUT:06.1",
+    "f": 4903
+   },
+   "cast": [
+    {
+     "who": "qi",
+     "outfit": "qi",
+     "expr": [
+      [
+       "OUT:05.1",
+       "calm"
+      ]
+     ],
+     "exprFrames": [
+      [
+       4839,
+       "calm"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "withdraw": "OUT:05.2",
+    "grip": "OUT:06.1",
+    "pull": "OUT:06.2"
+   },
+   "sfx": [
+    {
+     "at": "OUT:06.1",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true
+    },
+    {
+     "at": "OUT:06.1",
+     "sound": "jade",
+     "gain": 0.7
+    }
+   ]
   },
   {
    "id": 74,
@@ -3427,7 +5854,12 @@
    "startFrame": 4965,
    "endFrame": 5087,
    "text": "此后几千年，换姓不换规矩",
-   "emphasis": [],
+   "emphasis": [
+    {
+     "word": "换姓不换规矩",
+     "color": "gold"
+    }
+   ],
    "display": "bottom",
    "desc": {
     "scene": "【5-4】收束·无数只手｜大全景急拉→黑场｜底色 朱漆退为玄黑 #0B0A09",
@@ -3435,8 +5867,73 @@
     "cast": "无数只手的剪影：袖口纹样由葛麻渐变为后世各朝纹样（只作纹样示意，不具体到人）",
     "sfx": "结束音后只留余音拖尾，不加新音效"
    },
-   "cueFrames": {},
-   "sfxFrames": []
+   "cueFrames": {
+    "end": 4965,
+    "draw": 4919
+   },
+   "sfxFrames": [
+    {
+     "at": "OUT:06.2",
+     "sound": "goldDraw",
+     "gain": 0.8,
+     "f": 4919
+    },
+    {
+     "at": "OUT:END",
+     "sound": "finale",
+     "gain": 1.0,
+     "duck": true,
+     "f": 4965
+    },
+    {
+     "at": "OUT:END",
+     "sound": "goldShower",
+     "gain": 0.8,
+     "dur": 3.6,
+     "f": 4965
+    }
+   ],
+   "cast": [
+    {
+     "who": "yu",
+     "outfit": "kingOld",
+     "expr": [
+      [
+       "OUT:END",
+       "relief"
+      ]
+     ],
+     "exprFrames": [
+      [
+       4965,
+       "relief"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "end": "OUT:END",
+    "draw": "OUT:06.2"
+   },
+   "sfx": [
+    {
+     "at": "OUT:06.2",
+     "sound": "goldDraw",
+     "gain": 0.8
+    },
+    {
+     "at": "OUT:END",
+     "sound": "finale",
+     "gain": 1.0,
+     "duck": true
+    },
+    {
+     "at": "OUT:END",
+     "sound": "goldShower",
+     "gain": 0.8,
+     "dur": 3.6
+    }
+   ]
   }
  ]
 }

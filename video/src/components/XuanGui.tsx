@@ -102,7 +102,7 @@ export const XuanGui: React.FC<{f: number; x: number; y: number; h: number; rot?
       </g>
       <g clipPath={`url(#gc-${id})`}>
         {/* 刷痕纹理与磨显层 */}
-        <rect x={-h} y={-h} width={h * 2} height={h * 2} filter="url(#lqBrush)" opacity={0.18} style={{mixBlendMode: 'soft-light'}} />
+        <rect x={-h} y={-h} width={h * 2} height={h * 2} fill="url(#brushPat)" opacity={Math.min(1, (0.18) * 4)} />
         {/* 漆面高光带 */}
         <rect x={sheenX - h * 0.08} y={-h} width={h * 0.16} height={h * 2} fill="#fff6e0" opacity={0.16 * formed} transform={`rotate(20)`} />
         <rect x={sheenX - h * 0.02} y={-h} width={h * 0.04} height={h * 2} fill="#fff" opacity={0.2 * formed} transform={`rotate(20)`} />

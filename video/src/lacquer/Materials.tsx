@@ -24,11 +24,11 @@ export const LacquerBackdrop: React.FC<{
           <stop offset="1" stopColor={shade(base, -0.35)} />
         </linearGradient>
       </defs>
-      <rect x={-w} y={-h} width={w * 3} height={h * 3} fill={`url(#${id}g)`} />
-      <rect x={-w} y={-h} width={w * 3} height={h * 3} fill={`url(#${id}l)`} />
-      <rect x={-w} y={-h} width={w * 3} height={h * 3} filter="url(#lqBrush)" opacity={brush} style={{mixBlendMode: 'soft-light'}}
+      <rect x={-w * 0.4} y={-h * 0.4} width={w * 1.8} height={h * 1.8} fill={`url(#${id}g)`} />
+      <rect x={-w * 0.4} y={-h * 0.4} width={w * 1.8} height={h * 1.8} fill={`url(#${id}l)`} />
+      <rect x={-w * 0.4} y={-h * 0.4} width={w * 1.8} height={h * 1.8} fill="url(#brushPat)" opacity={Math.min(1, brush * 4)}
         transform={`translate(${osc(f, 400) * 6},0)`} />
-      <rect x={-w} y={-h} width={w * 3} height={h * 3} fill={`url(#${id}v)`} />
+      <rect x={-w * 0.4} y={-h * 0.4} width={w * 1.8} height={h * 1.8} fill={`url(#${id}v)`} />
     </g>
   );
 };

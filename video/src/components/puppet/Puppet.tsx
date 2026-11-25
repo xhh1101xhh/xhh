@@ -220,6 +220,14 @@ export const Puppet: React.FC<PuppetProps> = (pr) => {
     </g>
   ) : null;
 
+  // 高冠（战国）
+  const highcap = O.crown === 'highcap' && !silhouette ? (
+    <g>
+      <path d={poly([hp(-10, -22), hp(10, -24), hp(14, -52), hp(-8, -54)])} fill="#141210" stroke="url(#gold)" strokeWidth={outlineW * 0.5} />
+      <path d={`M${f1(hp(-12, -20)[0])},${f1(hp(-12, -20)[1])} L${f1(hp(-16, 8)[0])},${f1(hp(-16, 8)[1])}`} stroke="#8a2a20" strokeWidth={2.2} />
+    </g>
+  ) : null;
+  const beard = O.beard && view === 'front' ? <path d={smooth([hp(-6, 14), hp(9, 14), hp(8, 24), hp(2, 32), hp(-4, 24)])} fill={C(O.beard)} /> : null;
   // 发带：两条随次级姿势与风飘动的带子
   const ribbon = (O.hairStyle !== 'loose' && !O.crown && !silhouette) ? (() => {
     const base = add(bun, mul(rt(headAng), -6));
@@ -285,7 +293,9 @@ export const Puppet: React.FC<PuppetProps> = (pr) => {
       {group(bodyPaths, bodyDetails)}
       {ribbon}
       {crown}
+      {highcap}
       {face}
+      {beard}
       {backFirst ? farArm : nearArm}
       {pr.hold && pr.hold(wristR[0], wristR[1], T + P.shR + P.elR)}
       {pr.holdL && pr.holdL(wristL[0], wristL[1], T + P.shL + P.elL)}
@@ -294,8 +304,8 @@ export const Puppet: React.FC<PuppetProps> = (pr) => {
 };
 
 /** 群众（小剪影人群）：轻量版 */
-export const Crowd: React.FC<{f: number; x: number; y: number; n: number; spacing?: number; scale?: number; color?: string; seed?: number; headTurn?: number; rows?: number; part?: number}> =
-  ({f, x, y, n, spacing = 40, scale = 0.5, color = '#2a1d16', seed = 3, headTurn = 0, rows = 1, part = 0}) => {
+export const Crowd: React.FC<{f: number; x: number; y: number; n: number; spacing?: number; scale?: number; color?: string; seed?: number; headTurn?: number; rows?: number; part?: number; kneel?: number}> =
+  ({f, x, y, n, spacing = 40, scale = 0.5, color = '#2a1d16', seed = 3, headTurn = 0, rows = 1, part = 0, kneel = 0}) => {
   const r = mulberry32(seed);
   const out = [];
   for (let row = 0; row < rows; row++) {
@@ -309,7 +319,7 @@ export const Crowd: React.FC<{f: number; x: number; y: number; n: number; spacin
       const bob = osc(f, 40 + jitter * 30, jitter) * 1.5;
       const hd = headTurn * (8 + jitter * 6);
       out.push(
-        <g key={row * 100 + i} transform={`translate(${cx},${cy + bob}) scale(${s})`}>
+        <g key={row * 100 + i} transform={`translate(${cx},${cy + bob}) scale(${s},${s * (1 - kneel * 0.45)}) rotate(${kneel * 18})`}>
           <path d="M-20,0 L-16,-70 Q0,-80 16,-70 L20,0 Z" fill={shade(color, row * 0.06)} />
           <ellipse cx={hd * 0.4} cy={-92} rx={14} ry={16} fill={shade(color, row * 0.06 + 0.05)} transform={`rotate(${hd} 0 -80)`} />
           <circle cx={hd * 0.4 - 2} cy={-108} r={7} fill={shade(color, -0.1)} />

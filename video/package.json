@@ -12,7 +12,12 @@
     "studio": "remotion studio src/index.ts",
     "render:preview": "npm run prep:preview && remotion render src/index.ts Preview out/preview.mp4 --codec h264 --crf 18 --audio-codec aac --audio-bitrate 320k",
     "check": "python3 scripts/check_frames.py out/preview.mp4",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "prep:full": "npm run analyze && npm run sync && npm run audio:full",
+    "render:full": "npm run prep:full && node scripts/render_full.mjs",
+    "render:segments": "node scripts/render_full.mjs",
+    "check:full": "python3 scripts/check_frames.py out/yu_xia_full.mp4",
+    "cover": "node scripts/cover.mjs"
   },
   "keywords": [],
   "author": "",

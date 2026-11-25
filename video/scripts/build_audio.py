@@ -52,6 +52,8 @@ def hp(x, f, order=2): return signal.sosfilt(signal.butter(order, f, "highpass",
 def sine(freq, d, phase=0):
     if np.isscalar(freq): return np.sin(2 * np.pi * freq * t_(d) + phase)
     return np.sin(2 * np.pi * np.cumsum(freq) / SR + phase)
+def addat(x, i, c):
+    j = min(len(x), i + len(c)); x[i:j] += c[: j - i]
 def mixa(*xs):
     n = max(len(x) for x in xs); return sum(np.pad(x, (0, n - len(x))) for x in xs)
 def norm(x): m = np.max(np.abs(x)) + 1e-9; return x / m
@@ -110,7 +112,7 @@ def make(name, dur=None):
     if name == "steps":
         d = dur or 1.0; x = np.zeros(int(d * SR))
         for k in range(int(d / 0.33)):
-            i = int(k * 0.33 * SR); s = lp(noise(0.12), 500) * env_exp(0.12, 0.03); x[i:i + len(s)] += s[: len(x) - i]
+            i = int(k * 0.33 * SR); s = lp(noise(0.12), 500) * env_exp(0.12, 0.03); addat(x, i, s)
         return norm(x)
     if name == "jade":
         return chime(note(2, 6), [1, 2.76, 5.4, 8.93], 1.6)
@@ -139,14 +141,14 @@ def make(name, dur=None):
         d = 0.9; x = hp(noise(d), 5000) * 0.15 * np.sin(np.pi * t_(d) / d)
         for _ in range(26):
             i = rng.integers(0, int(0.75 * SR)); f0 = note(int(rng.integers(5, 12)), 6); p = sine(f0, 0.15) * env_exp(0.15, 0.04)
-            x[i:i + len(p)] += p * rng.uniform(0.2, 0.6)
+            addat(x, i, p * rng.uniform(0.2, 0.6))
         return norm(x)
     if name == "crackTick":
         return norm(pad(wood(2600, 0.08, 0.006), 0.5) + pad(chime(note(4, 6), [1, 2.3], 0.5), 0.5) * 0.4)
     if name == "shatter":
         d = 1.6; x = lp(noise(d), 9000) * env_exp(d, 0.08) * 0.6 + pad(drum(55, 0.8, 0.4), d) * 0.8
         for k in range(10):
-            i = rng.integers(0, int(0.4 * SR)); p = chime(note(int(rng.integers(5, 13)), 6), [1, 2.7], 0.6); x[i:i + len(p)] += p * rng.uniform(0.15, 0.4)
+            i = rng.integers(0, int(0.4 * SR)); p = chime(note(int(rng.integers(5, 13)), 6), [1, 2.7], 0.6); addat(x, i, p * rng.uniform(0.15, 0.4))
         return norm(reverb(x, 0.3))
     if name == "flood":
         d = dur or 4; x = lp(noise(d), 700, 3) * (0.7 + 0.3 * np.sin(2 * np.pi * 0.5 * t_(d))); return norm(x * adsr(d, 0.4, 1.2))
@@ -178,7 +180,7 @@ def make(name, dur=None):
     if name == "rainSwish":
         return norm(whoosh(0.5, 1500, 6000) + hp(noise(0.5), 3000) * 0.3 * np.sin(np.pi * t_(0.5) / 0.5))
     if name == "heartbeat":
-        x = np.zeros(int(0.7 * SR)); a = pad(drum(55, 0.25, 0.1), 0.25); x[: len(a)] += a; i = int(0.22 * SR); x[i:i + len(a)] += a * 0.7; return norm(x)
+        x = np.zeros(int(0.7 * SR)); a = pad(drum(55, 0.25, 0.1), 0.25); x[: len(a)] += a; i = int(0.22 * SR); addat(x, i, a * 0.7); return norm(x)
     if name == "tick":
         return wood(note(3, 5), 0.18, 0.02)
     if name == "qing":
@@ -189,12 +191,119 @@ def make(name, dur=None):
         d = dur or 2; x = bp(noise(d), 400, 3000) * (0.6 + 0.4 * np.sin(2 * np.pi * 3 * t_(d))); return norm(x * adsr(d, 0.3, 0.6))
     if name == "cheer":
         return babble(dur or 2.5)
+    if name == "doorCreak":
+        d = 0.8; fr = 180 + 60 * np.sin(2 * np.pi * 3 * t_(d)); x = sine(fr, d) * bp(noise(d), 300, 1500) * 0.5 + bp(noise(d), 400, 900) * 0.3
+        return norm(x * adsr(d, 0.05, 0.3))
+    if name == "doorBang":
+        return norm(mixa(drum(70, 0.6, 0.8), wood(420, 0.2, 0.03) * 0.8))
+    if name == "birds":
+        d = dur or 1.5; x = np.zeros(int(d * SR))
+        for _ in range(int(8 * d)):
+            i = rng.integers(0, len(x) - int(0.12 * SR)); f0 = rng.uniform(2500, 4200); n = int(0.1 * SR)
+            ch = np.sin(2 * np.pi * np.cumsum(f0 + 900 * np.sin(np.linspace(0, 6, n))) / SR) * np.hanning(n); x[i:i + n] += ch * rng.uniform(0.3, 0.8)
+        return norm(x)
+    if name == "rewind":
+        return norm(whoosh(0.6, 3500, 300)[::-1] * 0.8 + bp(noise(0.6), 2000, 6000) * np.linspace(0.1, 0.4, int(0.6 * SR)))
+    if name == "boxClose":
+        return norm(mixa(wood(260, 0.35, 0.05), drum(90, 0.4, 0.3) * 0.6, np.concatenate([np.zeros(int(0.05 * SR)), wood(520, 0.1, 0.01) * 0.5])))
+    if name == "click":
+        return wood(note(4, 6), 0.08, 0.006)
+    if name == "stamp":
+        return norm(mixa(drum(100, 0.4, 0.9), wood(700, 0.12, 0.02) * 0.7))
+    if name == "cardFlip":
+        return norm(mixa(whoosh(0.18, 800, 3000) * 0.6, np.concatenate([np.zeros(int(0.14 * SR)), wood(900, 0.08, 0.01)])))
+    if name == "strike":
+        d = 0.35; return norm(bp(noise(d), 2500, 8000) * np.linspace(1, 0, int(d * SR)) ** 2 + sine(np.linspace(3000, 1800, int(d * SR)), d) * env_exp(d, 0.08) * 0.3)
+    if name == "scroll":
+        d = 0.7; x = np.zeros(int(d * SR))
+        for k in range(10):
+            i = int(k * 0.06 * SR); c = wood(rng.uniform(900, 1400), 0.06, 0.008); addat(x, i, c * 0.7)
+        return norm(x)
+    if name == "carve":
+        d = dur or 1.2; x = np.zeros(int(d * SR))
+        for k in range(int(d * 5)):
+            i = int(k * 0.2 * SR); n = int(0.12 * SR); x[i:i + n] += bp(noise(0.12), 3000, 7000) * np.hanning(n) * 0.6
+        return norm(x)
+    if name == "candle":
+        d = 0.4; return norm(lp(noise(d), 500) * env_exp(d, 0.06))
+    if name == "drone":
+        d = dur or 2; x = sine(note(0, 2), d) * 0.6 + sine(note(0, 2) * 1.5, d) * 0.3 + lp(noise(d), 200) * 0.3
+        return norm(x * adsr(d, 0.5, 0.6))
+    if name == "boneFlute":
+        d = 1.0; f0 = note(2, 5); fr = f0 * (1 + 0.006 * np.sin(2 * np.pi * 5 * t_(d))); x = sine(fr, d) + bp(noise(d), f0 * 0.8, f0 * 1.4) * 0.3
+        return norm(x * adsr(d, 0.08, 0.35))
+    if name == "jadeClink":
+        d = dur or 1.6; x = np.zeros(int(d * SR))
+        for k in range(9):
+            i = rng.integers(0, int((d - 0.6) * SR)); c = chime(note(int(rng.integers(3, 10)), 6), [1, 2.76, 5.4], 0.6); addat(x, i, c * rng.uniform(0.3, 0.7))
+        return norm(x)
+    if name == "stepsFast":
+        d = dur or 1.4; x = np.zeros(int(d * SR))
+        for k in range(int(d / 0.18)):
+            i = int(k * 0.18 * SR); s2 = lp(noise(0.08), 600) * env_exp(0.08, 0.02); addat(x, i, s2)
+        return norm(x)
+    if name == "splash":
+        d = 0.9; return norm(bp(noise(d), 300, 4000) * env_exp(d, 0.15) + lp(noise(d), 300) * env_exp(d, 0.25) * 0.6)
+    if name == "riser":
+        d = dur or 2; fr = np.linspace(note(0, 2), note(0, 4), int(d * SR)); x = sine(fr, d) * 0.5 + bp(noise(d), 400, 3000) * np.linspace(0, 0.6, int(d * SR))
+        return norm(x * adsr(d, 0.3, 0.1))
+    if name == "crow":
+        d = 0.5; x = np.zeros(int(d * SR))
+        for k in range(2):
+            i = int(k * 0.22 * SR); n = int(0.16 * SR); x[i:i + n] += bp(noise(0.16), 700, 1800) * np.hanning(n) * (1 + np.sin(2 * np.pi * 40 * np.arange(n) / SR))
+        return norm(x)
+    if name == "pebbles":
+        d = 0.5; x = np.zeros(int(d * SR))
+        for k in range(6):
+            i = rng.integers(0, int(0.35 * SR)); c = wood(rng.uniform(1800, 3200), 0.05, 0.005); addat(x, i, c * rng.uniform(0.4, 1))
+        return norm(x)
+    if name == "pebblesPour":
+        d = 1.0; x = np.zeros(int(d * SR))
+        for k in range(40):
+            i = rng.integers(0, int(0.85 * SR)); c = wood(rng.uniform(1600, 3400), 0.04, 0.004); addat(x, i, c * rng.uniform(0.3, 1))
+        return norm(x)
+    if name == "axe":
+        return norm(mixa(whoosh(0.25, 600, 4000), np.concatenate([np.zeros(int(0.2 * SR)), wood(320, 0.25, 0.04)])))
+    if name == "shout":
+        return norm(babble(dur or 1.5) * 1.0 + lp(noise(dur or 1.5), 600) * 0.3)
+    if name == "shardsReform":
+        d = 1.2; x = np.zeros(int(d * SR))
+        for k in range(10):
+            i = int((k / 10) * 0.9 * SR); c = chime(note(k + 2, 5), [1, 2.7], 0.4); addat(x, i, c * 0.5)
+        return norm(x)
+    if name == "chain":
+        return norm(mixa(chime(note(4, 6), [1, 2.9, 5.1], 0.5) * 0.6, wood(2400, 0.05, 0.005)))
+    if name == "windChime":
+        d = dur or 2; x = bp(noise(d), 300, 1200) * 0.15 * adsr(d, 0.4, 0.6)
+        for k in range(8):
+            i = rng.integers(0, int((d - 1.0) * SR)); c = chime(note(int(rng.integers(5, 12)), 6), [1, 2.4, 4.1], 1.0); addat(x, i, c * rng.uniform(0.3, 0.6))
+        return norm(x)
+    if name == "release":
+        d = dur or 1.6; x = np.zeros(int(d * SR))
+        for k in range(8):
+            i = int(k * 0.18 * SR); c = wood(note(7 - k % 5, 5), 0.1, 0.012); addat(x, i, c * 0.6)
+        return norm(x)
+    if name == "thudEcho":
+        return norm(reverb(drum(70, 0.6, 0.3) * 0.6, 0.6, 1.4))
+    if name == "finale":
+        d = 3.5
+        gong = chime(note(0, 3), [1, 1.48, 2.1, 2.83, 3.6, 4.4], d, taus=[1.6, 1.2, 1.0, 0.8, 0.6, 0.5])
+        x = mixa(drum(60, 1.5, 0.4) * 0.9, gong * 1.0, chime(note(0, 6), [1, 2.0, 3.01], 2.5) * 0.4)
+        x[: int(0.004 * SR)] *= np.linspace(0, 1, int(0.004 * SR))
+        return norm(np.tanh(norm(reverb(x, 0.3, 1.5)) * 1.8))
+    if name == "goldShower":
+        d = dur or 3.6; x = hp(noise(d), 6000) * 0.05 * adsr(d, 0.2, 1.2)
+        for _ in range(70):
+            i = rng.integers(0, int((d - 0.3) * SR)); c = sine(note(int(rng.integers(8, 15)), 6), 0.2) * env_exp(0.2, 0.05); addat(x, i, c * rng.uniform(0.1, 0.35) * (1 - i / len(x)))
+        return norm(x)
+    if name == "crackBig":
+        return norm(mixa(wood(2000, 0.1, 0.008), chime(note(1, 5), [1, 2.3, 3.7], 0.8) * 0.6, lp(noise(0.5), 3000) * env_exp(0.5, 0.05)))
     raise ValueError(name)
 
 # 各类音效相对电平（关键句砸屏最响）
 LEVEL = {"slam": 1.35, "shatter": 1.3, "damBreak": 0.75, "drum": 0.6, "bigThud": 0.65, "jade": 0.75, "bell": 0.7, "qing": 0.7,
          "wind": 0.18, "rain": 0.2, "flood": 0.32, "fire": 0.22, "murmur": 0.16, "cheer": 0.2, "thunder": 0.38, "knot": 0.55,
-         "tick": 0.35, "heartbeat": 0.5, "breath": 0.3, "goldDraw": 0.32, "steps": 0.25, "mudPull": 0.5, "drip": 0.95}
+         "tick": 0.35, "heartbeat": 0.5, "finale": 1.45, "stamp": 0.8, "doorBang": 0.75, "axe": 0.8, "crackBig": 0.85, "boxClose": 0.7, "jadeClink": 0.6, "windChime": 0.5, "goldShower": 0.45, "birds": 0.3, "drone": 0.3, "riser": 0.45, "shout": 0.3, "breath": 0.3, "goldDraw": 0.32, "steps": 0.25, "mudPull": 0.5, "drip": 0.95}
 
 bgm, sr0 = sf.read(bgm_path, always_2d=True)
 assert sr0 == SR
@@ -207,30 +316,43 @@ for s in D["screens"]:
     if s["startFrame"] >= end_frame: continue
     for c in s.get("sfxFrames", []):
         cues.append(c)
+BED = {'wind', 'rain', 'flood', 'fire', 'murmur', 'cheer', 'birds', 'drone', 'goldShower', 'steps', 'stepsFast', 'carve', 'windChime', 'shout', 'release', 'riser', 'waterFlow'}
+# 第一遍：ducking 包络（砸屏/终止重音压 9 dB，其余点状音效轻压 3 dB）
+for c in cues:
+    i = int(c["f"] / FPS * SR)
+    if i >= N: continue
+    if c.get("duck") or c["sound"] not in BED:
+        g = 10 ** ((-9 if c.get("duck") else -3) / 20)
+        a, b = max(0, i - int(0.03 * SR)), min(N, i + int((0.35 if c.get("duck") else 0.22) * SR))
+        duck[a:b] = np.minimum(duck[a:b], g)
+        rel = min(N, b + int(0.4 * SR))
+        duck[b:rel] = np.minimum(duck[b:rel], np.linspace(g, 1, rel - b))
+duck = signal.sosfiltfilt(signal.butter(1, 12, "lowpass", fs=SR, output="sos"), duck)
+bed_bgm = bgm * duck[:, None] * 0.62
+def rdb(x): return 20 * np.log10(np.sqrt(np.mean(x ** 2)) + 1e-9)
+# 第二遍：逐个音效按“当时 BGM 电平”自动补增益，保证不被淹没（关键句最响）
+gains = []
 for c in cues:
     t0 = c["f"] / FPS
     if t0 >= N / SR: continue
     x = make(c["sound"], c.get("dur"))
-    lvl = LEVEL.get(c["sound"], 0.45) * c.get("gain", 1)
-    x = x * lvl
+    x = x * LEVEL.get(c["sound"], 0.45) * c.get("gain", 1) * 1.5
     i = int(t0 * SR); j = min(N, i + len(x))
-    pan = 0.5 + 0.12 * np.sin(c["f"])  # 轻微声像
-    fx[i:j, 0] += x[: j - i] * (1 - pan) * 1.5
-    fx[i:j, 1] += x[: j - i] * pan * 1.5
-    if c.get("duck"):
-        a, b = max(0, i - int(0.03 * SR)), min(N, i + int(0.35 * SR))
-        g = 10 ** ((-9 if c['sound'] in ('slam', 'shatter') else -6) / 20)
-        duck[a:b] = np.minimum(duck[a:b], g)
-        rel = min(N, b + int(0.45 * SR))
-        duck[b:rel] = np.minimum(duck[b:rel], np.linspace(g, 1, rel - b))
-# 平滑 ducking 包络
-duck = signal.sosfiltfilt(signal.butter(1, 12, "lowpass", fs=SR, output="sos"), duck)
-mix = bgm * duck[:, None] * 0.62 + fx
+    w = int(0.3 * SR)
+    target = 6 if c["sound"] in ("slam", "finale") else (-9 if c["sound"] in BED else -2)
+    cur = rdb(x[:w]) - rdb(bed_bgm[i:i + w])
+    g = float(np.clip(10 ** ((target - cur) / 20), 1.0, 14.0))
+    gains.append((c["sound"], round(20 * np.log10(g), 1)))
+    x = x * g
+    pan = 0.5 + 0.12 * np.sin(c["f"])  # 等功率声像：居中时两声道各 1.0
+    fx[i:j, 0] += x[: j - i] * np.cos(pan * np.pi / 2) * np.sqrt(2)
+    fx[i:j, 1] += x[: j - i] * np.sin(pan * np.pi / 2) * np.sqrt(2)
+mix = bed_bgm + fx
 pre = os.path.join(ROOT, "public/audio/_premix.wav")
 os.makedirs(os.path.dirname(pre), exist_ok=True)
 sf.write(pre, mix, SR, subtype="FLOAT")
 if os.environ.get("STEMS"):
-    sf.write(os.path.join(ROOT, "out/stem_fx.wav"), fx, SR, subtype="FLOAT"); sf.write(os.path.join(ROOT, "out/stem_bgm.wav"), bgm * duck[:, None] * 0.62, SR, subtype="FLOAT")
+    sf.write(os.path.join(ROOT, "out/stem_fx.wav"), fx, SR, subtype="FLOAT"); sf.write(os.path.join(ROOT, "out/stem_bgm.wav"), bed_bgm, SR, subtype="FLOAT")
 out = os.path.join(ROOT, "public/audio/mix_preview.wav" if args.preview else "public/audio/mix_full.wav")
 
 def measure(path):

@@ -40,13 +40,31 @@ export const EXPRESSIONS: Record<string, Expr> = {
   sad: E({browAng: 11, lid: 0.4, mouth: -0.35, lookX: 3}),
   worried: E({browAng: 12, browY: -2, lid: 0.15, mouth: -0.4, open: 0.08, lookX: 4}),
   cry: E({browAng: 14, browY: -3, lid: 0.85, mouth: -0.4, open: 0.9, mw: 1.0, tear: 1, blush: 0.6}),
+  solemn: E({browAng: 2, lid: 0.4, mouth: -0.1, lookY: -2}),
+  determined: E({browAng: -6, browY: 1, lid: 0.25, mouth: -0.15, mw: 0.9}),
+  surprised: E({browAng: 3, browY: -5, lid: 0, pupil: 0.8, open: 0.45, mw: 0.7}),
+  smug: E({browAng: -3, lid: 0.4, lowLid: 0.2, mouth: 0.5, mw: 1.1, lookX: 3}),
+  expect: E({browAng: 1, browY: -2, lid: 0.12, mouth: 0.25, lookX: 4}),
+  awkward: E({browAng: 9, browY: -2, lid: 0.15, mouth: -0.1, mw: 1.15, sweat: 1, lookX: -3}),
+  eager: E({browAng: 0, browY: -3, lid: 0.05, pupil: 1.1, mouth: 0.3, open: 0.15}),
+  resigned: E({browAng: 9, lid: 0.45, mouth: -0.05, mw: 1.1, lookY: 2}),
+  accept: E({browAng: 4, lid: 0.35, mouth: 0.15}),
+  blank: E({lid: 0.2, pupil: 0.9, mouth: 0, mw: 0.8}),
+  cold: E({browAng: -7, browY: 1.5, lid: 0.45, mouth: -0.2, mw: 0.9}),
+  sneer: E({browAng: -8, browY: 1, lid: 0.4, mouth: 0.3, mw: 1.0, lookX: 3}),
+  respect: E({browAng: 3, lid: 0.45, mouth: 0, lookY: 3}),
+  panic: E({browAng: 12, browY: -4, lid: 0, pupil: 0.65, mouth: -0.4, open: 0.5, sweat: 1, shock: 0.6}),
+  awe: E({browAng: 5, browY: -4, lid: 0.05, pupil: 0.9, open: 0.25, mw: 0.7}),
+  complex: E({browAng: 7, browY: 0, lid: 0.45, mouth: -0.15, lookX: -4}),
+  hesitate: E({browAng: 9, lid: 0.3, mouth: -0.25, lookX: -5}),
+  alert: E({browAng: 5, browY: -3, lid: 0.05, pupil: 0.8, mouth: -0.2}),
   fear2: E({browAng: 12, browY: -4, lid: 0, pupil: 0.6, mouth: -0.55, open: 0.35}),
 };
 
 export type Outfit = {
   skin: string; tunic: string; tunicDark: string; trim: string; skirt: string; skirtDark: string; belt: string;
   sleeve: 'narrow' | 'wide'; hair: string; hairStyle: 'bun' | 'loose' | 'bunPin';
-  crown?: 'feather' | null; bracelet?: boolean; pendant?: boolean; cape?: boolean; tatter?: number;
+  crown?: 'feather' | 'highcap' | null; beard?: string; bracelet?: boolean; pendant?: boolean; cape?: boolean; tatter?: number;
   robeLen: number; // 下裳长度 0.6 及膝 ~ 1 及踝
   barefoot?: boolean; label: string;
 };
@@ -59,6 +77,16 @@ export const OUTFITS: Record<string, Outfit> = {
   chief: {label: '龙山·首领朱麻衣羽冠', skin: '#d8a77c', tunic: '#a8332a', tunicDark: '#6e1d16', trim: '#e6c06a', skirt: '#7c2a20', skirtDark: '#511a13', belt: '#e0b860', sleeve: 'wide', hair: '#d8d0c4', hairStyle: 'bunPin', crown: 'feather', bracelet: true, pendant: true, robeLen: 0.95, barefoot: false},
   chiefMid: {label: '龙山·首领朱麻衣羽冠', skin: '#d8a77c', tunic: '#a8332a', tunicDark: '#6e1d16', trim: '#e6c06a', skirt: '#7c2a20', skirtDark: '#511a13', belt: '#e0b860', sleeve: 'wide', hair: '#2a221c', hairStyle: 'bunPin', crown: 'feather', bracelet: true, pendant: true, robeLen: 0.95, barefoot: false},
   wife: {label: '龙山·葛麻长衣', skin: '#e0b088', tunic: '#7d6a8a', tunicDark: '#544660', trim: '#d2b06a', skirt: '#6a5878', skirtDark: '#463a52', belt: '#c89a50', sleeve: 'narrow', hair: '#1a1410', hairStyle: 'bunPin', robeLen: 1, barefoot: false},
+  mourning: {label: '龙山·粗麻素服（丧服形制不可考）', skin: '#d0a07a', tunic: '#8f8670', tunicDark: '#5e5848', trim: '#b8ad8a', skirt: '#7a725e', skirtDark: '#4e4a3c', belt: '#4a4234', sleeve: 'narrow', hair: '#16110d', hairStyle: 'bunPin', robeLen: 0.95, barefoot: true},
+  prince: {label: '龙山·首领之子朱麻衣佩玉璜', skin: '#e2b18a', tunic: '#b8463a', tunicDark: '#7a241c', trim: '#e8c470', skirt: '#8a3426', skirtDark: '#5a1e16', belt: '#d8b060', sleeve: 'wide', hair: '#120d0a', hairStyle: 'bunPin', pendant: true, robeLen: 0.92, barefoot: false},
+  danzhu: {label: '龙山·首领之子赭麻衣', skin: '#dcaa82', tunic: '#9a5a2a', tunicDark: '#643a1a', trim: '#dcb468', skirt: '#7a4622', skirtDark: '#4e2c14', belt: '#c8a050', sleeve: 'wide', hair: '#120d0a', hairStyle: 'bunPin', pendant: true, robeLen: 0.92, barefoot: false},
+  shunYoung: {label: '龙山·素葛衣（青年舜）', skin: '#d8a77c', tunic: '#7e8a6a', tunicDark: '#525a44', trim: '#c8b070', skirt: '#5e6a4e', skirtDark: '#3e4634', belt: '#3a2a1c', sleeve: 'narrow', hair: '#16110d', hairStyle: 'bunPin', robeLen: 0.75, barefoot: true},
+  scholar: {label: '战国·深衣高冠', skin: '#dcb08a', tunic: '#2e3a5a', tunicDark: '#1c2438', trim: '#c8a860', skirt: '#283350', skirtDark: '#181f34', belt: '#8a2a20', sleeve: 'wide', hair: '#120d0a', hairStyle: 'bun', crown: 'highcap', beard: '#1a120c', robeLen: 1, barefoot: false},
+  king: {label: '龙山·王者朱衣羽冠佩玉琮', skin: '#d4a074', tunic: '#9e2a22', tunicDark: '#661812', trim: '#f0c868', skirt: '#701e18', skirtDark: '#4a1410', belt: '#e8c060', sleeve: 'wide', hair: '#2a221c', hairStyle: 'bunPin', crown: 'feather', bracelet: true, pendant: true, beard: '#2a221c', robeLen: 0.98, barefoot: false},
+  kingOld: {label: '龙山·晚年王者（朱衣褪色）', skin: '#cfa07a', tunic: '#86423a', tunicDark: '#582a24', trim: '#d8b468', skirt: '#643430', skirtDark: '#40221e', belt: '#c8a050', sleeve: 'wide', hair: '#e2dcd0', hairStyle: 'bunPin', crown: 'feather', bracelet: true, beard: '#e2dcd0', robeLen: 0.98, barefoot: false},
+  yi: {label: '龙山·素葛衣（益）', skin: '#d2a07a', tunic: '#6e7a5e', tunicDark: '#48503c', trim: '#c0a866', skirt: '#585e46', skirtDark: '#383c2c', belt: '#3e2e1e', sleeve: 'narrow', hair: '#1a1410', hairStyle: 'bunPin', beard: '#1a1410', robeLen: 0.8, barefoot: false},
+  qi: {label: '龙山·首领之子朱衣玉饰（启）', skin: '#dcac84', tunic: '#b03a2c', tunicDark: '#74221a', trim: '#f0c868', skirt: '#82281e', skirtDark: '#541a14', belt: '#e2b860', sleeve: 'narrow', hair: '#100b08', hairStyle: 'bunPin', bracelet: true, pendant: true, robeLen: 0.85, barefoot: false},
+  fangfeng: {label: '龙山·兽皮披肩（防风氏，部落装推想）', skin: '#b88458', tunic: '#5a4630', tunicDark: '#3a2c1c', trim: '#a07a40', skirt: '#4a3a26', skirtDark: '#2e2418', belt: '#2a1c10', sleeve: 'narrow', hair: '#120d0a', hairStyle: 'loose', cape: true, robeLen: 0.6, barefoot: true},
   guard: {label: '龙山·短衣束发', skin: '#c48f62', tunic: '#5a4a3a', tunicDark: '#3a2f24', trim: '#8a7040', skirt: '#4a3c2e', skirtDark: '#30271d', belt: '#22180f', sleeve: 'narrow', hair: '#140f0b', hairStyle: 'bun', robeLen: 0.55, barefoot: true},
 };
 
@@ -97,4 +125,11 @@ export const POSES: Record<string, Pose> = {
   command: P({shR: 125, elR: 15, shL: -10, elL: 12, head: -5}),
   turnAway: P({lean: -4, head: -15}),
   cheer: P({shR: 160, elR: 10, shL: 150, elL: 15, head: -10}),
+  writing: P({lean: 18, head: 20, shR: 50, elR: 70, shL: 40, elL: 80, hipL: 80, knL: 95, hipR: 85, knR: 100, bob: 46}),
+  staff: P({shR: 40, elR: 30, lean: 8, head: 6}),
+  shrug: P({shR: 40, elR: 80, shL: 35, elL: 80, head: 10}),
+  peek: P({lean: -12, head: -10, shR: 60, elR: 60, shL: 50, elL: 70}),
+  axe: P({lean: 10, shR: 150, elR: 30, shL: 40, elL: 30}),
+  axeDown: P({lean: 24, shR: 60, elR: 10, shL: 30, elL: 20}),
+  bowDeep: P({lean: 40, head: 20, shL: 30, elL: 20, shR: 34, elR: 20, hipR: 10, knR: 10}),
 };

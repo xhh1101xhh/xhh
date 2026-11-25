@@ -402,20 +402,3 @@ export const S1_9: React.FC<{f: number}> = ({f}) => {
   );
 };
 
-/** 画面内文字：只在左侧（地名牌、人物印、演绎印） */
-export const S1_TAGS: React.FC<{f: number}> = ({f}) => {
-  const vis = (id: string) => { const [a, b] = sceneRange(id); return f >= a && f < b; };
-  return (
-    <>
-      {vis('0-4') && <PlaceTag f={f} text="禹" at={sStart(6) + 4} kind="seal" />}
-      {vis('1-1') && <PlaceTag f={f} text="大河" at={sStart(9) + 10} />}
-      {vis('1-2') && <PlaceTag f={f} text="羽山" at={sStart(11) + 6} />}
-      {vis('1-4') && <PlaceTag f={f} text="演绎" at={sStart(14) + 4} kind="seal" />}
-      {vis('1-7') && [0, 1, 2].map(i => {
-        const at = cue(19, 'days') + i * B;
-        const on = f >= at && f < at + B * 1.2;
-        return on ? <div key={i} style={{position: 'absolute', left: 90 + i * 80, top: 160, width: 56, height: 56, borderRadius: 28, border: '3px solid #e2b65c', background: 'radial-gradient(#ffd27a, #b8742a)', boxShadow: '0 0 18px #ffb84a', opacity: 1 - (f - at) / (B * 1.2)}} /> : null;
-      })}
-    </>
-  );
-};
