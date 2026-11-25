@@ -70,12 +70,12 @@ if (todo.length) {
 const list = segs.map(s => `file '${path.resolve(s.file)}'`).join('\n');
 fs.writeFileSync('out/segments/list.txt', list);
 execFileSync('ffmpeg', ['-y', '-hide_banner', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', 'out/segments/list.txt', '-c', 'copy', 'out/video_full.mp4']);
-const nb = Number(execFileSync('ffprobe', ['-v', 'error', '-count_frames', '-select_streams', 'v:0', '-show_entries', 'stream=nb_read_frames', '-of', 'csv=p=0', 'out/video_full.mp4']).toString().trim());
+const nb = Number(execFileSync('ffprobe', ['-v', 'error', '-count_frames', '-select_streams', 'v:0', '-show_entries', 'stream=nb_read_frames', '-of', 'csv=p=0', 'out/video_full.mp4']).toString().replace(/,/g, '').trim());
 // 合成音频（完整时间轴单独混好的 mix_full.wav）
 const out = 'out/yu_xia_full.mp4';
 execFileSync('ffmpeg', ['-y', '-hide_banner', '-loglevel', 'error', '-i', 'out/video_full.mp4', '-i', 'public/audio/mix_full.wav', '-map', '0:v:0', '-map', '1:a:0', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '320k', '-movflags', '+faststart', out]);
-const vdur = Number(execFileSync('ffprobe', ['-v', 'error', '-select_streams', 'v:0', '-show_entries', 'stream=duration', '-of', 'csv=p=0', out]).toString().trim());
-const adur = Number(execFileSync('ffprobe', ['-v', 'error', '-select_streams', 'a:0', '-show_entries', 'stream=duration', '-of', 'csv=p=0', out]).toString().trim());
+const vdur = Number(execFileSync('ffprobe', ['-v', 'error', '-select_streams', 'v:0', '-show_entries', 'stream=duration', '-of', 'csv=p=0', out]).toString().replace(/,/g, '').trim());
+const adur = Number(execFileSync('ffprobe', ['-v', 'error', '-select_streams', 'a:0', '-show_entries', 'stream=duration', '-of', 'csv=p=0', out]).toString().replace(/,/g, '').trim());
 let loud = '';
 try { execFileSync('ffmpeg', ['-hide_banner', '-i', out, '-af', 'ebur128=peak=true', '-f', 'null', '-'], {stdio: ['ignore', 'ignore', 'pipe']}); } catch (e) { loud = String(e.stderr || ''); }
 const r = execFileSync('bash', ['-c', `ffmpeg -hide_banner -i ${out} -af ebur128=peak=true -f null - 2>&1 | grep -E "I:|Peak:" | tail -2`]).toString();

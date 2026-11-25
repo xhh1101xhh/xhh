@@ -73,7 +73,9 @@ export const SlamText: React.FC<{f: number; s: Screen}> = ({f, s}) => {
   const sp = springAt(f, sl.f, {damping: 11, stiffness: 210, mass: 0.8});
   const hit = f >= sl.f;
   const keySize = Math.min(250, Math.floor(980 / Math.max(1, sl.key.length)));
-  const keyScale = hit ? 2.4 - 1.4 * sp : 2.4;
+  // 起始放大倍数受限：放大后的关键词右缘不得越过 x=1536（禁字区）
+  const maxS = Math.max(1, Math.min(1.6, ((1536 - 900) * 2 - 40) / (keySize * Math.max(1, sl.key.length))));
+  const keyScale = hit ? maxS - (maxS - 1) * sp : maxS;
   const keyOp = hit ? clamp((f - sl.f) / 2) : 0;
   const cx = 900;
   const topY = (sl as any).pos === 'top' ? 90 : 300;

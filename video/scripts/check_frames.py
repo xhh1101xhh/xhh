@@ -23,7 +23,7 @@ subprocess.run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-i", mp4, "-vf"
 files = sorted(os.listdir(outd))
 D = json.load(open(os.path.join(ROOT, "src/data/subtitles.json")))
 B = json.load(open(os.path.join(ROOT, "src/data/beats.json")))
-END = int(subprocess.run(["ffprobe", "-v", "error", "-count_frames", "-select_streams", "v:0", "-show_entries", "stream=nb_read_frames", "-of", "csv=p=0", mp4], capture_output=True, text=True).stdout.strip())
+END = int(subprocess.run(["ffprobe", "-v", "error", "-count_frames", "-select_streams", "v:0", "-show_entries", "stream=nb_read_frames", "-of", "csv=p=0", mp4], capture_output=True, text=True).stdout.strip().strip(","))
 rep = []
 
 from PIL import ImageDraw

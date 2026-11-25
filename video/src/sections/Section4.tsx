@@ -185,8 +185,18 @@ export const S4_5: React.FC<{f: number}> = ({f}) => {
         <Cloud x={160} y={140} s={1.4} color="#1a2a30" /><Cloud x={1500} y={180} s={1.2} color="#1a2a30" />
       </Layer>
       <Layer depth={0.6}>
+        {/* 远处议事的草棚、竹篱与图腾柱，地面一张长席 */}
+        <g transform="translate(960,860)" opacity={0.9}>
+          <path d="M-700,0 L-660,-260 L660,-260 L700,0 Z" fill="#1a2a32" />
+          <path d="M-760,-250 L0,-420 L760,-250 Z" fill="#24363e" stroke="url(#gold)" strokeWidth={2} />
+          {Array.from({length: 13}).map((_, i) => <rect key={i} x={-640 + i * 104} y={-250} width={14} height={250} fill="#0e181e" />)}
+        </g>
+        {[120, 1800].map((x, i) => <g key={i} transform={`translate(${x},860)`}><rect x={-14} y={-420} width={28} height={420} fill="#2a1a10" stroke="url(#gold)" strokeWidth={1.5} /><circle cx={0} cy={-440} r={30} fill="none" stroke="url(#gold)" strokeWidth={4} /></g>)}
         <path d="M-300,1300 L-300,860 L2300,860 L2300,1300 Z" fill="#14222a" />
         <path d="M-300,860 L2300,860" stroke="url(#gold)" strokeWidth={2} opacity={0.6} />
+        <rect x={420} y={880} width={1100} height={36} rx={4} fill="#3a2e1c" stroke="url(#gold)" strokeWidth={1.5} />
+        {[0, 1, 2, 3, 4, 5].map(i => <Pot key={i} x={300 + i * 260 + (i > 2 ? 120 : 0)} y={870} s={0.55} color="#1c2428" />)}
+        {Array.from({length: 18}).map((_, i) => { const r = mulberry32(i + 620); return <ellipse key={'pb' + i} cx={880 + r() * 160} cy={905 + r() * 8} rx={8} ry={6} fill={['#d8d0c0', '#a8a090'][i % 2]} stroke="#3a3428" strokeWidth={1} />; })}
       </Layer>
       <Layer depth={1}>
         {/* 左罐：耒臿图标（功劳）；右罐：血脉纹（血缘） */}

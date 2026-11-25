@@ -121,7 +121,7 @@ export function inStyle(tr: string, f: number, T: number, opt: any = {}): React.
     }
     case 'guiMatch': return {opacity: prog(f, T - pre, T + 2)};
     case 'mopGather': { const p = prog(f, T - 2, T + post, easeOut); return {opacity: prog(f, T - 2, T + 6), transform: `scale(${1.06 - 0.06 * p})`}; }
-    case 'makieDust': return {};
+    case 'makieDust': { const p = prog(f, T - pre, T + post); return {WebkitMaskImage: `linear-gradient(90deg, #000 ${p * 120 - 20}%, transparent ${p * 120 + 10}%)`, maskImage: `linear-gradient(90deg, #000 ${p * 120 - 20}%, transparent ${p * 120 + 10}%)`}; }
     case 'leafWipe': { const p = prog(f, T - pre, T + post, easeInOut); return {clipPath: `inset(0 ${(1 - p) * 100}% 0 0)`}; }
     case 'dollyPan': { const p = prog(f, T - pre, T + post, easeInOut); return {transform: `translateX(${(1 - p) * 1920}px)`}; }
     case 'sunDial': { const p = prog(f, T - pre, T + post, easeInOut); const a = p * 360; return {WebkitMaskImage: `conic-gradient(from 0deg at 50% 60%, #000 ${a}deg, transparent ${a + 1}deg)`, maskImage: `conic-gradient(from 0deg at 50% 60%, #000 ${a}deg, transparent ${a + 1}deg)`}; }
