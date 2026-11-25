@@ -1,0 +1,3442 @@
+{
+ "meta": {
+  "title": "禹推开的，是天下",
+  "topic": "中国第一个王朝 · 夏",
+  "watermark": "爱好者",
+  "fps": 30,
+  "readCharsPerSec": 5,
+  "colors": {
+   "gold": "#E8BC62",
+   "luodian": "#8CCBE0",
+   "zhu": "#E4553F",
+   "shilv": "#72C7A4"
+  },
+  "previewEnd": "BRK:01.4",
+  "note": "start/end/cues 写拍点标签（段落:小节.拍，可加 +n 拍）；startFrame/endFrame 由 scripts/sync_timeline.py 自动回填，不要手改",
+  "previewEndFrame": 1578,
+  "fullEndFrame": 5087
+ },
+ "scenes": {
+  "0-1": {
+   "desc": "【0-1】传说时代·羽山脚下｜大远景→缓推｜底色 黑漆 #141210，冷雾灰光自上斜射",
+   "base": "#141210",
+   "transition": "漆滴晕开",
+   "transitionId": "lacquerDrip"
+  },
+  "0-2": {
+   "desc": "【0-2】传说时代·部落高台｜特写，玄圭居中横构图｜底色 朱漆 #6E1E18，顶光一束暖白",
+   "base": "#6E1E18",
+   "transition": "硬切",
+   "transitionId": "punchCut"
+  },
+  "0-3": {
+   "desc": "【0-3】抽象·天下｜大全景俯视｜底色 黛青 #1D3436，冷月光",
+   "base": "#1D3436",
+   "transition": "推光扫换",
+   "transitionId": "sheenWipe"
+  },
+  "0-4": {
+   "desc": "【0-4】治水工地边｜大特写（面部）｜底色 栗壳 #4A2A1C，侧逆光",
+   "base": "#4A2A1C",
+   "transition": "焦点拉移",
+   "transitionId": "rackFocus"
+  },
+  "0-5": {
+   "desc": "【0-5】抽象·玄圭微距｜微距｜底色 乌金 #2B2418，金色内光",
+   "base": "#2B2418",
+   "transition": "穿越圭面",
+   "transitionId": "diveThrough"
+  },
+  "1-1": {
+   "desc": "【1-1】约前21世纪·黄河下游平原（传说）｜大全景→低空推进｜底色 石青 #2C4A52，暴雨灰白天光",
+   "base": "#2C4A52",
+   "transition": "碎圭化水",
+   "transitionId": "shatterToWater"
+  },
+  "1-2": {
+   "desc": "【1-2】传说时代·羽山｜中景仰拍｜底色 赭褐 #5A3220，黄昏斜光",
+   "base": "#5A3220",
+   "transition": "剔红剥层",
+   "transitionId": "tihongPeel"
+  },
+  "1-3": {
+   "desc": "【1-3】部落高台·清晨｜中景→甩镜｜底色 雾青灰 #56615D，晨光平射",
+   "base": "#56615D",
+   "transition": "甩镜横摇",
+   "transitionId": "whipPan"
+  },
+  "1-4": {
+   "desc": "【1-4】小剧场·禹的心里账｜中景，抽象空间｜底色 推光黑 #161311，单束顶光",
+   "base": "#161311",
+   "transition": "墨晕吞景",
+   "transitionId": "inkBloom"
+  },
+  "1-5": {
+   "desc": "【1-5】治水工地·风雨年月｜特写绳结→中景｜底色 暗泥金 #6E5F45，雨天漫射光",
+   "base": "#6E5F45",
+   "transition": "绳索横扫",
+   "transitionId": "ropeSweep"
+  },
+  "1-6": {
+   "desc": "【1-6】夜·禹家门外（半地穴茅屋）｜中景平视｜底色 夜蓝 #151E33，门缝透暖光",
+   "base": "#151E33",
+   "transition": "斜雨划变",
+   "transitionId": "rainWipe"
+  },
+  "1-7": {
+   "desc": "【1-7】回忆·屋内火塘｜近景｜底色 暖橘 #7A3E1C，火光跳动",
+   "base": "#7A3E1C",
+   "transition": "光缝展开",
+   "transitionId": "lightSlit"
+  },
+  "1-8": {
+   "desc": "【1-8】河道·垂直俯拍｜大全景｜底色 墨绿 #1C2B22，水面反光",
+   "base": "#1C2B22",
+   "transition": "升空俯冲",
+   "transitionId": "craneUp"
+  },
+  "1-9": {
+   "desc": "【1-9】高台·治水功成｜中景仰拍｜底色 朱漆 #7A1F1A，暖金顶光",
+   "base": "#7A1F1A",
+   "transition": "圭形匹配",
+   "transitionId": "guiMatch"
+  },
+  "2-1": {
+   "desc": "【2-1】祭天土台·黎明｜远景，人物很小｜底色 鸦青 #3B4A52，黎明冷光",
+   "base": "#3B4A52",
+   "transition": "螺钿聚合",
+   "transitionId": null
+  },
+  "2-2": {
+   "desc": "【2-2】南方·苍梧之野（夜）｜大远景横移｜底色 靛青 #19233A，月光",
+   "base": "#19233A",
+   "transition": "莳绘金粉飘散",
+   "transitionId": null
+  },
+  "2-3": {
+   "desc": "【2-3】都城·丧庐｜中景平视｜底色 麻褐灰 #5A5045，阴天柔光",
+   "base": "#5A5045",
+   "transition": "飘叶划变",
+   "transitionId": null
+  },
+  "2-4": {
+   "desc": "【2-4】都城外·黄土路｜全景横移｜底色 赭黄 #8A6A3A，午后侧光",
+   "base": "#8A6A3A",
+   "transition": "推轨横移",
+   "transitionId": null
+  },
+  "2-5": {
+   "desc": "【2-5】都城·空殿｜中景固定机位延时｜底色 灰漆 #4A4744，日光斜移",
+   "base": "#4A4744",
+   "transition": "日影旋转",
+   "transitionId": null
+  },
+  "2-6": {
+   "desc": "【2-6】阳城·夜｜大全景俯视→推进｜底色 暖朱 #8C2A1E，火把光",
+   "base": "#8C2A1E",
+   "transition": "光点汇流",
+   "transitionId": null
+  },
+  "2-7": {
+   "desc": "【2-7】时间倒带｜中景定格→倒放｜底色 陈褐 #6F5D3F，旧纸色调",
+   "base": "#6F5D3F",
+   "transition": "泛黄倒带",
+   "transitionId": null
+  },
+  "2-8": {
+   "desc": "【2-8】南河之南｜左右分屏：左“禹—商均”｜右“舜—丹朱”｜底色 左赭黄 #8A6A3A，右苔绿 #5B6B4A",
+   "base": "#8A6A3A",
+   "transition": "中缝裂屏",
+   "transitionId": null
+  },
+  "2-9": {
+   "desc": "【2-9】双时空叠映｜全景｜底色 黑金 #1A1610，两层火光",
+   "base": "#1A1610",
+   "transition": "漆盒翻折",
+   "transitionId": null
+  },
+  "3-1": {
+   "desc": "【3-1】抽象·漆印流程图｜全景平视｜底色 朱砂 #8E2A1E，顶光",
+   "base": "#8E2A1E",
+   "transition": "巨印压屏",
+   "transitionId": null
+  },
+  "3-2a": {
+   "desc": "【3-2a】推演·谁说了算｜中景｜底色 石绿 #2F5D50，柔光",
+   "base": "#2F5D50",
+   "transition": "漆牌翻面",
+   "transitionId": null
+  },
+  "3-2b": {
+   "desc": "【3-2b】俯视·千万脚印｜大全景俯冲｜底色 赭 #6B4226，正午强光",
+   "base": "#6B4226",
+   "transition": "俯冲入牌",
+   "transitionId": null
+  },
+  "3-3": {
+   "desc": "【3-3】战国·书房（夜）｜近景｜底色 绛紫 #3B1E2A，烛光",
+   "base": "#3B1E2A",
+   "transition": "竹简卷开",
+   "transitionId": null
+  },
+  "3-4": {
+   "desc": "【3-4】迷雾·两个版本｜中景｜底色 灰漆 #5A5650，雾光",
+   "base": "#5A5650",
+   "transition": "烛烟成雾",
+   "transitionId": null
+  },
+  "3-5": {
+   "desc": "【3-5】传说时代·涂山（禹为王后）｜大远景→推进｜底色 暗赭 #5C3A21，暮色",
+   "base": "#5C3A21",
+   "transition": "雾散山出",
+   "transitionId": null
+  },
+  "3-6": {
+   "desc": "【3-6】涂山·会盟场｜大全景俯视｜底色 赤金 #8A4E1E，落日",
+   "base": "#8A4E1E",
+   "transition": "急推入场",
+   "transitionId": null
+  },
+  "3-6b": {
+   "desc": "【3-6b】会稽山·山门（传说）｜中景手持跟拍｜底色 沉绿 #2E4A3A，阴天",
+   "base": "#2E4A3A",
+   "transition": "漆面翻页",
+   "transitionId": null
+  },
+  "3-7": {
+   "desc": "【3-7】会稽山顶｜特写→剪影｜底色 漆黑 #1A0F0D，朱红逆光",
+   "base": "#1A0F0D",
+   "transition": "剔红泼溅",
+   "transitionId": null
+  },
+  "3-8": {
+   "desc": "【3-8】抽象·圭影｜大全景仰拍｜底色 冷铁青 #2F3A3F，顶部冷光",
+   "base": "#2F3A3F",
+   "transition": "急拉远",
+   "transitionId": null
+  },
+  "4-1": {
+   "desc": "【4-1】传说时代·禹晚年居所｜中景｜底色 暮紫 #2A1F33，夕照",
+   "base": "#2A1F33",
+   "transition": "犀皮漆老化",
+   "transitionId": null
+  },
+  "4-2": {
+   "desc": "【4-2】守丧→荒野｜全景跟拍｜底色 冷灰蓝 #46505C，阴天",
+   "base": "#46505C",
+   "transition": "背影跟移",
+   "transitionId": null
+  },
+  "4-3": {
+   "desc": "【4-3】三层剧本｜全景｜底色 赭红 #6B2D22，三层逆光",
+   "base": "#6B2D22",
+   "transition": "漆板层叠推入",
+   "transitionId": null
+  },
+  "4-4": {
+   "desc": "【4-4】传说时代·启的营地｜全景→推近｜底色 火光金 #7A4A12，篝火",
+   "base": "#7A4A12",
+   "transition": "沿裂缝开画",
+   "transitionId": null
+  },
+  "4-5": {
+   "desc": "【4-5】算账·两只黑陶罐｜中景｜底色 青黛 #22343A，侧光",
+   "base": "#22343A",
+   "transition": "金粉扫掠",
+   "transitionId": null
+  },
+  "4-6a": {
+   "desc": "【4-6a】另一种说法·益的住所（夜）｜中景｜底色 焦黑 #1B1412，冷月光+火光",
+   "base": "#1B1412",
+   "transition": "石钺劈切",
+   "transitionId": null
+  },
+  "4-6b": {
+   "desc": "【4-6b】出土竹简｜微距平移｜底色 竹青 #4E5B3C，冷白光",
+   "base": "#4E5B3C",
+   "transition": "竹简散落",
+   "transitionId": null
+  },
+  "4-7": {
+   "desc": "【4-7】抽象·金缮重组｜特写→中景｜底色 墨蓝 #18222E，金色内光",
+   "base": "#18222E",
+   "transition": "碎片重组",
+   "transitionId": null
+  },
+  "5-1": {
+   "desc": "【5-1】抽象·人环｜中景对称构图｜底色 暗牙黄 #6B5D44，柔和天光",
+   "base": "#6B5D44",
+   "transition": "金箔平脱",
+   "transitionId": null
+  },
+  "5-2": {
+   "desc": "【5-2】虚空·玄圭｜特写自转｜底色 黑漆 #141210，金缝自发光",
+   "base": "#141210",
+   "transition": "链条收拢",
+   "transitionId": null
+  },
+  "5-3": {
+   "desc": "【5-3】高台·首尾呼应构图｜特写，玄圭居中横构图，机位与 0-2 完全一致｜底色 朱漆 #6E1E18，顶光一束暖白",
+   "base": "#6E1E18",
+   "transition": "圭形匹配",
+   "transitionId": "guiMatch"
+  },
+  "5-4": {
+   "desc": "【5-4】收束·无数只手｜大全景急拉→黑场｜底色 朱漆退为玄黑 #0B0A09",
+   "base": "#0B0A09",
+   "transition": "漆面合拢",
+   "transitionId": null
+  }
+ },
+ "screens": [
+  {
+   "id": 1,
+   "section": 0,
+   "scene": "0-1",
+   "start": "INT:01.1",
+   "end": "INT:02.1",
+   "startFrame": 3,
+   "endFrame": 67,
+   "text": "他爹，被这个人治了罪",
+   "emphasis": [
+    {
+     "word": "这个人",
+     "color": "zhu"
+    }
+   ],
+   "display": "slam",
+   "desc": {
+    "scene": "【0-1】传说时代·羽山脚下｜大远景→缓推｜底色 黑漆 #141210，冷雾灰光自上斜射",
+    "action": "**开场转场：漆滴晕开**——黑屏顶端落下一滴朱漆，{INT:01.1} 触底晕开成画面（卡首拍）。镜头 2 秒内缓推；前景半埋泥中的断木耒（鲧的工具，描金勾边），远处坡顶一个背影。雾用犀皮漆旋纹缓慢流动。",
+    "cast": "舜：背影立于坡顶，朱色麻衣、羽饰头冠（龙山时代首领装束推想，非后世冕服）；静立垂手，表情不可见",
+    "sfx": "水滴落漆“嗒”+低沉木鼓一声；风声起"
+   },
+   "slam": {
+    "pre": "他爹，被",
+    "key": "这个人",
+    "post": "治了罪",
+    "at": "INT:01.1",
+    "f": 3
+   },
+   "cast": [
+    {
+     "who": "shun",
+     "outfit": "chief",
+     "view": "back",
+     "expr": [
+      [
+       "INT:01.1",
+       "calm"
+      ]
+     ],
+     "exprFrames": [
+      [
+       3,
+       "calm"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "drip": "INT:01.1"
+   },
+   "sfx": [
+    {
+     "at": "INT:01.1",
+     "sound": "drip",
+     "gain": 0.9
+    },
+    {
+     "at": "INT:01.1",
+     "sound": "wind",
+     "gain": 0.35,
+     "dur": 4.2
+    }
+   ],
+   "cueFrames": {
+    "drip": 3
+   },
+   "sfxFrames": [
+    {
+     "at": "INT:01.1",
+     "sound": "drip",
+     "gain": 0.9,
+     "f": 3
+    },
+    {
+     "at": "INT:01.1",
+     "sound": "wind",
+     "gain": 0.35,
+     "dur": 4.2,
+     "f": 3
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "section": 0,
+   "scene": "0-1",
+   "start": "INT:02.1",
+   "end": "INT:03.1",
+   "startFrame": 67,
+   "endFrame": 130,
+   "text": "他却给这人干了半辈子",
+   "emphasis": [
+    {
+     "word": "半辈子",
+     "color": "luodian"
+    }
+   ],
+   "display": "bottom",
+   "desc": {
+    "scene": "同【0-1】｜镜头侧移跟人",
+    "action": "画右伸入一只年轻的手，{INT:02.1} 拔起断耒扛上肩（卡重拍），人物朝坡顶背影走去；断耒上泥块以堆漆质感剥落。",
+    "cast": "禹（青年）：葛麻交领短衣、下裳束腰、骨笄束发、赤足（龙山时代平民装推想）；表情：咬紧下颌、眼神低垂（压抑）",
+    "sfx": "木柄出泥“噗”；踏泥脚步"
+   },
+   "cast": [
+    {
+     "who": "yu",
+     "outfit": "commoner",
+     "expr": [
+      [
+       "INT:02.1",
+       "suppressed"
+      ]
+     ],
+     "exprFrames": [
+      [
+       67,
+       "suppressed"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "pull": "INT:02.1",
+    "walk": "INT:02.3"
+   },
+   "sfx": [
+    {
+     "at": "INT:02.1",
+     "sound": "mudPull",
+     "gain": 0.8
+    },
+    {
+     "at": "INT:02.3",
+     "sound": "steps",
+     "gain": 0.4,
+     "dur": 1.0
+    }
+   ],
+   "cueFrames": {
+    "pull": 67,
+    "walk": 99
+   },
+   "sfxFrames": [
+    {
+     "at": "INT:02.1",
+     "sound": "mudPull",
+     "gain": 0.8,
+     "f": 67
+    },
+    {
+     "at": "INT:02.3",
+     "sound": "steps",
+     "gain": 0.4,
+     "dur": 1.0,
+     "f": 99
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "section": 0,
+   "scene": "0-2",
+   "start": "INT:03.1",
+   "end": "INT:04.1",
+   "startFrame": 130,
+   "endFrame": 194,
+   "text": "最后，还接了他的班",
+   "emphasis": [
+    {
+     "word": "班",
+     "color": "gold"
+    }
+   ],
+   "display": "bottom",
+   "desc": {
+    "scene": "【0-2】传说时代·部落高台｜特写，玄圭居中横构图｜底色 朱漆 #6E1E18，顶光一束暖白",
+    "action": "**转场：硬切**，卡 {INT:03.1} 重拍。贯穿物件【玄圭】登场：黑漆圭身、描金镶边。画左一双苍老的手平托玄圭向右递出；推光高光从圭面左→右扫过，镜头极慢推近。",
+    "cast": "舜（老年）：只见双手与袖口，朱麻衣袖、腕戴玉镯；动作：平托递出",
+    "sfx": "玉器轻鸣“叮”"
+   },
+   "cues": {
+    "cut": "INT:03.1",
+    "offer": "INT:03.1"
+   },
+   "cast": [
+    {
+     "who": "shun",
+     "outfit": "chief",
+     "view": "hands",
+     "expr": [],
+     "exprFrames": []
+    }
+   ],
+   "sfx": [
+    {
+     "at": "INT:03.1",
+     "sound": "jade",
+     "gain": 0.7
+    }
+   ],
+   "cueFrames": {
+    "cut": 130,
+    "offer": 130
+   },
+   "sfxFrames": [
+    {
+     "at": "INT:03.1",
+     "sound": "jade",
+     "gain": 0.7,
+     "f": 130
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "section": 0,
+   "scene": "0-2",
+   "start": "INT:04.1",
+   "end": "INT:05.1",
+   "startFrame": 194,
+   "endFrame": 258,
+   "text": "可班到手里，他先推了",
+   "emphasis": [
+    {
+     "word": "推",
+     "color": "zhu"
+    }
+   ],
+   "display": "slam",
+   "desc": {
+    "scene": "同【0-2】｜特写，微俯",
+    "action": "画右伸入一只布满老茧的手掌，{INT:04.3} **爆点**把玄圭推回画左，圭在空中微转留残影，画面震 3 帧。**此为首尾呼应构图①**（结尾 F4/F5 原样复现）。",
+    "cast": "禹（中年）：只见右手与前臂，手背晒斑与旧疤；动作：立掌推回",
+    "sfx": "{INT:04.3} 低频“嗵”+衣袖风声"
+   },
+   "slam": {
+    "pre": "可班到手里，他先",
+    "key": "推",
+    "post": "了",
+    "at": "INT:04.3",
+    "f": 226
+   },
+   "cast": [
+    {
+     "who": "yu",
+     "outfit": "commoner",
+     "view": "hands",
+     "expr": [],
+     "exprFrames": []
+    }
+   ],
+   "cues": {
+    "enter": "INT:04.1",
+    "windup": "INT:04.2",
+    "push": "INT:04.3"
+   },
+   "sfx": [
+    {
+     "at": "INT:04.3",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true
+    },
+    {
+     "at": "INT:04.3",
+     "sound": "sleeve",
+     "gain": 0.5
+    }
+   ],
+   "cueFrames": {
+    "enter": 194,
+    "windup": 210,
+    "push": 226
+   },
+   "sfxFrames": [
+    {
+     "at": "INT:04.3",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true,
+     "f": 226
+    },
+    {
+     "at": "INT:04.3",
+     "sound": "sleeve",
+     "gain": 0.5,
+     "f": 226
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "section": 0,
+   "scene": "0-3",
+   "start": "INT:05.1",
+   "end": "INT:06.1",
+   "startFrame": 258,
+   "endFrame": 322,
+   "text": "他推掉的，是天下",
+   "emphasis": [
+    {
+     "word": "天下",
+     "color": "gold"
+    }
+   ],
+   "display": "bottom",
+   "desc": {
+    "scene": "【0-3】抽象·天下｜大全景俯视｜底色 黛青 #1D3436，冷月光",
+    "action": "**转场：推光扫换**——一道推光高光带从左扫到右，扫过处换成俯视大地。被推开的玄圭升上天空、放大成一轮黑月；地面部落篝火（螺钿光点）一圈一圈点亮，每拍亮一圈。",
+    "cast": "篝火旁小人剪影，齐齐仰头望月",
+    "sfx": "篝火噼啪由少到多"
+   },
+   "cues": {
+    "wipe": "INT:05.1",
+    "rings": "INT:05.1"
+   },
+   "sfx": [
+    {
+     "at": "INT:05.1",
+     "sound": "whoosh",
+     "gain": 0.5
+    },
+    {
+     "at": "INT:05.2",
+     "sound": "fire",
+     "gain": 0.35,
+     "dur": 2.0
+    }
+   ],
+   "cueFrames": {
+    "wipe": 258,
+    "rings": 258
+   },
+   "sfxFrames": [
+    {
+     "at": "INT:05.1",
+     "sound": "whoosh",
+     "gain": 0.5,
+     "f": 258
+    },
+    {
+     "at": "INT:05.2",
+     "sound": "fire",
+     "gain": 0.35,
+     "dur": 2.0,
+     "f": 274
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "section": 0,
+   "scene": "0-4",
+   "start": "INT:06.1",
+   "end": "INT:07.1",
+   "startFrame": 322,
+   "endFrame": 385,
+   "text": "这个人，叫禹",
+   "emphasis": [
+    {
+     "word": "禹",
+     "color": "gold"
+    }
+   ],
+   "display": "slam",
+   "desc": {
+    "scene": "【0-4】治水工地边｜大特写（面部）｜底色 栗壳 #4A2A1C，侧逆光",
+    "action": "**转场：焦点拉移**——黑月虚成光斑，光斑后人脸由虚到实（卡 {INT:06.1}）。BGM 在 {INT:06.2}–{INT:06.3} 抽空，画面同步静止半秒，只剩光斑呼吸。画左一枚描金小印图标作人名标签（纹样化，不写字）。",
+    "cast": "禹（中年）：发髻散乱、额有汗泥；表情：平静、疲惫，直视镜头",
+    "sfx": "环境音全部抽掉，只剩一声呼吸"
+   },
+   "slam": {
+    "pre": "这个人，叫",
+    "key": "禹",
+    "post": "",
+    "at": "INT:06.1",
+    "f": 322
+   },
+   "cast": [
+    {
+     "who": "yu",
+     "outfit": "worker",
+     "view": "face",
+     "expr": [
+      [
+       "INT:06.1",
+       "calm"
+      ],
+      [
+       "INT:06.4",
+       "tired"
+      ]
+     ],
+     "exprFrames": [
+      [
+       322,
+       "calm"
+      ],
+      [
+       369,
+       "tired"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "focus": "INT:06.1",
+    "freeze": "INT:06.2"
+   },
+   "sfx": [
+    {
+     "at": "INT:06.1",
+     "sound": "slam",
+     "gain": 0.9,
+     "duck": true
+    },
+    {
+     "at": "INT:06.2",
+     "sound": "breath",
+     "gain": 0.55
+    }
+   ],
+   "cueFrames": {
+    "focus": 322,
+    "freeze": 338
+   },
+   "sfxFrames": [
+    {
+     "at": "INT:06.1",
+     "sound": "slam",
+     "gain": 0.9,
+     "duck": true,
+     "f": 322
+    },
+    {
+     "at": "INT:06.2",
+     "sound": "breath",
+     "gain": 0.55,
+     "f": 338
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "section": 0,
+   "scene": "0-4",
+   "start": "INT:07.1",
+   "end": "INT:08.1",
+   "startFrame": 385,
+   "endFrame": 449,
+   "text": "而这一推，推出了",
+   "emphasis": [],
+   "display": "bottom",
+   "desc": {
+    "scene": "同【0-4】｜缓拉至近景",
+    "action": "镜头后拉，露出禹肩上的断耒；栗壳漆面出现刮灰肌理缓慢横移。禹转身走出画面。",
+    "cast": "禹：表情：平静→若有所思；转身离开",
+    "sfx": "远处闷雷"
+   },
+   "cast": [
+    {
+     "who": "yu",
+     "outfit": "worker",
+     "view": "face",
+     "expr": [
+      [
+       "INT:07.1",
+       "thoughtful"
+      ]
+     ],
+     "exprFrames": [
+      [
+       385,
+       "thoughtful"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "pullback": "INT:07.1",
+    "turn": "INT:07.3"
+   },
+   "sfx": [
+    {
+     "at": "INT:07.1",
+     "sound": "thunder",
+     "gain": 0.45
+    }
+   ],
+   "cueFrames": {
+    "pullback": 385,
+    "turn": 417
+   },
+   "sfxFrames": [
+    {
+     "at": "INT:07.1",
+     "sound": "thunder",
+     "gain": 0.45,
+     "f": 385
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "section": 0,
+   "scene": "0-5",
+   "start": "INT:08.1",
+   "end": "A:01.1",
+   "startFrame": 449,
+   "endFrame": 512,
+   "text": "中国第一个王朝",
+   "emphasis": [
+    {
+     "word": "第一个王朝",
+     "color": "gold"
+    }
+   ],
+   "display": "slam",
+   "desc": {
+    "scene": "【0-5】抽象·玄圭微距｜微距｜底色 乌金 #2B2418，金色内光",
+    "action": "**转场：穿越圭面**——镜头冲进玄圭表面。戗金细线自动描出一圈夏后纹样（双龙环纹图标，不是文字）。{INT:08.4} BGM 静音那一拍，圭心迸出第一道白色细裂，为下一屏蓄力。",
+    "cast": "无",
+    "sfx": "金线描绘“丝丝”声；{INT:08.4} 全部骤停"
+   },
+   "slam": {
+    "pre": "中国",
+    "key": "第一个王朝",
+    "post": "",
+    "at": "INT:08.1",
+    "f": 449
+   },
+   "cues": {
+    "dive": "INT:08.1",
+    "emblem": "INT:08.1",
+    "crack": "INT:08.4"
+   },
+   "sfx": [
+    {
+     "at": "INT:08.1",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true
+    },
+    {
+     "at": "INT:08.2",
+     "sound": "goldDraw",
+     "gain": 0.5
+    },
+    {
+     "at": "INT:08.4",
+     "sound": "crackTick",
+     "gain": 0.6
+    }
+   ],
+   "cueFrames": {
+    "dive": 449,
+    "emblem": 449,
+    "crack": 497
+   },
+   "sfxFrames": [
+    {
+     "at": "INT:08.1",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true,
+     "f": 449
+    },
+    {
+     "at": "INT:08.2",
+     "sound": "goldDraw",
+     "gain": 0.5,
+     "f": 465
+    },
+    {
+     "at": "INT:08.4",
+     "sound": "crackTick",
+     "gain": 0.6,
+     "f": 497
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "section": 1,
+   "scene": "1-1",
+   "start": "A:01.1",
+   "end": "A:02.1",
+   "startFrame": 512,
+   "endFrame": 576,
+   "text": "四千多年前，洪水滔天",
+   "emphasis": [],
+   "display": "bottom",
+   "desc": {
+    "scene": "【1-1】约前21世纪·黄河下游平原（传说）｜大全景→低空推进｜底色 石青 #2C4A52，暴雨灰白天光",
+    "action": "**转场：碎圭化水**——{A:01.1} **爆点**玄圭沿裂纹碎成千颗水珠，落地汇成洪水，用犀皮漆旋纹层层翻卷推向镜头。画左描金地名牌（水波纹图标）。**贯穿物件变形**：碎片聚成一块未打磨的黑石胚，沉入水底。",
+    "cast": "远处村民剪影抱孩子奔逃；简笔五官，表情：惊恐",
+    "sfx": "洪水轰鸣、雷"
+   },
+   "cues": {
+    "shatter": "A:01.1"
+   },
+   "cast": [
+    {
+     "who": "villagers",
+     "outfit": "commoner",
+     "expr": [
+      [
+       "A:01.1",
+       "fear"
+      ]
+     ],
+     "exprFrames": [
+      [
+       512,
+       "fear"
+      ]
+     ]
+    }
+   ],
+   "sfx": [
+    {
+     "at": "A:01.1",
+     "sound": "shatter",
+     "gain": 1.0,
+     "duck": true
+    },
+    {
+     "at": "A:01.1",
+     "sound": "flood",
+     "gain": 0.55,
+     "dur": 4.2
+    },
+    {
+     "at": "A:01.3",
+     "sound": "thunder",
+     "gain": 0.4
+    }
+   ],
+   "cueFrames": {
+    "shatter": 512
+   },
+   "sfxFrames": [
+    {
+     "at": "A:01.1",
+     "sound": "shatter",
+     "gain": 1.0,
+     "duck": true,
+     "f": 512
+    },
+    {
+     "at": "A:01.1",
+     "sound": "flood",
+     "gain": 0.55,
+     "dur": 4.2,
+     "f": 512
+    },
+    {
+     "at": "A:01.3",
+     "sound": "thunder",
+     "gain": 0.4,
+     "f": 544
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "section": 1,
+   "scene": "1-1",
+   "start": "A:02.1",
+   "end": "A:03.1",
+   "startFrame": 576,
+   "endFrame": 639,
+   "text": "他爹鲧治水九年，没治住",
+   "emphasis": [
+    {
+     "word": "九年",
+     "color": "shilv"
+    }
+   ],
+   "display": "bottom",
+   "desc": {
+    "scene": "同【1-1】｜中景平移",
+    "action": "鲧率众夯土筑堤，堤身每拍加高一层漆色水位线，共九层（算年）；{A:02.3} 浪头拍碎土堤，堤身崩成剔红碎块。",
+    "cast": "鲧：中年，粗葛短衣、腰系草绳；动作：挥夯→回头；表情：咬牙→错愕",
+    "sfx": "夯土“咚咚”；{A:02.3} 堤崩轰响"
+   },
+   "cast": [
+    {
+     "who": "gun",
+     "outfit": "worker",
+     "expr": [
+      [
+       "A:02.1",
+       "clench"
+      ],
+      [
+       "A:02.3",
+       "shock"
+      ]
+     ],
+     "exprFrames": [
+      [
+       576,
+       "clench"
+      ],
+      [
+       607,
+       "shock"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "ram": "A:02.1",
+    "break": "A:02.3"
+   },
+   "sfx": [
+    {
+     "at": "A:02.1",
+     "sound": "ram",
+     "gain": 0.6
+    },
+    {
+     "at": "A:02.2",
+     "sound": "ram",
+     "gain": 0.6
+    },
+    {
+     "at": "A:02.3",
+     "sound": "damBreak",
+     "gain": 0.9
+    }
+   ],
+   "cueFrames": {
+    "ram": 576,
+    "break": 607
+   },
+   "sfxFrames": [
+    {
+     "at": "A:02.1",
+     "sound": "ram",
+     "gain": 0.6,
+     "f": 576
+    },
+    {
+     "at": "A:02.2",
+     "sound": "ram",
+     "gain": 0.6,
+     "f": 592
+    },
+    {
+     "at": "A:02.3",
+     "sound": "damBreak",
+     "gain": 0.9,
+     "f": 607
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "section": 1,
+   "scene": "1-2",
+   "start": "A:03.1",
+   "end": "A:04.1",
+   "startFrame": 639,
+   "endFrame": 703,
+   "text": "据《史记》记载，鲧被舜治罪",
+   "emphasis": [
+    {
+     "word": "治罪",
+     "color": "zhu"
+    }
+   ],
+   "display": "slam",
+   "desc": {
+    "scene": "【1-2】传说时代·羽山｜中景仰拍｜底色 赭褐 #5A3220，黄昏斜光",
+    "action": "**转场：剔红剥层**——画面像被刀刮去一层层朱漆，露出羽山岩壁。画左描金地名牌“羽山”（山形图标）。舜抬手一指，鲧被押向羽山深处；{A:03.4} 鲧的剪影没入朱漆暮色（只表现治罪、放逐，不表现处死——史料对鲧是被流放还是被处死有分歧）。",
+    "cast": "舜（中年，摄政）：朱麻衣、羽冠；表情：冷峻。鲧：跪姿垂首",
+    "sfx": "重鼓一击；风"
+   },
+   "slam": {
+    "pre": "据《史记》记载，鲧被舜",
+    "key": "治罪",
+    "post": "",
+    "at": "A:03.3",
+    "f": 672
+   },
+   "cast": [
+    {
+     "who": "shun",
+     "outfit": "chief",
+     "expr": [
+      [
+       "A:03.1",
+       "stern"
+      ]
+     ],
+     "exprFrames": [
+      [
+       639,
+       "stern"
+      ]
+     ]
+    },
+    {
+     "who": "gun",
+     "outfit": "worker",
+     "expr": [
+      [
+       "A:03.1",
+       "sorrow"
+      ]
+     ],
+     "exprFrames": [
+      [
+       639,
+       "sorrow"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "peel": "A:03.1",
+    "point": "A:03.2",
+    "sink": "A:03.4"
+   },
+   "sfx": [
+    {
+     "at": "A:03.1",
+     "sound": "peel",
+     "gain": 0.6
+    },
+    {
+     "at": "A:03.3",
+     "sound": "slam",
+     "gain": 0.95,
+     "duck": true
+    }
+   ],
+   "cueFrames": {
+    "peel": 639,
+    "point": 655,
+    "sink": 688
+   },
+   "sfxFrames": [
+    {
+     "at": "A:03.1",
+     "sound": "peel",
+     "gain": 0.6,
+     "f": 639
+    },
+    {
+     "at": "A:03.3",
+     "sound": "slam",
+     "gain": 0.95,
+     "duck": true,
+     "f": 672
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "section": 1,
+   "scene": "1-3",
+   "start": "A:04.1",
+   "end": "A:05.1",
+   "startFrame": 703,
+   "endFrame": 767,
+   "text": "转头，舜把治水交给了",
+   "emphasis": [],
+   "display": "bottom",
+   "desc": {
+    "scene": "【1-3】部落高台·清晨｜中景→甩镜｜底色 雾青灰 #56615D，晨光平射",
+    "action": "**转场：甩镜横摇**，跟随舜转身。舜持一柄新木耒向画右递出；镜头横摇过人群，众人目光齐转。",
+    "cast": "舜：转身；表情：平静审视。部落众人：葛麻衣，表情：好奇",
+    "sfx": "甩镜风声“唰”"
+   },
+   "cast": [
+    {
+     "who": "shun",
+     "outfit": "chief",
+     "expr": [
+      [
+       "A:04.1",
+       "calm"
+      ]
+     ],
+     "exprFrames": [
+      [
+       703,
+       "calm"
+      ]
+     ]
+    },
+    {
+     "who": "crowd",
+     "outfit": "commoner",
+     "expr": [
+      [
+       "A:04.1",
+       "curious"
+      ]
+     ],
+     "exprFrames": [
+      [
+       703,
+       "curious"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "whip": "A:04.1",
+    "handout": "A:04.3"
+   },
+   "sfx": [
+    {
+     "at": "A:04.1",
+     "sound": "whoosh",
+     "gain": 0.7
+    },
+    {
+     "at": "A:04.2",
+     "sound": "murmur",
+     "gain": 0.35,
+     "dur": 1.6
+    }
+   ],
+   "cueFrames": {
+    "whip": 703,
+    "handout": 735
+   },
+   "sfxFrames": [
+    {
+     "at": "A:04.1",
+     "sound": "whoosh",
+     "gain": 0.7,
+     "f": 703
+    },
+    {
+     "at": "A:04.2",
+     "sound": "murmur",
+     "gain": 0.35,
+     "dur": 1.6,
+     "f": 719
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "section": 1,
+   "scene": "1-3",
+   "start": "A:05.1",
+   "end": "A:06.1",
+   "startFrame": 767,
+   "endFrame": 830,
+   "text": "鲧的儿子——禹",
+   "emphasis": [
+    {
+     "word": "儿子",
+     "color": "zhu"
+    }
+   ],
+   "display": "bottom",
+   "desc": {
+    "scene": "同【1-3】｜人群中推近到半身",
+    "action": "人群向两侧分开，青年禹站在中间；{A:05.1} 他接过木耒（卡重拍），镜头推到半身。",
+    "cast": "禹（青年）：素葛短衣、骨笄；表情：震惊→强压情绪，喉结滚动",
+    "sfx": "人群低语骤停"
+   },
+   "cast": [
+    {
+     "who": "yu",
+     "outfit": "commoner",
+     "expr": [
+      [
+       "A:05.1",
+       "shock"
+      ],
+      [
+       "A:05.3",
+       "suppressed"
+      ]
+     ],
+     "exprFrames": [
+      [
+       767,
+       "shock"
+      ],
+      [
+       799,
+       "suppressed"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "part": "A:05.1",
+    "receive": "A:05.1"
+   },
+   "sfx": [
+    {
+     "at": "A:05.1",
+     "sound": "drum",
+     "gain": 0.7
+    }
+   ],
+   "cueFrames": {
+    "part": 767,
+    "receive": 767
+   },
+   "sfxFrames": [
+    {
+     "at": "A:05.1",
+     "sound": "drum",
+     "gain": 0.7,
+     "f": 767
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "section": 1,
+   "scene": "1-4",
+   "start": "A:06.1",
+   "end": "A:07.1",
+   "startFrame": 830,
+   "endFrame": 894,
+   "text": "禹想：干成了，是本分",
+   "emphasis": [],
+   "display": "bottom",
+   "desc": {
+    "scene": "【1-4】小剧场·禹的心里账｜中景，抽象空间｜底色 推光黑 #161311，单束顶光",
+    "action": "**转场：墨晕吞景**——画面中心一点黑漆晕开吞掉高台。空中垂下描金天平图标，左盘落入一株禾苗（干成），天平几乎不动。画左一枚“演绎”小印图标，提示此段为推演。",
+    "cast": "禹：盘腿坐在天平下仰头；表情：苦笑",
+    "sfx": "金属轻响“叮”"
+   },
+   "cast": [
+    {
+     "who": "yu",
+     "outfit": "commoner",
+     "expr": [
+      [
+       "A:06.1",
+       "bitter"
+      ]
+     ],
+     "exprFrames": [
+      [
+       830,
+       "bitter"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "ink": "A:06.1",
+    "sprout": "A:06.2"
+   },
+   "sfx": [
+    {
+     "at": "A:06.1",
+     "sound": "inkBloom",
+     "gain": 0.5
+    },
+    {
+     "at": "A:06.2",
+     "sound": "bell",
+     "gain": 0.55
+    }
+   ],
+   "cueFrames": {
+    "ink": 830,
+    "sprout": 846
+   },
+   "sfxFrames": [
+    {
+     "at": "A:06.1",
+     "sound": "inkBloom",
+     "gain": 0.5,
+     "f": 830
+    },
+    {
+     "at": "A:06.2",
+     "sound": "bell",
+     "gain": 0.55,
+     "f": 846
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "section": 1,
+   "scene": "1-4",
+   "start": "A:07.1",
+   "end": "A:08.1",
+   "startFrame": 894,
+   "endFrame": 958,
+   "text": "干不成，就是下一个鲧",
+   "emphasis": [
+    {
+     "word": "下一个鲧",
+     "color": "zhu"
+    }
+   ],
+   "display": "slam",
+   "desc": {
+    "scene": "同【1-4】｜下摇到右盘",
+    "action": "{A:07.1} 右盘砸进一枚“断耒+羽山”图标，天平猛倾（这小节 BGM 偏空，画面跟着留白）；禹的影子被拉长，变成跪姿，与 1-2 里鲧被押走的剪影重合。",
+    "cast": "禹：表情：焦虑→惊惧；双手抱膝",
+    "sfx": "重物砸落“嘭”，余音拖长"
+   },
+   "slam": {
+    "pre": "干不成，就是",
+    "key": "下一个鲧",
+    "post": "",
+    "at": "A:07.1",
+    "f": 894,
+    "pos": "top"
+   },
+   "cast": [
+    {
+     "who": "yu",
+     "outfit": "commoner",
+     "expr": [
+      [
+       "A:07.1",
+       "anxious"
+      ],
+      [
+       "A:07.3",
+       "fear"
+      ]
+     ],
+     "exprFrames": [
+      [
+       894,
+       "anxious"
+      ],
+      [
+       926,
+       "fear"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "drop": "A:07.1"
+   },
+   "sfx": [
+    {
+     "at": "A:07.1",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true
+    },
+    {
+     "at": "A:07.1",
+     "sound": "bigThud",
+     "gain": 0.7
+    }
+   ],
+   "cueFrames": {
+    "drop": 894
+   },
+   "sfxFrames": [
+    {
+     "at": "A:07.1",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true,
+     "f": 894
+    },
+    {
+     "at": "A:07.1",
+     "sound": "bigThud",
+     "gain": 0.7,
+     "f": 894
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "section": 1,
+   "scene": "1-5",
+   "start": "A:08.1",
+   "end": "A:09.2",
+   "startFrame": 958,
+   "endFrame": 1037,
+   "text": "据《史记》记载，他在外十三年",
+   "emphasis": [
+    {
+     "word": "十三年",
+     "color": "luodian"
+    }
+   ],
+   "display": "bottom",
+   "desc": {
+    "scene": "【1-5】治水工地·风雨年月｜特写绳结→中景｜底色 暗泥金 #6E5F45，雨天漫射光",
+    "action": "**转场：绳索横扫**——一根结绳从画左猛拉过全屏完成换景。画左结绳记年：每拍打一个结，共 13 个结（图标，不写数字）；背景禹挖渠剪影循环，季节色块在泥金底上轮换。",
+    "cast": "禹：挥耒挖土；表情：麻木的坚持；衣服每 4 个结换一次更破的贴图",
+    "sfx": "打结“嗒”×13；雨声"
+   },
+   "cast": [
+    {
+     "who": "yu",
+     "outfit": "worker",
+     "expr": [
+      [
+       "A:08.1",
+       "grim"
+      ]
+     ],
+     "exprFrames": [
+      [
+       958,
+       "grim"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "rope": "A:08.1",
+    "knotsFrom": "A:08.1+0.5",
+    "knotsTo": "A:09.1+0.5"
+   },
+   "sfx": [
+    {
+     "at": "A:08.1",
+     "sound": "ropeWhip",
+     "gain": 0.6
+    },
+    {
+     "at": "A:08.1",
+     "sound": "rain",
+     "gain": 0.4,
+     "dur": 5.0
+    },
+    {
+     "at": "KNOTS",
+     "sound": "knot",
+     "gain": 0.45
+    }
+   ],
+   "cueFrames": {
+    "rope": 958,
+    "knotsFrom": 966,
+    "knotsTo": 1029,
+    "knots": [
+     964,
+     972,
+     976,
+     980,
+     988,
+     992,
+     996,
+     1004,
+     1008,
+     1012,
+     1020,
+     1024,
+     1028
+    ]
+   },
+   "sfxFrames": [
+    {
+     "at": "A:08.1",
+     "sound": "ropeWhip",
+     "gain": 0.6,
+     "f": 958
+    },
+    {
+     "at": "A:08.1",
+     "sound": "rain",
+     "gain": 0.4,
+     "dur": 5.0,
+     "f": 958
+    },
+    {
+     "at": "KNOTS",
+     "sound": "knot",
+     "gain": 0.45,
+     "f": 964
+    },
+    {
+     "at": "KNOTS",
+     "sound": "knot",
+     "gain": 0.45,
+     "f": 972
+    },
+    {
+     "at": "KNOTS",
+     "sound": "knot",
+     "gain": 0.45,
+     "f": 976
+    },
+    {
+     "at": "KNOTS",
+     "sound": "knot",
+     "gain": 0.45,
+     "f": 980
+    },
+    {
+     "at": "KNOTS",
+     "sound": "knot",
+     "gain": 0.45,
+     "f": 988
+    },
+    {
+     "at": "KNOTS",
+     "sound": "knot",
+     "gain": 0.45,
+     "f": 992
+    },
+    {
+     "at": "KNOTS",
+     "sound": "knot",
+     "gain": 0.45,
+     "f": 996
+    },
+    {
+     "at": "KNOTS",
+     "sound": "knot",
+     "gain": 0.45,
+     "f": 1004
+    },
+    {
+     "at": "KNOTS",
+     "sound": "knot",
+     "gain": 0.45,
+     "f": 1008
+    },
+    {
+     "at": "KNOTS",
+     "sound": "knot",
+     "gain": 0.45,
+     "f": 1012
+    },
+    {
+     "at": "KNOTS",
+     "sound": "knot",
+     "gain": 0.45,
+     "f": 1020
+    },
+    {
+     "at": "KNOTS",
+     "sound": "knot",
+     "gain": 0.45,
+     "f": 1024
+    },
+    {
+     "at": "KNOTS",
+     "sound": "knot",
+     "gain": 0.45,
+     "f": 1028
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "section": 1,
+   "scene": "1-6",
+   "start": "A:09.2",
+   "end": "A:10.2",
+   "startFrame": 1037,
+   "endFrame": 1101,
+   "text": "过家门而不敢入",
+   "emphasis": [
+    {
+     "word": "不敢",
+     "color": "gold"
+    }
+   ],
+   "display": "slam",
+   "desc": {
+    "scene": "【1-6】夜·禹家门外（半地穴茅屋）｜中景平视｜底色 夜蓝 #151E33，门缝透暖光",
+    "action": "**转场：斜雨划变**——斜雨从右上扫向左下完成换景。禹走过茅屋，{A:10.1} 在门口停步（卡重拍）。",
+    "cast": "禹：草编披肩（龙山时代雨具推想）；动作：停步、侧头；表情：挣扎",
+    "sfx": "雨声转小，屋内隐约婴儿声"
+   },
+   "slam": {
+    "pre": "过家门而",
+    "key": "不敢",
+    "post": "入",
+    "at": "A:10.1",
+    "f": 1085
+   },
+   "cast": [
+    {
+     "who": "yu",
+     "outfit": "strawcape",
+     "expr": [
+      [
+       "A:09.2",
+       "tired"
+      ],
+      [
+       "A:10.1",
+       "struggle"
+      ]
+     ],
+     "exprFrames": [
+      [
+       1037,
+       "tired"
+      ],
+      [
+       1085,
+       "struggle"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "rainwipe": "A:09.2",
+    "stop": "A:10.1"
+   },
+   "sfx": [
+    {
+     "at": "A:09.2",
+     "sound": "rainSwish",
+     "gain": 0.5
+    },
+    {
+     "at": "A:10.1",
+     "sound": "slam",
+     "gain": 0.95,
+     "duck": true
+    }
+   ],
+   "cueFrames": {
+    "rainwipe": 1037,
+    "stop": 1085
+   },
+   "sfxFrames": [
+    {
+     "at": "A:09.2",
+     "sound": "rainSwish",
+     "gain": 0.5,
+     "f": 1037
+    },
+    {
+     "at": "A:10.1",
+     "sound": "slam",
+     "gain": 0.95,
+     "duck": true,
+     "f": 1085
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "section": 1,
+   "scene": "1-6",
+   "start": "A:10.2",
+   "end": "A:11.2",
+   "startFrame": 1101,
+   "endFrame": 1165,
+   "text": "注意，是不敢，不是不想",
+   "emphasis": [],
+   "display": "bottom",
+   "desc": {
+    "scene": "同【1-6】｜特写：手与草帘",
+    "action": "禹的手抬到草帘前，停住，又放下；焦点在手与门缝暖光之间来回切两次。“不敢”落屏时，门缝光被雨夜压成一条细线。",
+    "cast": "禹：表情：隐忍、眼眶发红；动作：抬手→放下",
+    "sfx": "心跳两声"
+   },
+   "cast": [
+    {
+     "who": "yu",
+     "outfit": "strawcape",
+     "expr": [
+      [
+       "A:10.2",
+       "struggle"
+      ],
+      [
+       "A:11.1",
+       "teary"
+      ]
+     ],
+     "exprFrames": [
+      [
+       1101,
+       "struggle"
+      ],
+      [
+       1149,
+       "teary"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "raise": "A:10.3",
+    "lower": "A:11.1"
+   },
+   "sfx": [
+    {
+     "at": "A:10.3",
+     "sound": "heartbeat",
+     "gain": 0.6
+    },
+    {
+     "at": "A:11.1",
+     "sound": "heartbeat",
+     "gain": 0.5
+    }
+   ],
+   "cueFrames": {
+    "raise": 1117,
+    "lower": 1149
+   },
+   "sfxFrames": [
+    {
+     "at": "A:10.3",
+     "sound": "heartbeat",
+     "gain": 0.6,
+     "f": 1117
+    },
+    {
+     "at": "A:11.1",
+     "sound": "heartbeat",
+     "gain": 0.5,
+     "f": 1149
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "section": 1,
+   "scene": "1-7",
+   "start": "A:11.2",
+   "end": "A:12.4",
+   "startFrame": 1165,
+   "endFrame": 1260,
+   "text": "据《尚书》记载，他新婚不久就出门",
+   "emphasis": [],
+   "display": "bottom",
+   "desc": {
+    "scene": "【1-7】回忆·屋内火塘｜近景｜底色 暖橘 #7A3E1C，火光跳动",
+    "action": "**转场：光缝展开**——门缝光由窄变宽推开整屏，进入屋内。画左几枚描金日纹图标匆匆亮起又熄（表示没过几天）；新婚的禹起身背耒。",
+    "cast": "涂山氏（禹之妻）：葛麻长衣、骨笄；表情：不舍。禹：表情：歉疚；起身",
+    "sfx": "火塘噼啪；几声轻击"
+   },
+   "cast": [
+    {
+     "who": "yu",
+     "outfit": "commoner",
+     "expr": [
+      [
+       "A:11.2",
+       "guilty"
+      ]
+     ],
+     "exprFrames": [
+      [
+       1165,
+       "guilty"
+      ]
+     ]
+    },
+    {
+     "who": "tushan",
+     "outfit": "wife",
+     "expr": [
+      [
+       "A:11.2",
+       "sad"
+      ]
+     ],
+     "exprFrames": [
+      [
+       1165,
+       "sad"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "slit": "A:11.2",
+    "days": "A:11.3",
+    "rise": "A:12.2"
+   },
+   "sfx": [
+    {
+     "at": "A:11.2",
+     "sound": "fire",
+     "gain": 0.45,
+     "dur": 3.2
+    },
+    {
+     "at": "A:11.3",
+     "sound": "tick",
+     "gain": 0.4
+    },
+    {
+     "at": "A:11.4",
+     "sound": "tick",
+     "gain": 0.4
+    },
+    {
+     "at": "A:12.1",
+     "sound": "tick",
+     "gain": 0.4
+    }
+   ],
+   "cueFrames": {
+    "slit": 1165,
+    "days": 1181,
+    "rise": 1228
+   },
+   "sfxFrames": [
+    {
+     "at": "A:11.2",
+     "sound": "fire",
+     "gain": 0.45,
+     "dur": 3.2,
+     "f": 1165
+    },
+    {
+     "at": "A:11.3",
+     "sound": "tick",
+     "gain": 0.4,
+     "f": 1181
+    },
+    {
+     "at": "A:11.4",
+     "sound": "tick",
+     "gain": 0.4,
+     "f": 1196
+    },
+    {
+     "at": "A:12.1",
+     "sound": "tick",
+     "gain": 0.4,
+     "f": 1212
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "section": 1,
+   "scene": "1-7",
+   "start": "A:12.4",
+   "end": "A:13.4",
+   "startFrame": 1260,
+   "endFrame": 1324,
+   "text": "儿子启呱呱哭，他顾不上",
+   "emphasis": [],
+   "display": "bottom",
+   "desc": {
+    "scene": "同【1-7】｜特写→拉开",
+    "action": "火塘边襁褓里的婴儿启大哭（嘴部动画），涂山氏摇着他望向门口；门帘被风掀动，门外空无一人。镜头拉开，雨夜里禹的背影越走越远。",
+    "cast": "启（婴儿）：麻布襁褓，大哭。涂山氏：表情：担忧→望门",
+    "sfx": "婴儿哭声（压低混入 BGM）"
+   },
+   "cast": [
+    {
+     "who": "tushan",
+     "outfit": "wife",
+     "expr": [
+      [
+       "A:12.4",
+       "worried"
+      ]
+     ],
+     "exprFrames": [
+      [
+       1260,
+       "worried"
+      ]
+     ]
+    },
+    {
+     "who": "qi",
+     "outfit": "baby",
+     "expr": [
+      [
+       "A:12.4",
+       "cry"
+      ]
+     ],
+     "exprFrames": [
+      [
+       1260,
+       "cry"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "cry": "A:12.4",
+    "pullback": "A:13.2"
+   },
+   "sfx": [
+    {
+     "at": "A:12.4",
+     "sound": "qing",
+     "gain": 0.45
+    }
+   ],
+   "cueFrames": {
+    "cry": 1260,
+    "pullback": 1291
+   },
+   "sfxFrames": [
+    {
+     "at": "A:12.4",
+     "sound": "qing",
+     "gain": 0.45,
+     "f": 1260
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "section": 1,
+   "scene": "1-8",
+   "start": "A:13.4",
+   "end": "A:14.4",
+   "startFrame": 1324,
+   "endFrame": 1388,
+   "text": "据《国语》记载，鲧筑堤堵水",
+   "emphasis": [
+    {
+     "word": "堵",
+     "color": "zhu"
+    }
+   ],
+   "display": "slam",
+   "desc": {
+    "scene": "【1-8】河道·垂直俯拍｜大全景｜底色 墨绿 #1C2B22，水面反光",
+    "action": "**转场：升空俯冲**——镜头从屋顶垂直升起转为俯拍。一道土堤横拦河道，水位用漆层叠色一层层上涨，堤身出现裂纹；河底黑石胚被浑水盖住。",
+    "cast": "俯视小人剪影（鲧的队伍）不断加高堤坝",
+    "sfx": "水压闷响"
+   },
+   "slam": {
+    "pre": "据《国语》记载，鲧筑堤",
+    "key": "堵",
+    "post": "水",
+    "at": "A:14.1",
+    "f": 1340,
+    "pos": "top"
+   },
+   "cues": {
+    "crane": "A:13.4",
+    "rise": "A:14.1"
+   },
+   "sfx": [
+    {
+     "at": "A:13.4",
+     "sound": "whoosh",
+     "gain": 0.5
+    },
+    {
+     "at": "A:14.1",
+     "sound": "slam",
+     "gain": 0.9,
+     "duck": true
+    },
+    {
+     "at": "A:14.1",
+     "sound": "waterPress",
+     "gain": 0.5
+    }
+   ],
+   "cueFrames": {
+    "crane": 1324,
+    "rise": 1340
+   },
+   "sfxFrames": [
+    {
+     "at": "A:13.4",
+     "sound": "whoosh",
+     "gain": 0.5,
+     "f": 1324
+    },
+    {
+     "at": "A:14.1",
+     "sound": "slam",
+     "gain": 0.9,
+     "duck": true,
+     "f": 1340
+    },
+    {
+     "at": "A:14.1",
+     "sound": "waterPress",
+     "gain": 0.5,
+     "f": 1340
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "section": 1,
+   "scene": "1-8",
+   "start": "A:14.4",
+   "end": "A:15.4",
+   "startFrame": 1388,
+   "endFrame": 1451,
+   "text": "禹改成开渠疏导",
+   "emphasis": [
+    {
+     "word": "疏",
+     "color": "shilv"
+    }
+   ],
+   "display": "slam",
+   "desc": {
+    "scene": "同【1-8】｜俯拍，镜头缓旋",
+    "action": "土堤消散，描金细线在地面划出一条条支渠（每拍一条），水顺金线分流入海。水流冲刷河底黑石胚，推光高光一层层亮起，石胚被磨出圭形——**贯穿物件“长大成形”**。",
+    "cast": "禹的队伍剪影沿金线开渠；禹站高处指挥，表情：专注→舒展",
+    "sfx": "水流由急转缓"
+   },
+   "slam": {
+    "pre": "禹改成开渠",
+    "key": "疏",
+    "post": "导",
+    "at": "A:15.1",
+    "f": 1403,
+    "pos": "top"
+   },
+   "cast": [
+    {
+     "who": "yu",
+     "outfit": "worker",
+     "expr": [
+      [
+       "A:14.4",
+       "focus"
+      ],
+      [
+       "A:15.3",
+       "relief"
+      ]
+     ],
+     "exprFrames": [
+      [
+       1388,
+       "focus"
+      ],
+      [
+       1435,
+       "relief"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "dissolve": "A:14.4",
+    "channels": "A:15.1",
+    "polish": "A:15.1"
+   },
+   "sfx": [
+    {
+     "at": "A:15.1",
+     "sound": "slam",
+     "gain": 0.9,
+     "duck": true
+    },
+    {
+     "at": "A:15.1",
+     "sound": "waterFlow",
+     "gain": 0.5,
+     "dur": 2.0
+    }
+   ],
+   "cueFrames": {
+    "dissolve": 1388,
+    "channels": 1403,
+    "polish": 1403
+   },
+   "sfxFrames": [
+    {
+     "at": "A:15.1",
+     "sound": "slam",
+     "gain": 0.9,
+     "duck": true,
+     "f": 1403
+    },
+    {
+     "at": "A:15.1",
+     "sound": "waterFlow",
+     "gain": 0.5,
+     "dur": 2.0,
+     "f": 1403
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "section": 1,
+   "scene": "1-9",
+   "start": "A:15.4",
+   "end": "BRK:01.1",
+   "startFrame": 1451,
+   "endFrame": 1530,
+   "text": "水患平定，舜赐他玄圭",
+   "emphasis": [
+    {
+     "word": "玄圭",
+     "color": "gold"
+    }
+   ],
+   "display": "slam",
+   "desc": {
+    "scene": "【1-9】高台·治水功成｜中景仰拍｜底色 朱漆 #7A1F1A，暖金顶光",
+    "action": "**转场：圭形匹配**——成形的玄圭从水底浮起，接到高台上舜手中同一位置。舜把玄圭授给禹，{A:16.1} 交接卡重拍，圭边描金线亮一周。",
+    "cast": "舜：表情：欣慰微笑。禹：换整洁葛衣，双手接圭垂首；表情：疲惫的释然",
+    "sfx": "玉鸣“叮——”+远处欢呼"
+   },
+   "slam": {
+    "pre": "水患平定，舜赐他",
+    "key": "玄圭",
+    "post": "",
+    "at": "A:16.1",
+    "f": 1466,
+    "pos": "top"
+   },
+   "cast": [
+    {
+     "who": "shun",
+     "outfit": "chief",
+     "expr": [
+      [
+       "A:15.4",
+       "smile"
+      ]
+     ],
+     "exprFrames": [
+      [
+       1451,
+       "smile"
+      ]
+     ]
+    },
+    {
+     "who": "yu",
+     "outfit": "clean",
+     "expr": [
+      [
+       "A:15.4",
+       "tired"
+      ],
+      [
+       "A:16.1",
+       "relief"
+      ]
+     ],
+     "exprFrames": [
+      [
+       1451,
+       "tired"
+      ],
+      [
+       1466,
+       "relief"
+      ]
+     ]
+    }
+   ],
+   "cues": {
+    "rise": "A:15.4",
+    "handoff": "A:16.1"
+   },
+   "sfx": [
+    {
+     "at": "A:16.1",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true
+    },
+    {
+     "at": "A:16.1",
+     "sound": "jade",
+     "gain": 0.7
+    },
+    {
+     "at": "A:16.2",
+     "sound": "cheer",
+     "gain": 0.35,
+     "dur": 2.5
+    }
+   ],
+   "cueFrames": {
+    "rise": 1451,
+    "handoff": 1466
+   },
+   "sfxFrames": [
+    {
+     "at": "A:16.1",
+     "sound": "slam",
+     "gain": 1.0,
+     "duck": true,
+     "f": 1466
+    },
+    {
+     "at": "A:16.1",
+     "sound": "jade",
+     "gain": 0.7,
+     "f": 1466
+    },
+    {
+     "at": "A:16.2",
+     "sound": "cheer",
+     "gain": 0.35,
+     "dur": 2.5,
+     "f": 1482
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "section": 2,
+   "scene": "2-1",
+   "start": "BRK:01.1",
+   "end": "BRK:02.1",
+   "startFrame": 1530,
+   "endFrame": 1594,
+   "text": "舜把禹定为接班人",
+   "emphasis": [
+    {
+     "word": "接班人",
+     "color": "gold"
+    }
+   ],
+   "display": "bottom",
+   "desc": {
+    "scene": "【2-1】祭天土台·黎明｜远景，人物很小｜底色 鸦青 #3B4A52，黎明冷光",
+    "action": "**转场：螺钿聚合**——画面碎成螺钿光片，再聚成祭天土台。舜领禹登台，二人面朝天空，禹捧玄圭在胸前。BGM 抽空段，镜头极慢上升。",
+    "cast": "舜：白发苍老，表情：平和。禹：躬身，表情：恭敬",
+    "sfx": "风声、远处鸟鸣"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 25,
+   "section": 2,
+   "scene": "2-2",
+   "start": "BRK:02.1",
+   "end": "BRK:03.3",
+   "startFrame": 1594,
+   "endFrame": 1690,
+   "text": "据《史记》记载，十七年后舜去世",
+   "emphasis": [],
+   "display": "bottom",
+   "desc": {
+    "scene": "【2-2】南方·苍梧之野（夜）｜大远景横移｜底色 靛青 #19233A，月光",
+    "action": "**转场：莳绘金粉飘散**——上一画面化成金粉向右飘去，飘成南方群山轮廓。画左描金地名牌“苍梧”（山树图标）；画左十七粒螺钿星点依次亮起（算年）。舜拄杖的小剪影沿山路走，渐渐散成金粉。",
+    "cast": "舜（老年）：拄杖、背微驼；远景剪影",
+    "sfx": "一声长磬"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 26,
+   "section": 2,
+   "scene": "2-3",
+   "start": "BRK:03.3",
+   "end": "BRK:05.1",
+   "startFrame": 1690,
+   "endFrame": 1785,
+   "text": "守丧三年，人人都等禹上位",
+   "emphasis": [],
+   "display": "bottom",
+   "desc": {
+    "scene": "【2-3】都城·丧庐｜中景平视｜底色 麻褐灰 #5A5045，阴天柔光",
+    "action": "**转场：飘叶划变**——一阵落叶从左飘过完成换景。禹跪在草庐前，背景树叶黄→落→绿循环三遍（算三年）；庐外人群越聚越多，全望着禹。",
+    "cast": "禹：粗麻素服（当时丧服形制不可考，简化处理），跪坐；表情：悲戚。众人：表情：期待",
+    "sfx": "秋风、窸窣人声"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 27,
+   "section": 2,
+   "scene": "2-4",
+   "start": "BRK:05.1",
+   "end": "BRK:06.2",
+   "startFrame": 1785,
+   "endFrame": 1865,
+   "text": "禹却离开都城，躲去阳城",
+   "emphasis": [
+    {
+     "word": "阳城",
+     "color": "luodian"
+    }
+   ],
+   "display": "bottom",
+   "desc": {
+    "scene": "【2-4】都城外·黄土路｜全景横移｜底色 赭黄 #8A6A3A，午后侧光",
+    "action": "**转场：推轨横移**——镜头右移离开丧庐，出城门。禹背包袱走出城门，身后留下一串脚印（为第 3、4 节“流程”埋伏笔）。画左描金地名牌“阳城”（城垣图标）。",
+    "cast": "禹：便装葛衣、背包袱；表情：平静决然。城门口众人：表情：错愕",
+    "sfx": "脚步声、门轴吱呀"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 28,
+   "section": 2,
+   "scene": "2-4",
+   "start": "BRK:06.2",
+   "end": "BRK:07.2",
+   "startFrame": 1865,
+   "endFrame": 1928,
+   "text": "让位给舜的儿子商均",
+   "emphasis": [
+    {
+     "word": "商均",
+     "color": "gold"
+    }
+   ],
+   "display": "bottom",
+   "desc": {
+    "scene": "同【2-4】｜反打城门内",
+    "action": "城门内空席中央摆着玄圭，正对商均；商均伸指轻抚圭面。BGM 每小节第 3 拍是空拍，画面同步定格一拍。",
+    "cast": "商均（舜之子）：青年，朱麻衣、佩玉璜；表情：意外→窃喜",
+    "sfx": "空拍处无声"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 29,
+   "section": 2,
+   "scene": "2-5",
+   "start": "BRK:07.2",
+   "end": "BLD:01.1",
+   "startFrame": 1928,
+   "endFrame": 1976,
+   "text": "商均等啊等……",
+   "emphasis": [],
+   "display": "bottom",
+   "desc": {
+    "scene": "【2-5】都城·空殿｜中景固定机位延时｜底色 灰漆 #4A4744，日光斜移",
+    "action": "**转场：日影旋转**——地上光斑快速转一圈完成换景。商均端坐，窗影从左扫到右（一天过去），席位空荡，玄圭落了一层莳绘细尘。",
+    "cast": "商均：正襟危坐；表情：期待→疑惑，频频望门",
+    "sfx": "风吹门帘、快进鸟鸣"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 30,
+   "section": 2,
+   "scene": "2-5",
+   "start": "BLD:01.1",
+   "end": "BLD:02.1",
+   "startFrame": 1976,
+   "endFrame": 2040,
+   "text": "结果，诸侯一个都没来",
+   "emphasis": [
+    {
+     "word": "一个都没来",
+     "color": "zhu"
+    }
+   ],
+   "display": "bottom",
+   "desc": {
+    "scene": "同【2-5】｜急推到门口",
+    "action": "{BLD:01.1} **重拍**：风把殿门吹开，门外空无一人，只有落叶打旋；镜头急推出门。",
+    "cast": "商均：猛地站起；表情：尴尬→失落",
+    "sfx": "{BLD:01.1} 门板撞墙“砰”"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 31,
+   "section": 2,
+   "scene": "2-6",
+   "start": "BLD:02.1",
+   "end": "BLD:03.2",
+   "startFrame": 2040,
+   "endFrame": 2119,
+   "text": "据《史记》记载，诸侯都去朝见禹",
+   "emphasis": [],
+   "display": "bottom",
+   "desc": {
+    "scene": "【2-6】阳城·夜｜大全景俯视→推进｜底色 暖朱 #8C2A1E，火把光",
+    "action": "**转场：光点汇流**——上一屏的落叶化成光点，从四面八方汇成火把长龙，流向阳城一座小屋。画左描金地名牌“阳城”。",
+    "cast": "各部落首领：麻衣颜色各异，羽饰、玉饰不同，举火把；表情：急切",
+    "sfx": "人潮脚步、火把呼呼"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 32,
+   "section": 2,
+   "scene": "2-6",
+   "start": "BLD:03.2",
+   "end": "BLD:04.2",
+   "startFrame": 2119,
+   "endFrame": 2182,
+   "text": "禹这才即位，国号夏后",
+   "emphasis": [
+    {
+     "word": "夏后",
+     "color": "gold"
+    }
+   ],
+   "display": "bottom",
+   "desc": {
+    "scene": "同【2-6】｜近景",
+    "action": "小屋门开，众人簇拥禹出门；都城那块玄圭从远处飞来，{BLD:04.1} 落入禹手（卡重拍），圭面亮出开头 0-5 的那枚夏后纹样。",
+    "cast": "禹：表情三拍内变化：意外→无奈→接受。首领们：俯身行礼",
+    "sfx": "无词人声齐呼、玉鸣"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 33,
+   "section": 2,
+   "scene": "2-7",
+   "start": "BLD:04.2",
+   "end": "BLD:05.1",
+   "startFrame": 2182,
+   "endFrame": 2231,
+   "text": "听着像谦让佳话",
+   "emphasis": [],
+   "display": "bottom",
+   "desc": {
+    "scene": "【2-7】时间倒带｜中景定格→倒放｜底色 陈褐 #6F5D3F，旧纸色调",
+    "action": "**转场：泛黄倒带**——上一画面整体泛黄、漆面生出老化断纹，人物动作开始倒放（火把倒流，禹倒退回屋）。",
+    "cast": "禹与首领：倒放；表情定格在微笑",
+    "sfx": "倒带“嗖嗖”"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 34,
+   "section": 2,
+   "scene": "2-7",
+   "start": "BLD:05.1",
+   "end": "BLD:06.1",
+   "startFrame": 2231,
+   "endFrame": 2294,
+   "text": "可再看，舜是怎么上位的",
+   "emphasis": [],
+   "display": "bottom",
+   "desc": {
+    "scene": "同【2-7】｜倒带加速，镜头拉远",
+    "action": "倒带越来越快，人物在倒放中换人：禹变回年轻的舜，高台变回更早的部落；画左螺钿星点倒着熄灭。",
+    "cast": "舜（青年）：素葛衣；倒放中由老变少",
+    "sfx": "倒带声加速到顶后骤停"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 35,
+   "section": 2,
+   "scene": "2-8",
+   "start": "BLD:06.1",
+   "end": "BLD:07.2",
+   "startFrame": 2294,
+   "endFrame": 2373,
+   "text": "据《孟子》记载，尧死后舜也躲开",
+   "emphasis": [],
+   "display": "bottom",
+   "desc": {
+    "scene": "【2-8】南河之南｜左右分屏：左“禹—商均”｜右“舜—丹朱”｜底色 左赭黄 #8A6A3A，右苔绿 #5B6B4A",
+    "action": "**转场：中缝裂屏**——画面从正中纵向裂成两屏。右屏：青年舜背包袱走向河南岸，地名牌“南河”（水纹图标）放在右屏左上；左屏同步重播禹出城——两边步子完全一致。",
+    "cast": "舜（青年）：背包袱；表情：平静（与禹出城时一模一样）",
+    "sfx": "两组脚步完全同步"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 36,
+   "section": 2,
+   "scene": "2-8",
+   "start": "BLD:07.2",
+   "end": "BLD:08.2",
+   "startFrame": 2373,
+   "endFrame": 2437,
+   "text": "让位给尧的儿子丹朱",
+   "emphasis": [
+    {
+     "word": "丹朱",
+     "color": "gold"
+    }
+   ],
+   "display": "bottom",
+   "desc": {
+    "scene": "同【2-8】｜分屏，右屏推近",
+    "action": "右屏：一块与玄圭同形的圭留在空席上，正对丹朱；左屏：玄圭正对商均。两屏镜像对称。",
+    "cast": "丹朱（尧之子）：朱麻衣；表情：茫然",
+    "sfx": "两声玉鸣，一左一右"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 37,
+   "section": 2,
+   "scene": "2-9",
+   "start": "BLD:08.2",
+   "end": "BLD:09.1",
+   "startFrame": 2437,
+   "endFrame": 2485,
+   "text": "诸侯也全去找舜",
+   "emphasis": [],
+   "display": "bottom",
+   "desc": {
+    "scene": "【2-9】双时空叠映｜全景｜底色 黑金 #1A1610，两层火光",
+    "action": "**转场：漆盒翻折**——左右两屏像漆盒盖一样向中线翻折合拢。两路火把长龙同向流动，一路流向禹，一路流向舜。",
+    "cast": "两代首领剪影做同一个动作",
+    "sfx": "两层人潮声叠加"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 38,
+   "section": 2,
+   "scene": "2-9",
+   "start": "BLD:09.1",
+   "end": "DRP1:01.1",
+   "startFrame": 2485,
+   "endFrame": 2548,
+   "text": "一模一样",
+   "emphasis": [
+    {
+     "word": "一模一样",
+     "color": "zhu"
+    }
+   ],
+   "display": "bottom",
+   "desc": {
+    "scene": "同【2-9】｜特写：两枚圭",
+    "action": "两枚圭的描金轮廓滑动重叠，{BLD:09.4} BGM 静音那一拍严丝合缝，画面全静——**贯穿物件“重影合一”**。",
+    "cast": "无",
+    "sfx": "{BLD:09.4} 静音；合缝极轻一声“咔”"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 39,
+   "section": 3,
+   "scene": "3-1",
+   "start": "DRP1:01.1",
+   "end": "DRP1:02.1",
+   "startFrame": 2548,
+   "endFrame": 2612,
+   "text": "让位，躲开，等诸侯来找",
+   "emphasis": [],
+   "display": "bottom",
+   "desc": {
+    "scene": "【3-1】抽象·漆印流程图｜全景平视｜底色 朱砂 #8E2A1E，顶光",
+    "action": "**转场：巨印压屏**——{DRP1:01.1} **爆点**一枚描金巨印从上方砸下盖满全屏，抬起露出新画面。三枚漆印图标在 {DRP1:01.1}/{DRP1:01.3}/{DRP1:02.1} 依次盖下：①双手捧圭 ②背影与脚印 ③火把汇聚。",
+    "cast": "无（图标化）",
+    "sfx": "盖印“咚、咚、咚”"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 40,
+   "section": 3,
+   "scene": "3-1",
+   "start": "DRP1:02.1",
+   "end": "DRP1:03.1",
+   "startFrame": 2612,
+   "endFrame": 2676,
+   "text": "这更像一套固定流程",
+   "emphasis": [
+    {
+     "word": "固定流程",
+     "color": "gold"
+    }
+   ],
+   "display": "bottom",
+   "desc": {
+    "scene": "同【3-1】｜横移",
+    "action": "三枚印下方复制出第二排（舜那一代），两排之间连上描金箭头成流程图；玄圭飞来停在上方，圭面也浮出这三枚小印（**贯穿物件刻上“流程”**）。",
+    "cast": "无",
+    "sfx": "金线连接“铮”"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 41,
+   "section": 3,
+   "scene": "3-2a",
+   "start": "DRP1:03.1",
+   "end": "DRP1:04.1",
+   "startFrame": 2676,
+   "endFrame": 2739,
+   "text": "谁说了算？不是老首领",
+   "emphasis": [],
+   "display": "bottom",
+   "desc": {
+    "scene": "【3-2a】推演·谁说了算｜中景｜底色 石绿 #2F5D50，柔光",
+    "action": "**转场：漆牌翻面**——整个画面像一块漆牌翻过来。桌上立着三张漆牌，第一张翻开：老首领剪影（舜），{DRP1:03.3} 被一道戗金斜线划掉。",
+    "cast": "舜（牌面剪影）：表情：无奈",
+    "sfx": "翻牌“啪”、划线“嚓”"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 42,
+   "section": 3,
+   "scene": "3-2a",
+   "start": "DRP1:04.1",
+   "end": "DRP1:05.1",
+   "startFrame": 2739,
+   "endFrame": 2803,
+   "text": "也不是候选人自己",
+   "emphasis": [],
+   "display": "bottom",
+   "desc": {
+    "scene": "同【3-2a】｜镜头右移",
+    "action": "第二张牌上是禹的剪影——他自己转身，背着包袱从牌面里走了出去，牌面变空（候选人自己躲开了）。第三张牌背面开始发光。",
+    "cast": "禹（牌面剪影）：转身离开；表情：淡然",
+    "sfx": "牌面“嗡”一声变空"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 43,
+   "section": 3,
+   "scene": "3-2b",
+   "start": "DRP1:05.1",
+   "end": "DRP1:06.2",
+   "startFrame": 2803,
+   "endFrame": 2883,
+   "text": "是各部落首领在用脚投票",
+   "emphasis": [
+    {
+     "word": "用脚投票",
+     "color": "luodian"
+    }
+   ],
+   "display": "bottom",
+   "desc": {
+    "scene": "【3-2b】俯视·千万脚印｜大全景俯冲｜底色 赭 #6B4226，正午强光",
+    "action": "**转场：俯冲入牌**——镜头俯冲穿进第三张牌，牌面展开成大地。各部落不同纹样的脚印从四方涌来，汇成一个巨大箭头，指向中心那个人。",
+    "cast": "中心人物剪影（禹）被脚印包围",
+    "sfx": "密集脚步卡十六分音符"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 44,
+   "section": 3,
+   "scene": "3-3",
+   "start": "DRP1:06.2",
+   "end": "DRP1:07.2",
+   "startFrame": 2883,
+   "endFrame": 2946,
+   "text": "但战国就有人不信这套",
+   "emphasis": [],
+   "display": "bottom",
+   "desc": {
+    "scene": "【3-3】战国·书房（夜）｜近景｜底色 绛紫 #3B1E2A，烛光",
+    "action": "**转场：竹简卷开**——一卷竹简从画左向右展开完成换景。韩非伏案用刀笔刻简（竹简只在画左，内容画成描金纹样，不显字）。",
+    "cast": "韩非：战国深衣、高冠（战国服饰）；表情：冷眼、嘴角下撇",
+    "sfx": "刀笔刻竹“嚓嚓”"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 45,
+   "section": 3,
+   "scene": "3-3",
+   "start": "DRP1:07.2",
+   "end": "DRP1:08.4",
+   "startFrame": 2946,
+   "endFrame": 3041,
+   "text": "韩非子认为：舜逼尧，禹逼舜",
+   "emphasis": [
+    {
+     "word": "舜逼尧，禹逼舜",
+     "color": "zhu"
+    }
+   ],
+   "display": "bottom",
+   "desc": {
+    "scene": "同【3-3】｜特写：侧脸→烛火",
+    "action": "{DRP1:08.1} 烛火猛地一跳，墙上投出一大一小两个人影：大影向前压，小影后退（剪影示意“逼”）。镜头从侧脸推到烛火。",
+    "cast": "韩非：表情：冷笑、抬眼",
+    "sfx": "{DRP1:08.1} 烛火“噗”"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 46,
+   "section": 3,
+   "scene": "3-4",
+   "start": "DRP1:08.4",
+   "end": "DRP1:09.4",
+   "startFrame": 3041,
+   "endFrame": 3105,
+   "text": "哪个是真，已无从考证",
+   "emphasis": [],
+   "display": "bottom",
+   "desc": {
+    "scene": "【3-4】迷雾·两个版本｜中景｜底色 灰漆 #5A5650，雾光",
+    "action": "**转场：烛烟成雾**——烛烟扩散成浓雾盖满画面。雾里浮出两块漆板：左板“双手相让”、右板“一手相推”，交替清晰又模糊。玄圭从中飘过，圭面第一次出现发丝细的断纹（**贯穿物件“生出断纹”**）。",
+    "cast": "漆板人像：左板表情温和，右板表情凶狠",
+    "sfx": "低沉嗡鸣"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 47,
+   "section": 3,
+   "scene": "3-5",
+   "start": "DRP1:09.4",
+   "end": "DRP1:10.4",
+   "startFrame": 3105,
+   "endFrame": 3169,
+   "text": "再看禹当上王之后",
+   "emphasis": [],
+   "display": "bottom",
+   "desc": {
+    "scene": "【3-5】传说时代·涂山（禹为王后）｜大远景→推进｜底色 暗赭 #5C3A21，暮色",
+    "action": "**转场：雾散山出**——浓雾向两侧退开，露出涂山。画左描金地名牌“涂山”（山形图标）。山顶站着禹，手持玄圭。",
+    "cast": "禹（王）：朱麻衣、羽冠、佩玉琮（龙山时代首领装束推想）；表情：威严、俯视",
+    "sfx": "骨哨长鸣"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 48,
+   "section": 3,
+   "scene": "3-5",
+   "start": "DRP1:10.4",
+   "end": "DRP1:12.1",
+   "startFrame": 3169,
+   "endFrame": 3248,
+   "text": "据《左传》记载，禹在涂山会诸侯",
+   "emphasis": [],
+   "display": "bottom",
+   "desc": {
+    "scene": "同【3-5】｜全景，沿山道上摇",
+    "action": "山道上各路首领排队上山，每一路举着不同图腾的旗（鸟、鱼、龟图标，旗只在画左半区出现）；镜头沿队伍上摇。",
+    "cast": "首领们：服饰各异；表情：恭敬",
+    "sfx": "上山脚步、骨哨"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 49,
+   "section": 3,
+   "scene": "3-6",
+   "start": "DRP1:12.1",
+   "end": "DRP1:13.1",
+   "startFrame": 3248,
+   "endFrame": 3312,
+   "text": "带玉帛来的，号称万国",
+   "emphasis": [
+    {
+     "word": "万国",
+     "color": "gold"
+    }
+   ],
+   "display": "bottom",
+   "desc": {
+    "scene": "【3-6】涂山·会盟场｜大全景俯视｜底色 赤金 #8A4E1E，落日",
+    "action": "**转场：急推入场**——镜头急推进会场。首领们依次献上玉璧、帛匹（图标），会场外的队伍一直排到天边，越远越小、数不清。",
+    "cast": "首领们：双手捧玉帛；表情：恭顺",
+    "sfx": "玉器相碰的细碎声"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 50,
+   "section": 3,
+   "scene": "3-6b",
+   "start": "DRP1:13.1",
+   "end": "DRP1:14.1",
+   "startFrame": 3312,
+   "endFrame": 3376,
+   "text": "另有一种说法",
+   "emphasis": [],
+   "display": "bottom",
+   "desc": {
+    "scene": "【3-6b】会稽山·山门（传说）｜中景手持跟拍｜底色 沉绿 #2E4A3A，阴天",
+    "action": "**转场：漆面翻页**——一块漆板竖着翻过来，背面是另一座山；画左描金地名牌“会稽”，提示这是另一处、另一个传说。一个高大身影（防风氏）气喘吁吁跑上山门。",
+    "cast": "防风氏：高个、兽皮披肩（部落装推想）；动作：奔跑、抹汗；表情：慌张",
+    "sfx": "急促脚步"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 51,
+   "section": 3,
+   "scene": "3-7",
+   "start": "DRP1:14.1",
+   "end": "DRP1:15.1",
+   "startFrame": 3376,
+   "endFrame": 3439,
+   "text": "防风氏迟到，被禹处死",
+   "emphasis": [
+    {
+     "word": "处死",
+     "color": "zhu"
+    }
+   ],
+   "display": "bottom",
+   "desc": {
+    "scene": "【3-7】会稽山顶｜特写→剪影｜底色 漆黑 #1A0F0D，朱红逆光",
+    "action": "**转场：剔红泼溅**——{DRP1:14.1} **爆点**一道朱漆从画右斜泼过全屏完成换景；防风氏化为剪影倒下（不见血），画面抽帧两次。",
+    "cast": "禹：抬手下令；表情：冷峻无波。防风氏：剪影倒地",
+    "sfx": "{DRP1:14.1} 重鼓+泼漆“哗”"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 52,
+   "section": 3,
+   "scene": "3-8",
+   "start": "DRP1:15.1",
+   "end": "DRP1:16.1",
+   "startFrame": 3439,
+   "endFrame": 3502,
+   "text": "号令万国，处死迟到者",
+   "emphasis": [],
+   "display": "bottom",
+   "desc": {
+    "scene": "【3-8】抽象·圭影｜大全景仰拍｜底色 冷铁青 #2F3A3F，顶部冷光",
+    "action": "**转场：急拉远**——镜头从禹手中的玄圭急速拉远。玄圭在画面中越变越大（**贯穿物件“长大”**），影子越拖越长，盖住下方跪伏的首领群像。",
+    "cast": "首领们：跪伏；表情：敬畏",
+    "sfx": "低频持续上扬"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 53,
+   "section": 3,
+   "scene": "3-8",
+   "start": "DRP1:16.1",
+   "end": "DRP2:01.1",
+   "startFrame": 3502,
+   "endFrame": 3567,
+   "text": "这样的权力，已经很像王",
+   "emphasis": [
+    {
+     "word": "王",
+     "color": "gold"
+    }
+   ],
+   "display": "bottom",
+   "desc": {
+    "scene": "同【3-8】｜仰拍定格",
+    "action": "BGM 第 56 小节加花，玄圭在 {DRP1:16.1}/{DRP1:16.2}/{DRP1:16.3}/{DRP1:16.4} 四拍上各亮一圈描金边，最后一拍圭影盖满全屏。",
+    "cast": "禹：在圭影中只剩轮廓",
+    "sfx": "四声鼓填+玉鸣"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 54,
+   "section": 4,
+   "scene": "4-1",
+   "start": "DRP2:01.1",
+   "end": "DRP2:02.1",
+   "startFrame": 3567,
+   "endFrame": 3630,
+   "text": "禹晚年，也照规矩选了人",
+   "emphasis": [],
+   "display": "bottom",
+   "desc": {
+    "scene": "【4-1】传说时代·禹晚年居所｜中景｜底色 暮紫 #2A1F33，夕照",
+    "action": "**转场：犀皮漆老化**——圭影褪去，漆层一层层叠上斑驳纹，人物随之变老。白发的禹手持玄圭，向画左伸出。",
+    "cast": "禹（老年）：白发、朱衣褪色；表情：苍老、复杂",
+    "sfx": "老人一声轻咳"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 55,
+   "section": 4,
+   "scene": "4-1",
+   "start": "DRP2:02.1",
+   "end": "DRP2:03.1",
+   "startFrame": 3630,
+   "endFrame": 3694,
+   "text": "不是儿子，是助手益",
+   "emphasis": [
+    {
+     "word": "益",
+     "color": "gold"
+    }
+   ],
+   "display": "bottom",
+   "desc": {
+    "scene": "同【4-1】｜过肩镜头",
+    "action": "{DRP2:02.1} 玄圭交到益手中（卡重拍）；镜头越过益的肩膀，后景站着青年启，盯着那块圭。",
+    "cast": "益：中年，素葛衣；表情：恭谨。启：朱衣、玉镯；表情：隐忍、眼神发直",
+    "sfx": "玉鸣"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 56,
+   "section": 4,
+   "scene": "4-2",
+   "start": "DRP2:03.1",
+   "end": "DRP2:04.1",
+   "startFrame": 3694,
+   "endFrame": 3757,
+   "text": "禹死后，益守丧三年",
+   "emphasis": [],
+   "display": "bottom",
+   "desc": {
+    "scene": "【4-2】守丧→荒野｜全景跟拍｜底色 冷灰蓝 #46505C，阴天",
+    "action": "**转场：背影跟移**——镜头跟着益的背影走出屋子进入荒野。丧庐前的火塘熄了又燃、燃了又熄，共三次（算三年）。",
+    "cast": "益：粗麻素服；表情：悲恸",
+    "sfx": "风、乌鸦"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 57,
+   "section": 4,
+   "scene": "4-2",
+   "start": "DRP2:04.1",
+   "end": "DRP2:05.1",
+   "startFrame": 3757,
+   "endFrame": 3821,
+   "text": "然后躲开禹的儿子启",
+   "emphasis": [
+    {
+     "word": "启",
+     "color": "zhu"
+    }
+   ],
+   "display": "bottom",
+   "desc": {
+    "scene": "同【4-2】｜大远景",
+    "action": "益背起包袱走向远山，画左描金地名牌“箕山”（山形图标）；身后一串脚印——纹样与 2-4 禹出城时完全相同。",
+    "cast": "益：背包袱；途中回头一次，表情：犹豫",
+    "sfx": "脚步声（与 2-4 同一音色）"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 58,
+   "section": 4,
+   "scene": "4-3",
+   "start": "DRP2:05.1",
+   "end": "DRP2:06.1",
+   "startFrame": 3821,
+   "endFrame": 3885,
+   "text": "同一个剧本，第三遍",
+   "emphasis": [
+    {
+     "word": "第三遍",
+     "color": "luodian"
+    }
+   ],
+   "display": "bottom",
+   "desc": {
+    "scene": "【4-3】三层剧本｜全景｜底色 赭红 #6B2D22，三层逆光",
+    "action": "**转场：漆板层叠推入**——三块半透明漆板从景深处依次推到前景：尧→舜、舜→禹、禹→益，构图完全一样，都定在“躲开”那一刻；三枚圭影叠在一起。",
+    "cast": "三代让位者剪影：同一姿势",
+    "sfx": "三声递进鼓"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 59,
+   "section": 4,
+   "scene": "4-3",
+   "start": "DRP2:06.1",
+   "end": "DRP2:07.1",
+   "startFrame": 3885,
+   "endFrame": 3948,
+   "text": "这一次，结局变了",
+   "emphasis": [
+    {
+     "word": "结局变了",
+     "color": "zhu"
+    }
+   ],
+   "display": "bottom",
+   "desc": {
+    "scene": "同【4-3】｜特写第三块板",
+    "action": "{DRP2:06.3} **爆点**：第三块板上的火把长龙突然掉头反向流走；同时玄圭从中间裂成两半（**贯穿物件“裂开”**），一半飘向益，一半飘向启。",
+    "cast": "无（剪影）",
+    "sfx": "{DRP2:06.3} 裂响+重低音"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 60,
+   "section": 4,
+   "scene": "4-4",
+   "start": "DRP2:07.1",
+   "end": "DRP2:08.2",
+   "startFrame": 3948,
+   "endFrame": 4028,
+   "text": "据《史记》记载，诸侯都去找启",
+   "emphasis": [],
+   "display": "bottom",
+   "desc": {
+    "scene": "【4-4】传说时代·启的营地｜全景→推近｜底色 火光金 #7A4A12，篝火",
+    "action": "**转场：沿裂缝开画**——画面沿玄圭裂缝的形状裂开，露出启的营地。各部落首领排队进营。",
+    "cast": "启：青年，朱衣玉饰；表情：意外。首领们：俯身行礼",
+    "sfx": "人群声"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 61,
+   "section": 4,
+   "scene": "4-4",
+   "start": "DRP2:08.2",
+   "end": "DRP2:09.2",
+   "startFrame": 4028,
+   "endFrame": 4092,
+   "text": "理由是：他是禹的儿子",
+   "emphasis": [
+    {
+     "word": "儿子",
+     "color": "zhu"
+    }
+   ],
+   "display": "bottom",
+   "desc": {
+    "scene": "同【4-4】｜推到启的脸",
+    "action": "首领们的目光落到启腰间玉饰（与禹同款纹样）；镜头推到启的脸：嘴角压不住地上扬，随即收住。",
+    "cast": "启：表情：意外→得意→迅速收敛成冷静",
+    "sfx": "一声极轻的笑"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 62,
+   "section": 4,
+   "scene": "4-5",
+   "start": "DRP2:09.2",
+   "end": "DRP2:10.2",
+   "startFrame": 4092,
+   "endFrame": 4155,
+   "text": "前两次，选的是能人",
+   "emphasis": [
+    {
+     "word": "能人",
+     "color": "shilv"
+    }
+   ],
+   "display": "bottom",
+   "desc": {
+    "scene": "【4-5】算账·两只黑陶罐｜中景｜底色 青黛 #22343A，侧光",
+    "action": "**转场：金粉扫掠**——一道莳绘金粉从左扫到右完成换景。两只龙山蛋壳黑陶罐：左罐贴耒臿图标（功劳），右罐贴血脉纹图标（血缘）。两轮石子（尧→舜、舜→禹）全落进左罐。",
+    "cast": "首领们的手（只见手）投石子",
+    "sfx": "石子落罐“叮叮”"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 63,
+   "section": 4,
+   "scene": "4-5",
+   "start": "DRP2:10.2",
+   "end": "DRP2:11.2",
+   "startFrame": 4155,
+   "endFrame": 4219,
+   "text": "这一次，选的是儿子",
+   "emphasis": [
+    {
+     "word": "儿子",
+     "color": "zhu"
+    }
+   ],
+   "display": "bottom",
+   "desc": {
+    "scene": "同【4-5】｜镜头右移",
+    "action": "第三轮石子全部倒进右罐，右罐满溢；裂成两半的玄圭落到右罐口，裂缝被描金一点点填满，金缝走成血脉纹（**贯穿物件“描金修补”**）。",
+    "cast": "投石的手：同一批手转向右罐",
+    "sfx": "石子倾泻“哗”+描金“丝——”"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 64,
+   "section": 4,
+   "scene": "4-6a",
+   "start": "DRP2:11.2",
+   "end": "DRP2:12.1",
+   "startFrame": 4219,
+   "endFrame": 4267,
+   "text": "这是《史记》的说法",
+   "emphasis": [],
+   "display": "bottom",
+   "desc": {
+    "scene": "【4-6a】另一种说法·益的住所（夜）｜中景｜底色 焦黑 #1B1412，冷月光+火光",
+    "action": "**转场：石钺劈切**——一柄石钺斜劈过画面，切口两侧换景。益的茅屋外，火把慢慢围上来。",
+    "cast": "益：从屋里探头；表情：警觉",
+    "sfx": "劈空“唰”"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 65,
+   "section": 4,
+   "scene": "4-6a",
+   "start": "DRP2:12.1",
+   "end": "DRP2:13.2",
+   "startFrame": 4267,
+   "endFrame": 4346,
+   "text": "另一种说法：启攻益夺位",
+   "emphasis": [],
+   "display": "bottom",
+   "desc": {
+    "scene": "同【4-6a】｜手持晃动",
+    "action": "{DRP2:12.1} 启带一群持石钺的人冲进来（卡重拍），火光把人影投满茅屋墙面。画左一面描金图腾旗图标（启的部众），旁边一枚小竹简图标标明出处《战国策》。",
+    "cast": "启：持钺；表情：冷静坚定。部众：表情：凶狠。益：表情：惊恐",
+    "sfx": "呐喊、火把呼啸"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 66,
+   "section": 4,
+   "scene": "4-6b",
+   "start": "DRP2:13.2",
+   "end": "DRP2:14.4",
+   "startFrame": 4346,
+   "endFrame": 4442,
+   "text": "还有一种说法：启杀了益",
+   "emphasis": [],
+   "display": "bottom",
+   "desc": {
+    "scene": "【4-6b】出土竹简｜微距平移｜底色 竹青 #4E5B3C，冷白光",
+    "action": "**转场：竹简散落**——一束竹简从画左落下，散铺满左半屏（纹样化，不显字；左上角小签标出处《竹书纪年》佚文）。简上一滴朱漆缓缓流下，滴在玄圭的金缝上。",
+    "cast": "无",
+    "sfx": "竹简落地“哗啦”、滴落声"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 67,
+   "section": 4,
+   "scene": "4-7",
+   "start": "DRP2:14.4",
+   "end": "DRP2:15.4",
+   "startFrame": 4442,
+   "endFrame": 4505,
+   "text": "不管信哪个，结果都一样",
+   "emphasis": [],
+   "display": "bottom",
+   "desc": {
+    "scene": "【4-7】抽象·金缮重组｜特写→中景｜底色 墨蓝 #18222E，金色内光",
+    "action": "**转场：碎片重组**——画面碎成漆片后重新拼合。玄圭碎片在空中拼回原形，描金裂纹完整亮起（**贯穿物件“重组”**）。",
+    "cast": "无",
+    "sfx": "碎片吸合“咔咔咔”"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 68,
+   "section": 4,
+   "scene": "4-7",
+   "start": "DRP2:15.4",
+   "end": "DRP2:16.4",
+   "startFrame": 4505,
+   "endFrame": 4569,
+   "text": "从此，天下在一家里传",
+   "emphasis": [],
+   "display": "bottom",
+   "desc": {
+    "scene": "同【4-7】｜镜头拉远",
+    "action": "金缝延伸出圭外，变成一条连环链，每一环是一枚小圭图标，向画面深处延伸（父→子→孙），每拍长一环；{DRP2:16.3} 链条伸到画面尽头。",
+    "cast": "无",
+    "sfx": "链环扣合声卡每拍"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 69,
+   "section": 5,
+   "scene": "5-1",
+   "start": "DRP2:16.4",
+   "end": "OUT:02.1",
+   "startFrame": 4569,
+   "endFrame": 4648,
+   "text": "据《礼记》记载，从前天下为公",
+   "emphasis": [
+    {
+     "word": "天下为公",
+     "color": "gold"
+    }
+   ],
+   "display": "bottom",
+   "desc": {
+    "scene": "【5-1】抽象·人环｜中景对称构图｜底色 暗牙黄 #6B5D44，柔和天光",
+    "action": "**转场：金箔平脱**——一片金箔从中心展开盖住画面后揭去。中央是一个大圆环（呼应 0-3 的篝火环），许多小人手拉手围成一圈。",
+    "cast": "众人剪影：葛麻衣；表情：平和",
+    "sfx": "风铃似的高音"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 70,
+   "section": 5,
+   "scene": "5-1",
+   "start": "OUT:02.1",
+   "end": "OUT:03.1",
+   "startFrame": 4648,
+   "endFrame": 4712,
+   "text": "后来，成了天下为家",
+   "emphasis": [
+    {
+     "word": "天下为家",
+     "color": "zhu"
+    }
+   ],
+   "display": "bottom",
+   "desc": {
+    "scene": "同【5-1】｜缓推",
+    "action": "圆环上的手一只只松开，环收缩成一条竖直的父子链（小圭链），只剩一家一条线。",
+    "cast": "剪影：松手；表情：茫然",
+    "sfx": "松手轻响逐个响起"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 71,
+   "section": 5,
+   "scene": "5-2",
+   "start": "OUT:03.1",
+   "end": "OUT:04.1",
+   "startFrame": 4712,
+   "endFrame": 4775,
+   "text": "夏朝真正诞生的那一刻",
+   "emphasis": [],
+   "display": "bottom",
+   "desc": {
+    "scene": "【5-2】虚空·玄圭｜特写自转｜底色 黑漆 #141210，金缝自发光",
+    "action": "**转场：链条收拢**——竖直的父子链从两端收回，缩成一点，点里长出那块带金缝的玄圭，缓慢自转一周。",
+    "cast": "无",
+    "sfx": "低音铺底"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 72,
+   "section": 5,
+   "scene": "5-3",
+   "start": "OUT:04.1",
+   "end": "OUT:05.1",
+   "startFrame": 4775,
+   "endFrame": 4839,
+   "text": "不是禹推开它的时候",
+   "emphasis": [],
+   "display": "bottom",
+   "desc": {
+    "scene": "【5-3】高台·首尾呼应构图｜特写，玄圭居中横构图，机位与 0-2 完全一致｜底色 朱漆 #6E1E18，顶光一束暖白",
+    "action": "**转场：圭形匹配**——自转的玄圭停在开头 0-2 的同一位置。半透明灰色残影重播开头：左边苍老的手递圭，右边禹的手掌推回（**首尾呼应①**）。",
+    "cast": "禹（灰色残影）：重播立掌推回",
+    "sfx": "开头那声“嗵”的弱化回声"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 73,
+   "section": 5,
+   "scene": "5-3",
+   "start": "OUT:05.1",
+   "end": "OUT:END",
+   "startFrame": 4839,
+   "endFrame": 4965,
+   "text": "而是启握住它的时候",
+   "emphasis": [
+    {
+     "word": "握住",
+     "color": "zhu"
+    }
+   ],
+   "display": "bottom",
+   "desc": {
+    "scene": "同【5-3】｜同机位，极慢推近",
+    "action": "残影散去；左边递圭的手（益）慢慢抽走，圭悬在中央。右边伸进一只年轻、戴玉镯的手，{OUT:06.1} **重拍**五指合拢握住玄圭——和开头的“推”同一位置、方向相反。握住瞬间金缝亮起。",
+    "cast": "启：只见右手与前臂，朱衣袖口、玉镯（龙山时代首领装推想）；动作：握紧",
+    "sfx": "{OUT:06.1} 握紧闷响；BGM 渐慢"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  },
+  {
+   "id": 74,
+   "section": 5,
+   "scene": "5-4",
+   "start": "OUT:END",
+   "end": "TAIL",
+   "startFrame": 4965,
+   "endFrame": 5087,
+   "text": "此后几千年，换姓不换规矩",
+   "emphasis": [],
+   "display": "bottom",
+   "desc": {
+    "scene": "【5-4】收束·无数只手｜大全景急拉→黑场｜底色 朱漆退为玄黑 #0B0A09",
+    "action": "**结尾转场：漆面合拢**——{OUT:END} 结束音落下时镜头急拉：握圭的手只是一条长链中的一环，每一环都是一只握圭的手，伸向黑暗深处；两侧黑漆像两扇门向中线推合，只留一道描金细缝，余音散尽（02:49.56）时细缝熄灭。",
+    "cast": "无数只手的剪影：袖口纹样由葛麻渐变为后世各朝纹样（只作纹样示意，不具体到人）",
+    "sfx": "结束音后只留余音拖尾，不加新音效"
+   },
+   "cueFrames": {},
+   "sfxFrames": []
+  }
+ ]
+}

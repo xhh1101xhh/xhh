@@ -1,0 +1,9 @@
+[
+ {"name":"INT","startBar":1},
+ {"name":"A","startBar":9},
+ {"name":"BRK","startBar":25},
+ {"name":"BLD","startBar":32},
+ {"name":"DRP1","startBar":41},
+ {"name":"DRP2","startBar":57},
+ {"name":"OUT","startBar":73}
+]

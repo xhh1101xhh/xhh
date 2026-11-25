@@ -1,0 +1,34 @@
+{
+  "name": "yu-xia-video",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "analyze": "python3 scripts/analyze_beats.py",
+    "sync": "python3 scripts/sync_timeline.py && python3 scripts/build_fonts.py",
+    "audio:preview": "python3 scripts/build_audio.py --preview",
+    "audio:full": "python3 scripts/build_audio.py",
+    "prep:preview": "npm run analyze && npm run sync && npm run audio:preview",
+    "studio": "remotion studio src/index.ts",
+    "render:preview": "npm run prep:preview && remotion render src/index.ts Preview out/preview.mp4 --codec h264 --crf 18 --audio-codec aac --audio-bitrate 320k",
+    "check": "python3 scripts/check_frames.py out/preview.mp4",
+    "tsc": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fontsource/noto-sans-sc": "5.1.0",
+    "@fontsource/noto-serif-sc": "5.1.0",
+    "@remotion/bundler": "4.0.540",
+    "@remotion/cli": "4.0.540",
+    "@remotion/renderer": "4.0.540",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.540"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "typescript": "5.6.3"
+  }
+}

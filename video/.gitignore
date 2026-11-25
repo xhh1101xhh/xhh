@@ -1,0 +1,6 @@
+node_modules/
+out/
+public/fonts/
+public/audio/
+public/bgm/*.wav
+public/bgm/*.mp3
